@@ -7,7 +7,7 @@ This bilingual CV system stores content in a YAML file and uses Ruby's ERB templ
 
 Store private contact information in the `private.de.yaml` and `private.en.yaml` files. This information will be omitted from the "web" version of the generated CV (selected with the `-w` or `--web` option). This is to prevent certain contact information (e.g. phone number, address) from being uploaded to a public repository or website. For an example, see `private.example.yaml`.
 
-The `-e` or `--english` option creates an English version of the CV, using both an `i18n/i18n` dictionary file (`i18n/en.i18n`) and an English version `yaml` file with translated information on courses etc. By default, `de.i18n` and `cv.de.yaml` are used to create the German versions. 
+The `-e` or `--english` option creates an English version of the CV, using both an `i18n` dictionary file (`i18n/en.i18n`) and an English version `yaml` file with translated information on courses etc. By default, `i18n/de.i18n` and `cv.de.yaml` are used to create the German versions. 
 
 This project is a fork from [Ming-Ho Yee's project](https://github.com/mhyee/resume) which was inspired by [David Hu's resume project](https://github.com/divad12/resume).
 
