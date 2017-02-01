@@ -1,3 +1,4 @@
+<!-- Curriculum Vitae Stefan Groth – https://www.stefangroth.com -->
 # Curriculum Vitae
 Dr. phil. Stefan Groth  
 Oberassistent / Leitung Labor Populäre Kulturen  
@@ -55,6 +56,11 @@ Erasmus-Programm, Public Relations, Università degli Studi di Udine, Italien.
   * Einsatz von E-Learning-Tools in der Lehre (11/2013)  
   * Kollegiales Praxisgespräch (11/2013)  
   * Beratung von Studierenden (01/2014)  
+* Deutsch, .
+* Englisch, .
+* Französisch, .
+* Spanisch, .
+* Italienisch, .
 
 ## Forschungsinteressen
 * Global Governance and Multilateral Negotiations  
@@ -67,17 +73,18 @@ Erasmus-Programm, Public Relations, Università degli Studi di Udine, Italien.
 * Anthropology and Social Theory  
 
 ## Professionelle Aktivitäten und Mitgliedschaften
-* Zentrum für Theorie und Methodik der Kulturwissenschaften (ZTMK), Göttingen (Vorstand, 2010–2014)  
-* Schweizerische Gesellschaft für Volkskunde, Sektion Zürich  
+* [DFG-Netzwerk „Wettbewerb und Konkurrenz: Zur kulturellen Logik kompetitiver Figurationen“](http://www.konkurrenz.uni-kiel.de/de) (seit 2014)  
 * H-Folk-Netzwerk, Editor (seit 2013)  
+* [EASA Network “Anthropology of Law and Rights” (LAWNET)](http://easaonline.org/networks/lawnet/index.shtml) (seit 2008)  
+* Zentrum für Theorie und Methodik der Kulturwissenschaften (ZTMK), Göttingen (Vorstand, 2010–2014)  
+* Vorstand Institut für Archäologie und Kulturanthropologie, Universität Bonn (Gruppe der akademischen Mitarbeiter, Stellv.) (2015-2016)  
+* Schweizerische Gesellschaft für Volkskunde, Sektion Zürich  
 * Deutsche Gesellschaft für Volkskunde (DGV)  
 * European Association of Social Anthropologists (EASA)  
 * Societé Internationale d´Ethnologie et de Folklore (SIEF)  
-* [DFG-Netzwerk „Wettbewerb und Konkurrenz: Zur kulturellen Logik kompetitiver Figurationen“](http://www.konkurrenz.uni-kiel.de/de) (seit 2014)  
-* [EASA Network “Anthropology of Law and Rights” (LAWNET)](http://easaonline.org/networks/lawnet/index.shtml) (seit 2008)  
 * Rheinische Vereinigung für Volkskunde (RVV)  
 
-### Reviewer für
+### Gutachtertätigkeiten
 * International Journal of Heritage Studies  
 
 ## Organisatorische Aktivitäten
@@ -112,7 +119,7 @@ Erasmus-Programm, Public Relations, Università degli Studi di Udine, Italien.
 * "The Pragmatics of Multilateral Negotiations". Midterm Conference Käte Hamburger Kolleg / Centre for Global Cooperation Research, Duisburg (7/2015).
 * "Recognition and Multiculturalism: German Heritage Discourse in the European Context". SIEF-Kongress, Zagreb (6/2015).
 * "Culture Concepts and Normative Principles: On the Framing and Justification of Cultural Property in EU-Conventions". Käte Hamburger Kolleg / Centre for Global Cooperation Research, Duisburg (5/2015).
-* "Kultur als “Soft Power”? Zur Rahmung und Rechtfertigung von Kulturerbe in der #Europäischen Union". Abteilung Kulturanthropologie / Volkskunde, Bonn (5/2015).
+* "Kultur als “Soft Power”? Zur Rahmung und Rechtfertigung von Kulturerbe in der Europäischen Union". Abteilung Kulturanthropologie / Volkskunde, Bonn (5/2015).
 * "Modalities of Normative Claims to Culture in Multilateral Negotiations". Käte Hamburger Kolleg / Centre for Global Cooperation Research, Duisburg (11/2014).
 * "Kooperation als Ressource: Zur Produktion kooperativen Alltagshandelns". Tagung „Zum Umgang mit begrenzten Ressourcen”, Kiel (11/2014).
 * "Producing Stability: On the Pragmatics of Multilateral Negotiations". WISC, Frankfurt (08/2014).
@@ -124,7 +131,7 @@ Erasmus-Programm, Public Relations, Università degli Studi di Udine, Italien.
 * "Between Society and Culture: The Theory of Recogniton in Cultural Heritage Contexts". Atelier de Recherche Trinational “Institutions, Territoires et Communautés: Perspectives sur le Patrimoine Culturel Immatériel Translocal, Villa Vigoni (10/2012).
 * "The Indeterminacy of Cultural Heritage and Cultural Property in International Negotiations and Local Configurations". Workshop Local Vocabularies of Heritage, Évora (2/2012).
 * "Die Erfindung der Moral: Allmendgemeinschaften und Cultural Commons in der Diskussion um kulturelles Eigentum". 38. Kongress der Deutschen Gesellschaft für Volkskunde (DGV), Tübingen (09/2011).
-* mit Regina F. Bendix, "Speeding, Stalling, Editing: Maximal Communication for #Minimal Results?". Internationales Symposium der Interdisziplinären DFG-Forschergruppe zu Cultural Property, Göttingen (6/2011).
+* mit Regina F. Bendix, "Speeding, Stalling, Editing: Maximal Communication for Minimal Results?". Internationales Symposium der Interdisziplinären DFG-Forschergruppe zu Cultural Property, Göttingen (6/2011).
 * "Scholarship and Policy – Oppositional Perspectives within Interdisciplinary Cooperation". Internationales Symposium der Interdisziplinären DFG-Forschergruppe zu Cultural Property, Göttingen (6/2011).
 * "Metapragmatics on the Global Stage: The Multiplicity of Meaning in International Negotiations". Workshop zur Anthropology of International Institutions: How Ethnography Contributes to Understanding Mechanisms of Global Governance, Paris (6/2010).
 * "Language Ideologies and International Institutions: The Case of the Intergovernmental Committee on Intellectual Property and Traditional Knowledge". Department of Anthropology, UC Santa Cruz, Santa Cruz (4/2010).

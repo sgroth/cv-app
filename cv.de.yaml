@@ -132,7 +132,16 @@ qualifications:
       - Beratung von Studierenden (01/2014)
 
 # Languages
-# German, English, French, Spanish, Italian
+  - title: Deutsch
+    level: Muttersprachler
+  - title: Englisch
+    level: C2
+  - title: Französisch
+    level: B1
+  - title: Spanisch
+    level: A2
+  - title: Italienisch
+    level: A2
 
 # Teaching Experience
 teachingexperience:
@@ -219,20 +228,22 @@ organizationalactivities:
 
 # Memberships and Professional Activities:
 memberships: 
-  - title: Zentrum für Theorie und Methodik der Kulturwissenschaften (ZTMK), Göttingen
-    dates: Vorstand, 2010–2014
-  - title: Schweizerische Gesellschaft für Volkskunde, Sektion Zürich
-  - title: H-Folk-Netzwerk, Editor
-    dates: seit 2013
-  - title: Deutsche Gesellschaft für Volkskunde (DGV)
-  - title: European Association of Social Anthropologists (EASA)
-  - title: Societé Internationale d´Ethnologie et de Folklore (SIEF)
   - title: "DFG-Netzwerk „Wettbewerb und Konkurrenz: Zur kulturellen Logik kompetitiver Figurationen“"
     dates: seit 2014
     url: http://www.konkurrenz.uni-kiel.de/de
+  - title: H-Folk-Netzwerk, Editor
+    dates: seit 2013
   - title: "EASA Network “Anthropology of Law and Rights” (LAWNET)"
     dates: seit 2008
     url: http://easaonline.org/networks/lawnet/index.shtml
+  - title: Zentrum für Theorie und Methodik der Kulturwissenschaften (ZTMK), Göttingen
+    dates: Vorstand, 2010–2014
+  - title: Vorstand Institut für Archäologie und Kulturanthropologie, Universität Bonn (Gruppe der akademischen Mitarbeiter, Stellv.)  
+    dates: 2015-2016
+  - title: Schweizerische Gesellschaft für Volkskunde, Sektion Zürich
+  - title: Deutsche Gesellschaft für Volkskunde (DGV)
+  - title: European Association of Social Anthropologists (EASA)
+  - title: Societé Internationale d´Ethnologie et de Folklore (SIEF)
   - title: Rheinische Vereinigung für Volkskunde (RVV) 
 
 reviewerfor:
@@ -312,7 +323,7 @@ conferencecontributions:
     institution: Käte Hamburger Kolleg / Centre for Global Cooperation Research
     location: Duisburg
     countryCode: DE      
-  - title: "Kultur als “Soft Power”? Zur Rahmung und Rechtfertigung von Kulturerbe in der #Europäischen Union"
+  - title: "Kultur als “Soft Power”? Zur Rahmung und Rechtfertigung von Kulturerbe in der Europäischen Union"
     year: 2015
     month: 05
     institution: Abteilung Kulturanthropologie / Volkskunde
@@ -385,7 +396,7 @@ conferencecontributions:
     conference: 38. Kongress der Deutschen Gesellschaft für Volkskunde (DGV)
     location: Tübingen
     countryCode: DE   
-  - title: "Speeding, Stalling, Editing: Maximal Communication for #Minimal Results?"
+  - title: "Speeding, Stalling, Editing: Maximal Communication for Minimal Results?"
     year: 2011
     month: 06
     conference: Internationales Symposium der Interdisziplinären DFG-Forschergruppe zu Cultural Property
