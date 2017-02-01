@@ -76,9 +76,12 @@
 <% end #each %>
 
 ## <%= $conferencecontributions %>
-<% conferencecontributions.each do |entry, year| %>
-* <% if entry["coauthor"] %><%= $with %> <%= entry["coauthor"] %>, <% end %>"<%= entry["title"] %>". <% if entry["conference"] %><%= entry["conference"] %>, <% end %><% if entry["institution"] %><%= entry["institution"] %>, <% end %><%= entry["location"] %> (<%= entry["month"] %>/<%= entry["year"] %>).
-<% end #each %>
+<% by_year(conferencecontributions) do |year, entries| %>
+  
+### <%= year %><% entries.each do |entry| %>
+* <% if entry["coauthor"] %><%= $with %> <%= entry["coauthor"] %>, <% end %>"<%= entry["title"] %>". <% if entry["conference"] %><%= entry["conference"] %>, <% end %><% if entry["institution"] %><%= entry["institution"] %>, <% end %><%= entry["location"] %> (<%= entry["month"] %>/<%= entry["year"] %>).<% end %>
+<% end %>
+
 <% def wrap(text) %>
 <% text.gsub(/(.{1,74})(\s+|$)/, "\\1\n      ").strip %>
 <% end #def %>

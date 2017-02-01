@@ -4,11 +4,12 @@ require 'optparse'
 require 'yaml'
 require 'erb'
 require 'ostruct'
+#require 'pry'
 
 # include ERB::Util
 
 options = {}
-optparse = OptionParser.new do |opts|
+OptionParser.new do |opts|
   opts.banner = "Usage: generate.rb [options]"
   options[:input] = 'cv.de.yaml'
   opts.on( '-i', '--input INPUT', 'input file' ) do |input|
@@ -32,6 +33,13 @@ optparse = OptionParser.new do |opts|
   end
 end.parse!
 
+# Ordering function
+def by_year(data, &block)
+  years = data.group_by {|hash| hash['year'] }
+      .sort_by  {|year,| -year }
+  block ? years.each(&block) : years
+end
+
 # Semi-hack to pass the correct bindings to ERB
 class ErbBinding < OpenStruct
     def get_binding
@@ -40,16 +48,16 @@ class ErbBinding < OpenStruct
 end
 
 # Does the resume file exist?
-abort("Error: #{options[:input]} is not present in this directory.  Use -i or --input to specify another input file.") unless File.exists?( options[:input] )
+abort("Error: #{options[:input]} is not present in this directory.  Use -i or --input to specify another input file.") unless File.exist?( options[:input] )
 
 # Load the resume YAML files
 resume = YAML::load( File.open(options[:input]) )
 
 # Does the private input file exist?
-abort("Error: #{options[:private]} is not present in this directory.  Use -p or --private to specify another private input file.") unless File.exists?( options[:private] ) or options[:web]
+abort("Error: #{options[:private]} is not present in this directory.  Use -p or --private to specify another private input file.") unless File.exist?( options[:private] ) or options[:web]
 
 # Does the template file exist?
-abort("Error: template #{options[:template]} is not present in the templates directory.  Use -t or --template to specify another template file.") unless File.exists?( 'templates/' + options[:template] )
+abort("Error: template #{options[:template]} is not present in the templates directory.  Use -t or --template to specify another template file.") unless File.exist?( 'templates/' + options[:template] )
 
 input_basename, input_extension1, input_extension2 = options[:input].split('.')
 template_basename, template_extension1, template_extension2 = options[:template].split('.')
@@ -76,22 +84,27 @@ else
   resume["person"] = resume["person"].merge(private["person"])
 end
 
+
 # Load the escape function and run it on resume hash (if escape function exists)
 escape_defn = File.join( File.dirname(__FILE__), 'templates', '/escape_' + template_extension1 + '.rb' )
-require escape_defn if File.exists?(escape_defn)
+require escape_defn if File.exist?(escape_defn)
 escape(resume) if defined?(escape)
 
 # Load the ERB template
 template = ERB.new( File.new('templates/' + options[:template]).read, 0, "<>" )
-
 namespace = ErbBinding.new resume
+
+#binding.pry
+
 result = template.result namespace.send(:get_binding)
 
+#binding.pry
+
 # Create 'output' directory if it doesn't exist
-Dir.mkdir("output") unless File.exists?("output") && File.directory?("output")
+Dir.mkdir("output") unless File.exist?("output") && File.directory?("output")
 
 if options[:web]
-  #Dir.mkdir("data") unless File.exists?("output") && File.directory?("data")
+  #Dir.mkdir("data") unless File.exist?("output") && File.directory?("data")
   File.open( '../_cv-data/' + output_file, "w" ) do |file|
     file.write result
   end
