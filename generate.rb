@@ -91,11 +91,11 @@ result = template.result namespace.send(:get_binding)
 Dir.mkdir("output") unless File.exists?("output") && File.directory?("output")
 
 if options[:web]
-  Dir.mkdir("data") unless File.exists?("output") && File.directory?("data")
-  File.open( 'data/' + output_file, "w" ) do |file|
+  #Dir.mkdir("data") unless File.exists?("output") && File.directory?("data")
+  File.open( '../_cv-data/' + output_file, "w" ) do |file|
     file.write result
   end
-  puts "Created #{output_file} in data directory"
+  puts "Created #{output_file} in _cv-data directory"
 end 
 
 # Write to output file
