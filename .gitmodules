@@ -1,3 +1,6 @@
 [submodule "bibliography"]
 	path = bibliography
 	url = https://github.com/sgroth/bibliography
+[submodule "i18n"]
+	path = i18n
+	url = https://github.com/sgroth/i18n
