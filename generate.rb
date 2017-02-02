@@ -82,6 +82,7 @@ else
   # private.yaml contains contact information I don't want posted
   private = YAML::load( File.open(options[:private]) )
   resume["person"] = resume["person"].merge(private["person"])
+  resume["grantwriting"] = private["grantwriting"]
 end
 
 

@@ -50,6 +50,13 @@
   * <%= subitem %>  <% end %><% end %>
 <% end #each %>
 
+<% if grantwriting %>
+## <%= $grantwriting %>
+<% grantwriting.each do |entry| %>
+* <%= entry %>
+<% end %>
+<% end %>
+
 ## <%= $researchinterests %>
 <% researchinterests.each do |entry| %>
 * <%= entry %>  
