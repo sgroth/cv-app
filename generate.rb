@@ -4,9 +4,6 @@ require 'optparse'
 require 'yaml'
 require 'erb'
 require 'ostruct'
-#require 'pry'
-
-# include ERB::Util
 
 options = {}
 OptionParser.new do |opts|
@@ -85,7 +82,6 @@ else
   resume["grantwriting"] = private["grantwriting"]
 end
 
-
 # Load the escape function and run it on resume hash (if escape function exists)
 escape_defn = File.join( File.dirname(__FILE__), 'templates', '/escape_' + template_extension1 + '.rb' )
 require escape_defn if File.exist?(escape_defn)
@@ -94,12 +90,7 @@ escape(resume) if defined?(escape)
 # Load the ERB template
 template = ERB.new( File.new('templates/' + options[:template]).read, 0, "<>" )
 namespace = ErbBinding.new resume
-
-#binding.pry
-
 result = template.result namespace.send(:get_binding)
-
-#binding.pry
 
 # Create 'output' directory if it doesn't exist
 Dir.mkdir("output") unless File.exist?("output") && File.directory?("output")
