@@ -251,12 +251,24 @@ reviewerfor:
 
 # Conference Contributions and Invited Talks
 conferencecontributions:
+  - title: "Zwischen Ermöglichung und Begrenzung: Zur subjektiven Plausibilisierung des Mittelmaßes als normative Orientierung"
+    year: 2017
+    month: 09
+    conference: Kongress der Deutschen Gesellschaft für Volkskunde (DGV)
+    location: Marburg
+    countryCode: DE
   - title: "Institution und Alltag: Kulturanalytische Zugänge zur Alltäglichkeit von Institutionen"
     year: 2017
     month: 04
     institution: Institut für Sozialanthropologie und Empirische Kulturwissenschaft, Universität Zürich
     location: Zürich
     countryCode: CH
+  - title: "Of “Good Averages” and “Happy Mediums”: Normative Orientations towards an “Average” in Urban Housing"
+    year: 2017
+    month: 03
+    conference: SIEF-Kongress
+    location: Göttingen
+    countryCode: DE
   - title: "Document Analysis as a Black Box: On the Contextualization of Speech Acts in Multilateral Negotiations"
     year: 2017
     month: 02
