@@ -24,9 +24,9 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy} %eigener Seitenstil
 \fancyhf{} %alle Kopf- und Fußzeilenfelder bereinigen
-\fancyhead[L]{\textcolor{gray}{\scriptsize Curriculum Vitae\- •\- Version: \gfiGetCommitAbr, \gfiGetYear--\gfiGetMonth--\gfiGetDay\- •\- \href{http://github.com/sgroth/cv-data/}{http://github.com/sgroth/cv-data/}}} %Kopfzeile links
+\fancyhead[L]{\textcolor{gray}{\scriptsize Curriculum Vitae\- •\- Version: \today\- •\- \href{http://github.com/sgroth/cv-data/}{http://github.com/sgroth/cv-data/}}} %Kopfzeile links
 \renewcommand{\headrulewidth}{0pt} %obere Trennlinie
-\fancyfoot[C]{\thepage\- von \pageref*{LastPage}} %Seitennummer
+\fancyfoot[C]{\thepage\- <%= $of %> \pageref*{LastPage}} %Seitennummer
 %--------------------
 \usepackage[usenames,dvipsnames]{xcolor} % Custom colors
 %--------------------
@@ -56,7 +56,7 @@
 \usepackage[scale=0.9]{sourcecodepro} % SourceCodePro for tt
 %--------------------
 % Version Control
-\usepackage{gitfile-info}
+%\usepackage{gitfile-info}
 %------------------------------------------------
 \begin{document}
 %------------------------------------------------
@@ -188,7 +188,7 @@
 \vfill{} % Whitespace before final footer
 %--------------------
 \begin{center}
-{\scriptsize Version: \gfiGetCommitAbr, \gfiGetYear--\gfiGetMonth--\gfiGetDay\- •\- \href{http://github.com/sgroth/cv-data/}{http://github.com/sgroth/cv-data/}} 
+{\scriptsize Version: \today\- •\- \href{http://github.com/sgroth/cv-data/}{http://github.com/sgroth/cv-data/}} 
 \end{center}
 %--------------------
 \end{document}
