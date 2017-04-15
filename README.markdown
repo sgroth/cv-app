@@ -1,7 +1,7 @@
 CV
 ======
 
-This bilingual CV system stores content in a YAML file and uses Ruby's ERB templating system to handle format and layout. The template currently implemented is Markdown; HTML, LaTeX, and plain text will follow. You can use `pdflatex` to create a PDF file from the generated LaTeX file.
+This bilingual CV system stores content in a YAML file and uses Ruby's ERB templating system to handle format and layout. The templates currently implemented are Markdown and LaTeX; HTML and plain text will follow. You can use `pdflatex` to create a PDF file from the generated LaTeX file.
 
 `escape_html.rb`, `escape_md.rb` `escape_tex.rb`, and `escape_txt.rb` define `escape` functions for handling special characters or cases. (For example, `&` must be escaped as `\&amp;` in HTML, and `\\&` in LaTeX. The `escape` function also handles other special cases, including links.) Escape characters must appear in square brackets in the YAML file. For example, to include an ampersand, use `[&]`.
 
@@ -46,7 +46,7 @@ The `Makefile`, once properly implemented, will generate `.tex`, `.md` and `.pdf
 
 ### To-Do
 
-* Create `.tex`, `.txt` and `.html` versions
+* Create `.txt` and `.html` versions
 * Create `.docx` versions by using [Pandoc](http://pandoc.org)
 * Create `Makefile`
 * Clean up `i18n` files and fully translate the `yaml` files
