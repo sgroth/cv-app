@@ -3,7 +3,7 @@ person:
   name:
     givenName: Stefan
     familyName: Groth
-    honorificPrefix: Dr. phil.
+    honorificPrefix: Dr.
   email: stefan.groth@uzh.ch
   telephone: +41 44 634 92 96
   url: https://www.stefangroth.com
@@ -26,6 +26,7 @@ currentposition:
   department: Populäre Kulturen
   url: https://www.isek.uzh.ch
   dates: seit 09/2016
+  years: seit 09/2016
   jobTitle: Oberassistent / Leitung Labor Populäre Kulturen
 
 # About
@@ -54,7 +55,8 @@ education:
     thesisType: Doktorarbeit
     grade: summa cum laude
     advisor: Prof. Dr. Regina F. Bendix (Göttingen), Prof. Dr. Donald F. Brenneis (UC Santa Cruz)
-    dates: 2008–2011
+    dates: 2008--2011
+    years: 2008--2011
   - university: Georg-August-Universität Göttingen
     location: 
       city: Göttingen
@@ -64,14 +66,16 @@ education:
     thesis: "Entwicklung von Open-Source-Software: Soziologische Diskussion einer spezifischen Form von Innovationsnetzwerk"
     thesisType: Magisterarbeit
     grade: Sehr gut
-    dates: 10/2003—03/2008
+    dates: 10/2003--03/2008
+    years: 10/03--03/08
   - university: "Università degli Studi di Udine"
     location: 
       city: Udine
       countryCode: IT
     degree: Erasmus-Programm
     subject: Public Relations
-    dates: 10/2006–01/2007
+    dates: 10/2006--01/2007
+    years: 10/06--01/07
 
 # Positions Held
 positionsheld:
@@ -79,21 +83,25 @@ positionsheld:
     institute: Institut für Archäologie und Kulturanthropologie
     department: Kulturanthropologie / Volkskunde
     dates: 10/2015--08/2016
+    years: 2015--2016
     jobTitle: Post-Doc
   - university: Universität Duisburg–Essen
     institute: "[Käte Hamburger Kolleg / Centre for Global Cooperation Research](https://www.gcr21.org)"
     dates: 2014--2015
+    years: 2014--2015
     jobTitle: Post-Doctoral Fellow
     project: "Culture as Resource and Diplomacy: Between Geopolitics and Issues-Based Policy"
   - university: Georg-August-Universität Göttingen
     institute: Institut für Kulturanthropologie / Europäische Ethnologie
     dates: 2011--2014
+    years: 2011--2014
     jobTitle: Post-Doc
     project: "The Ethics of/in Negotiating and Regulating Cultural Property (Teilprojekt der Interdisziplinären DFG-Forschergruppe [Die Konstituierung von Cultural Property: Akteure, Diskurse, Kontexte, Regeln](http://www.cultural-property.org))"
     project_url: "http://www.cultural-property.org"
   - university: Georg-August-Universität Göttingen
     institute: Institut für Kulturanthropologie / Europäische Ethnologie
     dates: 2008--2011
+    years: 2008--2011
     jobTitle: Wissenschaftlicher Mitarbeiter / Doktorand
     project: "Kommunikationsmuster und Entscheidungsfindung über cultural property im internationalen Gremium World Intellectual Property Organization (Teilprojekt der Interdisziplinären DFG-Forschergruppe [Die Konstituierung von Cultural Property: Akteure, Diskurse, Kontexte, Regeln](http://www.cultural-property.org))"
     project_url: "http://www.cultural-property.org"
@@ -101,11 +109,14 @@ positionsheld:
 # Stays Abroad
 staysabroad:
   - stayabroad: DAAD-Kurzstipendium für Doktoranden, Forschungsaufenthalte an der University of Chicago, University of California at Santa Cruz, School for Advanced Research in Santa Fe, USA
-    dates: 03/2010–04/2010
+    dates: 03/2010--04/2010
+    years: 03/10--04/10
   - stayabroad: Erasmus Teaching Staff Mobility Grant, Seminar für Kulturwissenschaft und Europäische Ethnologie, Universität Basel, Schweiz
     dates: 2012
+    years: 2012
   - stayabroad: Erasmus-Programm, Public Relations, Università degli Studi di Udine, Italien 
-    dates: 10/2006–01/2007 
+    dates: 10/2006--01/2007 
+    years: 10/06--01/07 
 
 # Qualifications
 qualifications:
@@ -116,7 +127,7 @@ qualifications:
   - title: Workshop Gendersensible Didaktik, Universität Göttingen
     date: 10/2013  
   - title: Zertifikatsprogramm Hochschuldidaktik, Georg-August-Universität Göttingen 
-    date: 2013–2014
+    date: 2013--2014
     subitems:
       - Prüfen und Prüfungsrecht (01/2013)
       - Aktivierende Methoden (03/2013)
@@ -239,10 +250,10 @@ memberships:
   - title: "EASA Network “Anthropology of Law and Rights” (LAWNET)"
     dates: seit 2008
     url: http://easaonline.org/networks/lawnet/index.shtml
-  - title: Zentrum für Theorie und Methodik der Kulturwissenschaften (ZTMK), Göttingen
-    dates: Vorstand, 2010–2014
+  - title: Zentrum für Theorie und Methodik der Kulturwissenschaften (ZTMK), Göttingen, Vorstand
+    dates: 2010--2014
   - title: Vorstand Institut für Archäologie und Kulturanthropologie, Universität Bonn (Gruppe der akademischen Mitarbeiter, Stellv.)  
-    dates: 2015-2016
+    dates: 2015--2016
   - title: Schweizerische Gesellschaft für Volkskunde, Sektion Zürich
   - title: Deutsche Gesellschaft für Volkskunde (DGV)
   - title: European Association of Social Anthropologists (EASA)
@@ -481,7 +492,7 @@ conferencecontributions:
     institution: Hamburger Gesellschaft für Volkskunde (HGV)
     location: Hamburg
     countryCode: DE
-  - title: "Stalling & Speeding: Ways of Speaking at WIPO’s Intergovernmental Committee on Cultural Property"
+  - title: "Stalling and Speeding: Ways of Speaking at WIPO’s Intergovernmental Committee on Cultural Property"
     year: 2008
     month: 08
     conference: Konferenz der European Association of Social Anthropologists (EASA)
