@@ -48,7 +48,7 @@ cp cv.en.md ../../_cv-data/private
 cd ../../_cv-data
 git add *
 git commit -m "updated to newest versions"
-# git -C ../../_cv-data/push origin master
+git push origin master
 # clean-up output directory
-cd ..
+cd ../_cv-app
 rm -rf output
