@@ -34,7 +34,7 @@ The shell script `generate.sh` generates `.tex`, `.md` and `.pdf` versions of my
 
 * Create `.txt` and `.html` versions
 * Create `.docx` versions by using [Pandoc](http://pandoc.org)
-~~* Create `Makefile`~~
+* ~~Create `Makefile`~~
 * Clean up `i18n` files and fully translate the `yaml` files
 
 ### Dependencies
