@@ -97,10 +97,12 @@ Dir.mkdir("output") unless File.exist?("output") && File.directory?("output")
 
 if options[:web]
   #Dir.mkdir("data") unless File.exist?("output") && File.directory?("data")
-  File.open( '../_cv-data/' + output_file, "w" ) do |file|
-    file.write result
+  if template_extension1 == 'md'
+    File.open( '../_cv-data/' + output_file, "w" ) do |file|
+      file.write result
+    end
+    puts "Created #{output_file} in _cv-data directory"
   end
-  puts "Created #{output_file} in _cv-data directory"
 end 
 
 # Write to output file
