@@ -5,7 +5,7 @@ git submodule foreach git pull origin master
 git add *
 git commit -m "updated yaml data files"
 # sync with git
-git push origin master
+# git push origin master
 # get vc info (pythonw)
 pythonw gfi-run.py
 # delete contents of output
@@ -45,7 +45,9 @@ cp cv.en.pdf ../../_cv-data/private/pdf
 cp cv.de.md ../../_cv-data/private
 cp cv.en.md ../../_cv-data/private
 # commit to git: cv-data
-# git -C ../cv-data/ commit -m "updated to newest versions"
+git -C ../../_cv-data/ add *
+git -C ../../_cv-data/ commit -m "updated to newest versions"
+# git -C ../../_cv-data/push origin master
 # clean-up output directory
 cd ..
 rm -rf output
