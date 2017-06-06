@@ -154,6 +154,20 @@ languages:
 
 # Teaching Experience
 teachingexperience:
+  - course: "Projektseminar Black Mountain College"
+    university: Universität Zürich
+    institute: ISEK - Institut für Sozialanthropologie und Empirische Kulturwissenschaft
+    department: Populäre Kulturen 
+    year: 2017  
+    semester: HS
+    level: Master
+  - course: "Qualitative Methoden (Alltagskulturen)"
+    university: Universität Zürich
+    institute: ISEK - Institut für Sozialanthropologie und Empirische Kulturwissenschaft
+    department: Populäre Kulturen 
+    year: 2017  
+    semester: HS
+    level: Bachelor
   - course: "Institution und Alltag: Ethnographische Zugänge zu Institutionen"
     university: Universität Zürich
     institute: ISEK - Institut für Sozialanthropologie und Empirische Kulturwissenschaft

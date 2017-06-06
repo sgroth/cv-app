@@ -13,12 +13,12 @@ rm -rf output
 # mkdir
 mkdir output
 chmod 777 output
-# copy gfi files to output
+# move gfi files to output
 mv cv.web.de.gfi output/cv.web.de.gfi
 mv cv.web.en.gfi output/cv.web.en.gfi
 mv cv.de.gfi output/cv.de.gfi
 mv cv.en.gfi output/cv.en.gfi
-# create
+# create files
 ruby generate.rb -w 					# cv.web.de.md
 ruby generate.rb						# cv.de.md
 ruby generate.rb -e						# cv.en.md
@@ -27,9 +27,10 @@ ruby generate.rb -t cv.tex.erb -w		# cv.web.de.tex
 ruby generate.rb -t cv.tex.erb			# cv.de.tex
 ruby generate.rb -t cv.tex.erb -w -e	# cv.web.en.tex
 ruby generate.rb -t cv.tex.erb -e		# cv.en.tex
-# web.md version are copied to cv-data
-# xelatex run twice for page numbers and bib
+# web.md version are copied to cv-data by generate.rb
+# switch to output directory
 cd output
+# xelatex run twice for page numbers and bibliography
 xelatex cv.web.de.tex -interaction=batchmode
 xelatex cv.web.de.tex -interaction=batchmode 
 xelatex cv.de.tex -interaction=batchmode
