@@ -154,12 +154,19 @@ languages:
 
 # Teaching Experience
 teachingexperience:
+  - course: "Zyklen, Strukturen und Rhythmen: Ordnungen in Alltag und Gesellschaft, Gemeinsame Vorlesung mit wechselnden ReferentInnen mit dem Seminar für Kulturwissenschaft und Europäische Ethnologie der Universität Basel inklusive Coaching für vortragende DoktorandInnen und Publikation (Organisation und Vorträge)"
+    university: Universität Zürich
+    institute: ISEK - Institut für Sozialanthropologie und Empirische Kulturwissenschaft (Kooperationsprojekt mit der Zürcher Hochschule der Künste, ZHdK)
+    department: Populäre Kulturen 
+    year: 2018
+    semester: FS
+    level: Bachelor
   - course: "Projektseminar Black Mountain College"
     university: Universität Zürich
     institute: ISEK - Institut für Sozialanthropologie und Empirische Kulturwissenschaft (Kooperationsprojekt mit der Zürcher Hochschule der Künste, ZHdK)
     department: Populäre Kulturen 
-    year: 2017  
-    semester: HS
+    year: 2017 / 2018 
+    semester: HS / FS
     level: Master
   - course: "Qualitative Methoden (Alltagskulturen)"
     university: Universität Zürich
