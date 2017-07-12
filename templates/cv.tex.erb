@@ -115,7 +115,11 @@
 <% if person["birthDate"] %>
 \section*{<%= $grantwriting %>}
 <% grantwriting.each do |entry| %>
+<% if entry == grantwriting.last %>
+<%= entry %>.
+<% else %>
 <%= entry %>.\\
+<% end #if %>
 <% end #each %>
 <% end #if %>
 %------------------------------------------------
