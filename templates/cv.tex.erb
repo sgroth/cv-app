@@ -113,10 +113,11 @@
 <% end #each %>
 %------------------------------------------------
 <% if person["birthDate"] %>
-\emph{<%= $grantwriting %>:}\\  
+\section*{<%= $grantwriting %>}
 <%= grantwriting.each do |entry| %>\\  
 <%= entry %>
 <% end #each %>
+<% end #if %>
 %------------------------------------------------
 \section*{<%= $qualifications %>}
 <% qualifications.each do |entry| %>
