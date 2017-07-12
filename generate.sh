@@ -21,12 +21,12 @@ mv cv.en.gfi output/cv.en.gfi
 # create files
 ruby generate.rb -w 					# cv.web.de.md
 ruby generate.rb						# cv.de.md
-ruby generate.rb -e						# cv.en.md
-ruby generate.rb -e -w					# cv.web.en.md
+# ruby generate.rb -e						# cv.en.md
+# ruby generate.rb -e -w					# cv.web.en.md
 ruby generate.rb -t cv.tex.erb -w		# cv.web.de.tex
 ruby generate.rb -t cv.tex.erb			# cv.de.tex
-ruby generate.rb -t cv.tex.erb -w -e	# cv.web.en.tex
-ruby generate.rb -t cv.tex.erb -e		# cv.en.tex
+# ruby generate.rb -t cv.tex.erb -w -e	# cv.web.en.tex
+# ruby generate.rb -t cv.tex.erb -e		# cv.en.tex
 # web.md version are copied to cv-data by generate.rb
 # switch to output directory
 cd output
