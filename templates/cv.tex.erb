@@ -112,7 +112,7 @@
 <% end %>
 <% end #each %>
 %------------------------------------------------
-<% if grantwriting %>
+<% if person["birthDate"] %>
 \emph{<%= $grantwriting %>:}\\  
 <%= grantwriting.each do |entry| %>\\  
 <%= entry %>
