@@ -37,19 +37,19 @@ xelatex cv.de.tex -interaction=batchmode
 xelatex cv.de.tex -interaction=batchmode
 xelatex cv.web.de.tex -interaction=batchmode
 xelatex cv.web.de.tex -interaction=batchmode
-xelatex cv.en.tex -interaction=batchmode
-xelatex cv.en.tex -interaction=batchmode
-xelatex cv.web.en.tex -interaction=batchmode
-xelatex cv.web.en.tex -interaction=batchmode
+# xelatex cv.en.tex -interaction=batchmode
+# xelatex cv.en.tex -interaction=batchmode
+# xelatex cv.web.en.tex -interaction=batchmode
+# xelatex cv.web.en.tex -interaction=batchmode
 # copy to _cv-data/pdf
 cp cv.web.de.pdf ../../_cv-data/pdf
-cp cv.web.en.pdf ../../_cv-data/pdf
+# cp cv.web.en.pdf ../../_cv-data/pdf
 # copy to _cv-data/private/pdf
 cp cv.de.pdf ../../_cv-data/private/pdf
-cp cv.en.pdf ../../_cv-data/private/pdf
+# cp cv.en.pdf ../../_cv-data/private/pdf
 # copy to _cv-data/private/
 cp cv.de.md ../../_cv-data/private
-cp cv.en.md ../../_cv-data/private
+# cp cv.en.md ../../_cv-data/private
 # commit to git: cv-data
 cd ../../_cv-data
 git add *
