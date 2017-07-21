@@ -287,24 +287,27 @@ reviewerfor:
 
 # Conference Contributions and Invited Talks
 conferencecontributions:
-  - title: "Anstehend: Angemessen, maßvoll, ausreichend: Handlungsorientierungen an der „Mitte“ und ihre alltagskulturellen Dimensionen"
+  - title: "Angemessen, maßvoll, ausreichend: Handlungsorientierungen an der „Mitte“ und ihre alltagskulturellen Dimensionen"
     year: 2018
     month: 01
     location: Wien
     institution: Institut für Europäische Ethnologie, Universität Wien
     countryCode: AT
-  - title: "Anstehend: Makro-Trends als Forschungsthema? Europäisch-ethnologische Themenbegrenzung am Beispiel der «Mitte»"
+    annote: Anstehend
+  - title: "Makro-Trends als Forschungsthema? Europäisch-ethnologische Themenbegrenzung am Beispiel der «Mitte»"
     year: 2017
     month: 11
     conference: "Tagung „Wie kann man nur dazu forschen?“ Themenpolitik in der Europäischen Ethnologie"
     location: Innsbruck
     countryCode: AT
-  - title: "Anstehend: Zwischen Ermöglichung und Begrenzung: Zur subjektiven Plausibilisierung des Mittelmaßes als normative Orientierung"
+    annote: Anstehend
+  - title: "Zwischen Ermöglichung und Begrenzung: Zur subjektiven Plausibilisierung des Mittelmaßes als normative Orientierung"
     year: 2017
     month: 09
     conference: Kongress der Deutschen Gesellschaft für Volkskunde (DGV)
     location: Marburg
     countryCode: DE
+    annote: Anstehend
   - title: "Institution und Alltag: Kulturanalytische Zugänge zur Alltäglichkeit von Institutionen"
     year: 2017
     month: 04
