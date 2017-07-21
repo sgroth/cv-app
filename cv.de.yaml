@@ -252,7 +252,7 @@ teachingexperience:
 # Organizational Activities
 organizationalactivities:
   - "Organisation mit Dr. Sarah May und Dr. Johannes Müske, Digital, entgrenzt, prekär? Zum Wandel von Arbeit in gesellschaftlicher Verhandlung. Empirisch-kulturwissenschaftliche Perspektiven. 18. Tagung der Kommission Arbeitskulturen in der Deutschen Gesellschaft für Volkskunde, geplant für September 2018 ([Call for Papers als PDF](http://www.stefangroth.com/assets/pdf/CfP_Zusammenarbeiten_Zürich.pdf))."
-  - "Organisation mit Dr. Christian Ritter (Collegium Helveticum, Zürich), Workshop Zusammenarbeit(en). Praktiken der Koordination, Kooperation und Repräsentation in kollaborativen Prozessen, 5.-6. Oktober 2017, Labor Populäre Kulturen, Institut für Sozialanthropologie und Empirische Kulturwissenschaft, Universität Zürich / Collegium Helveticum, Zürich ([Call for Papers als PDF](http://www.stefangroth.com/assets/pdf/CfP_Zusammenarbeiten_Zürich.pdf))."
+  - "Organisation mit Dr. Christian Ritter (Collegium Helveticum, Zürich), Workshop Zusammenarbeit(en). Praktiken der Koordination, Kooperation und Repräsentation in kollaborativen Prozessen, 5.-6. Oktober 2017, Labor Populäre Kulturen, Institut für Sozialanthropologie und Empirische Kulturwissenschaft, Universität Zürich / Collegium Helveticum, Zürich ([Call for Papers als PDF](http://www.stefangroth.com/assets/pdf/CfP_Zusammenarbeiten_Zürich.pdf) / [Programm als PDF](http://www.stefangroth.com/assets/pdf/CfP_Zusammenarbeiten_Zürich.pdf))."
   - "In-House Workshop Perspektiven ethnographischer Kulturanalyse, 4.-5. Mai 2017, Labor Populäre Kulturen, Institut für Sozialanthropologie und Empirische Kulturwissenschaft, Universität Zürich."
   - "Organisation mit Dr. Alejandro Esguerra (Potsdam) und Dr. Katja Freistein (Duisburg), Internationaler Workshop Micro-Moves in International Institutions, Standing Group Sociology of International Relations (AK SiB) / Deutsche Vereinigung für Politische Wissenschaft, February 9-10, 2017, Universität Potsdam ([Programm als PDF](https://stefangroth.com/img/micromoves-program.pdf)). Keynotes von Karin Knorr-Cetina (Chicago) und Thomas Scheffer (Frankfurt)."
   - "Organisation mit Dr. Katja Freistein (Duisburg) und Dr. Alejandro Esguerra Portocarrero (Duisburg), Interdisziplinärer Workshop Studying Micro-Practices in (International) Institutions: Chances and Limitations of Theory-Building, November 26-27, 2015, Centre for Global Cooperation Research (GCR), Duisburg ([Programm als PDF](https://stefangroth.com/img/micro-programm.pdf))."
@@ -272,10 +272,10 @@ memberships:
   - title: "EASA Network “Anthropology of Law and Rights” (LAWNET)"
     dates: seit 2008
     url: http://easaonline.org/networks/lawnet/index.shtml
-  - title: Zentrum für Theorie und Methodik der Kulturwissenschaften (ZTMK), Göttingen, Vorstand
-    dates: 2010--2014
   - title: Vorstand Institut für Archäologie und Kulturanthropologie, Universität Bonn (Gruppe der akademischen Mitarbeiter, Stellv.)  
     dates: 2015--2016
+  - title: Zentrum für Theorie und Methodik der Kulturwissenschaften (ZTMK), Göttingen, Vorstand
+    dates: 2010--2014
   - title: Schweizerische Gesellschaft für Volkskunde, Sektion Zürich
   - title: Deutsche Gesellschaft für Volkskunde (DGV) und DGV-Komission Arbeitskulturen
   - title: European Association of Social Anthropologists (EASA)
@@ -287,6 +287,12 @@ reviewerfor:
 
 # Conference Contributions and Invited Talks
 conferencecontributions:
+  - title: "Angemessen, maßvoll, ausreichend: Handlungsorientierungen an der „Mitte“ und ihre alltagskulturellen Dimensionen"
+    year: 2018
+    month: 01
+    location: Wien
+    institution: Institut für Europäische Ethnologie, Universität Wien
+    countryCode: AT
   - title: "Makro-Trends als Forschungsthema? Europäisch-ethnologische Themenbegrenzung am Beispiel der «Mitte»"
     year: 2017
     month: 11
