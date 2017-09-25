@@ -270,6 +270,8 @@ organizationalactivities:
 memberships: 
   - title: "Delegierter des Mittelbaus in der Kommission für Forschung und Nachwuchsförderung, Philosophische Fakultät der Universität Zürich"
     dates: seit 2017
+  - title: "Sprecher der Kommission Arbeitskulturen in der Deutschen Gesellschaft für Volkskunde, zusammen mit Irene Götz (München), Sarah May (Freiburg), Johannes Müske (Zürich) und Manfred Seifert (Marburg)"
+    dates: seit 2017 
   - title: "DFG-Netzwerk „Wettbewerb und Konkurrenz: Zur kulturellen Logik kompetitiver Figurationen“"
     dates: seit 2014
     url: http://www.konkurrenz.uni-kiel.de/de
@@ -279,15 +281,7 @@ memberships:
   - title: "EASA Network “Anthropology of Law and Rights” (LAWNET)"
     dates: seit 2008
     url: http://easaonline.org/networks/lawnet/index.shtml
-  - title: Vorstand Institut für Archäologie und Kulturanthropologie, Universität Bonn (Gruppe der akademischen Mitarbeiter, Stellv.)  
-    dates: 2015--2016
-  - title: Zentrum für Theorie und Methodik der Kulturwissenschaften (ZTMK), Göttingen, Vorstand
-    dates: 2010--2014
-  - title: Deutsche Gesellschaft für Volkskunde (DGV) und DGV-Komission Arbeitskulturen
-  - title: Schweizerische Gesellschaft für Volkskunde, Sektion Zürich 
-  - title: European Association of Social Anthropologists (EASA)
-  - title: Societé Internationale d´Ethnologie et de Folklore (SIEF)
-  - title: Rheinische Vereinigung für Volkskunde (RVV) 
+  - title: Deutsche Gesellschaft für Volkskunde (DGV), Schweizerische Gesellschaft für Volkskunde, Sektion Zürich, European Association of Social Anthropologists (EASA), Societé Internationale d´Ethnologie et de Folklore (SIEF), SIEF Working Group Cultural Heritage and Property, Rheinische Vereinigung für Volkskunde (RVV) 
 
 reviewerfor:
   - International Journal of Heritage Studies
@@ -321,6 +315,7 @@ conferencecontributions:
     location: Zürich
     countryCode: CH
     annote: Anstehend
+    coauthor: Christian Ritter
     conference: Workshop Zusammenarbeit(en). Praktiken der Koordination, Kooperation und Repräsentation in kollaborativen Prozessen  
   - title: "Zwischen Ermöglichung und Begrenzung: Zur subjektiven Plausibilisierung des Mittelmaßes als normative Orientierung"
     year: 2017
