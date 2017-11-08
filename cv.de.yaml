@@ -32,9 +32,9 @@ currentposition:
 # About
 about:
   about-lead: |
-      Text
+      Stefan Groth ist Kulturanthropologe und arbeitet an einem Projekt zu Mitte und Mittelmaß.
   about-body: |
-      Text
+      Seine Forschungsschwerpunkte sind: normative Dimensionen von Alltagskultur, sprachanalytische Ansätze, politische Anthropologie, Kulturerbe und kulturwissenschaftliche Sportforschung. Er ist Oberassistent am Institut für Sozialanthropologie und Empirische Kulturwissenschaft (ISEK) der Universität Zürich und leitet das Labor Populäre Kulturen.
 
 # Research Interest
 researchinterests: 
@@ -285,13 +285,20 @@ memberships:
     dates: 2015--2016
   - title: Zentrum für Theorie und Methodik der Kulturwissenschaften (ZTMK), Göttingen, Vorstand
     dates: 2010--2014
-  - title: Deutsche Gesellschaft für Volkskunde (DGV), Schweizerische Gesellschaft für Volkskunde, Sektion Zürich, European Association of Social Anthropologists (EASA), Societé Internationale d´Ethnologie et de Folklore (SIEF), SIEF Working Group Cultural Heritage and Property, Rheinische Vereinigung für Volkskunde (RVV) 
+  - title: Deutsche Gesellschaft für Volkskunde (DGV); Schweizerische Gesellschaft für Volkskunde, Sektion Zürich; European Association of Social Anthropologists (EASA); Societé Internationale d´Ethnologie et de Folklore (SIEF); SIEF Working Group Cultural Heritage and Property; Rheinische Vereinigung für Volkskunde (RVV) 
 
 reviewerfor:
   - International Journal of Heritage Studies
 
 # Conference Contributions and Invited Talks
 conferencecontributions:
+  - title: "Narratologisches Doppel: Text und Kontext in Online-Archiven und Interaktionssituationen"
+    location: Dresden
+    countryCode: DE
+    annote: Anstehend
+    conference: "Forschungsdesign 4.0. Datengenerierung und Wissenstransfer in interdisziplinärer Perspektive"
+    year: 2018
+    month: 04
   - title: "Angemessen, maßvoll, ausreichend: Handlungsorientierungen an der „Mitte“ und ihre alltagskulturellen Dimensionen"
     year: 2018
     month: 01
@@ -312,13 +319,11 @@ conferencecontributions:
     conference: "Tagung „Wie kann man nur dazu forschen?“ Themenpolitik in der Europäischen Ethnologie"
     location: Innsbruck
     countryCode: AT
-    annote: Anstehend
   - title: "Zusammenarbeit(en). Praktiken der Koordination, Kooperation und Repräsentation in kollaborativen Prozessen. Eine Einführung"
     year: 2017
     month: 10
     location: Zürich
     countryCode: CH
-    annote: Anstehend
     coauthor: Christian Ritter
     conference: Workshop Zusammenarbeit(en). Praktiken der Koordination, Kooperation und Repräsentation in kollaborativen Prozessen  
   - title: "Zwischen Ermöglichung und Begrenzung: Zur subjektiven Plausibilisierung des Mittelmaßes als normative Orientierung"
@@ -327,7 +332,6 @@ conferencecontributions:
     conference: Kongress der Deutschen Gesellschaft für Volkskunde (DGV)
     location: Marburg
     countryCode: DE
-    annote: Anstehend
   - title: "Institution und Alltag: Kulturanalytische Zugänge zur Alltäglichkeit von Institutionen"
     year: 2017
     month: 04
