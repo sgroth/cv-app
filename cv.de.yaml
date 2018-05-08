@@ -157,20 +157,20 @@ languages:
 
 # Teaching Experience
 teachingexperience:
-  - course: "Vorlesung Methodendialoge"
-    university: Universität Zürich
-    institute: ISEK - Institut für Sozialanthropologie und Empirische Kulturwissenschaft
-    department: Populäre Kulturen 
-    year: 2018
-    semester: HS
-    level: Bachelor / Master
-  - course: "Stadt und Wohnen"
-    university: Universität Zürich
-    institute: ISEK - Institut für Sozialanthropologie und Empirische Kulturwissenschaft
-    department: Populäre Kulturen 
-    year: 2018
-    semester: HS
-    level: Bachelor
+#  - course: "Vorlesung Methodendialoge"
+#    university: Universität Zürich
+#    institute: ISEK - Institut für Sozialanthropologie und Empirische Kulturwissenschaft
+#    department: Populäre Kulturen 
+#    year: 2018
+#    semester: HS
+#    level: Bachelor / Master
+#  - course: "Stadt und Wohnen"
+#    university: Universität Zürich
+#    institute: ISEK - Institut für Sozialanthropologie und Empirische Kulturwissenschaft
+#    department: Populäre Kulturen 
+#    year: 2018
+#    semester: HS
+#    level: Bachelor
   - course: "Vorlesung Zyklen, Strukturen und Rhythmen: Ordnungen in Alltag und Gesellschaft, mit wechselnden ReferentInnen in Kooperation mit dem Seminar für Kulturwissenschaft und Europäische Ethnologie der Universität Basel, inklusive Coaching für vortragende DoktorandInnen und Publikation (Organisation und Vorträge)"
     university: Universität Zürich
     institute: ISEK - Institut für Sozialanthropologie und Empirische Kulturwissenschaft
@@ -268,7 +268,10 @@ teachingexperience:
 
 # Organizational Activities
 organizationalactivities:
-  - "Leitung Labor Populäre Kulturen [Website](URL), Elemente auflisten"
+# Ergänzen und überarbeiten
+  - "Leitung Labor Populäre Kulturen, Institut für Sozialanthropologie und Empirische Kulturwissenschaft, Universität Zürich (Fellow-Programm, In-House Workshops, Vorträge, Podiumsdiskussionen, Lesungen)"
+# Einfügen: BMC-Projekt mit Ausstellung 
+  - "In-House Workshop Land / Stadt als räumliche Ordnungen und Kategorien, 17.-18. Mai 2018, Labor Populäre Kulturen, Institut für Sozialanthropologie und Empirische Kulturwissenschaft, Universität Zürich."
   - "Organisation mit Dr. Sarah May und Dr. Johannes Müske, Vernetzt, entgrenzt, prekär? Arbeit im Wandel und in gesellschaftlicher Diskussion – kulturwissenschaftliche Perspektiven. 18. Arbeitstagung der dgv-Kommission Arbeitskulturen, 13. bis 14. September 2018 ([Call for Papers als PDF](http://www.stefangroth.com/assets/pdf/w07-arbeitskulturen-2018-program.pdf))."
   - "Organisation mit Dr. Christian Ritter (Collegium Helveticum, Zürich), Workshop Zusammenarbeit(en). Praktiken der Koordination, Kooperation und Repräsentation in kollaborativen Prozessen, 5.-6. Oktober 2017, Labor Populäre Kulturen, Institut für Sozialanthropologie und Empirische Kulturwissenschaft, Universität Zürich / Collegium Helveticum, Zürich ([Call for Papers als PDF](http://www.stefangroth.com/assets/pdf/w06-zusammenarbeiten-2017-cfp.pdf) / [Programm als PDF](http://www.stefangroth.com/assets/pdf/w06-zusammenarbeiten-2017-program.pdf))."
   - "In-House Workshop Perspektiven ethnographischer Kulturanalyse, 4.-5. Mai 2017, Labor Populäre Kulturen, Institut für Sozialanthropologie und Empirische Kulturwissenschaft, Universität Zürich."
@@ -317,6 +320,13 @@ conferencecontributions:
     month: 06
     annote: Anstehend
     institution: "Institut für Kulturanthropologie / Europäische Ethnologie, Universität Göttingen"
+  - title: "Kommentar"
+    location: Bonn
+    countryCode: DE
+    annote: Anstehend
+    year: 2018
+    month: 06
+    conference: "Ländliche Alltagskulturen regieren. Perspektiven der Kulturanalyse politischer Prozesse in ländlichen Regionen (Workshop des DFG-Projekts Partizipative Entwicklung ländlicher Regionen)"
   - title: "Optimierung bis zum Mittelmaß? Sozialkomparative Orientierungen an der Mitte aus alltagskultureller Perspektive"
     location: Freiburg
     countryCode: DE
@@ -327,7 +337,6 @@ conferencecontributions:
   - title: "Narratologisches Doppel: Text und Kontext in Online-Archiven und Interaktionssituationen"
     location: Dresden
     countryCode: DE
-    annote: Anstehend
     conference: "Forschungsdesign 4.0. Datengenerierung und Wissenstransfer in interdisziplinärer Perspektive"
     year: 2018
     month: 04
