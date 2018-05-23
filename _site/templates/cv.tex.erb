@@ -1,0 +1,219 @@
+\documentclass[11pt, a4paper]{article} % Document font size and paper size
+%--------------------
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+%--------------------
+%\usepackage{fontspec} % Allows the use of OpenType fonts
+\usepackage{microtype}
+\usepackage[autostyle=true,german=quotes]{csquotes}
+%--------------------
+\clubpenalty = 10000 
+\widowpenalty = 10000 
+\displaywidowpenalty = 10000
+%--------------------
+\usepackage{geometry} % Allows the configuration of document margins
+\geometry{a4paper, textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in} % Document margin settings
+\setlength\parindent{0in} % Remove paragraph indentation
+%--------------------
+\usepackage{enumitem} 
+\setitemize{leftmargin=*} 
+%--------------------
+\usepackage{lastpage}
+%--------------------
+\usepackage{fancyhdr}
+\pagestyle{fancy} %eigener Seitenstil
+\fancyhf{} %alle Kopf- und Fußzeilenfelder bereinigen
+\fancyhead[L]{\textcolor{gray}{\scriptsize Curriculum Vitae\- •\- Version: \href{https://github.com/sgroth/cv-data}{\gfiGetCommitAbr}, \gfiGetYear--\gfiGetMonth--\gfiGetDay\- •\- \href{http://github.com/sgroth/cv-data/}{http://github.com/sgroth/cv-data/}}} %Kopfzeile links
+\renewcommand{\headrulewidth}{0pt} %obere Trennlinie
+\fancyfoot[C]{\thepage\- <%= $of %> \pageref*{LastPage}} %Seitennummer
+%--------------------
+\usepackage[usenames,dvipsnames]{xcolor} % Custom colors
+%--------------------
+\usepackage{sectsty} % Allows changing the font options for sections in a document
+%\usepackage[normalem]{ulem} % Custom underlining
+%\usepackage{xunicode} % Allows generation of unicode characters from accented glyphs
+%\defaultfontfeatures{Mapping=tex-text} % Converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+%--------------------
+\usepackage{marginnote} % For margin years
+\newcommand{\years}[1]{\marginnote{\scriptsize #1}} % New command for including margin years
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt} % Slightly increase the distance of the margin years from the contant
+\reversemarginpar
+%--------------------
+\usepackage[xetex, bookmarks, colorlinks, breaklinks, pdftitle={CV Stefan Groth},pdfauthor={Stefan Groth}]{hyperref} % PDF setup - set your name and the title of the document to be incorporated into the final PDF file meta-information
+\hypersetup{linkcolor=Blue,citecolor=Blue,filecolor=black,urlcolor=Blue} % Link colors
+%--------------------
+\usepackage{titlesec} 
+\titlespacing*{\section}{0pt}{*5}{*1.2} 
+%------------------------------------------------
+\sectionfont{\rmfamily\mdseries\large\uppercase} % Set font options for sections
+\subsectionfont{\rmfamily\mdseries\scshape\normalsize} % Set font options for subsections
+\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize} % Set font options for subsubsections
+%--------------------
+\usepackage[osf]{ebgaramond} % Garamond for rm
+\usepackage[osf]{sourcesanspro} % SourceSansPro for ss
+\usepackage[scale=0.9]{sourcecodepro} % SourceCodePro for tt
+%--------------------
+% Version Control
+\usepackage{gitfile-info}
+%------------------------------------------------
+\begin{document}
+%------------------------------------------------
+{\LARGE <%= person["name"]["honorificPrefix"] %> <%= person["name"]["givenName"] %> <%= person["name"]["familyName"] %>}\\[1cm] % Your name
+<%= person["affiliation"]["institute"] %>\\
+<%= person["affiliation"]["department"] %>\\ 
+<%= person["affiliation"]["university"] %>\\
+<%= person["location"]["address"] %>\\  
+<%= person["location"]["countryCode"] %>-<%= person["location"]["postcode"] %> <%= person["location"]["city"] %>\\[.2cm]  
+<%= $telephone %>: <%= person["telephone"] %>\\ % Your phone number
+<%= $email %>: \href{mailto:<%= person["email"] %>}{<%= person["email"] %>}\\
+<%= $website %>: \href{<%= person["url"] %>}{<%= person["url"] %>}\\\\
+%--------------------
+<% if person["birthDate"] %>
+\emph{<%= $privateAdress %>:}\\  
+<%= person["locationPrivate"]["address"] %>\\  
+<%= person["locationPrivate"]["countryCode"] %>-<%= person["locationPrivate"]["postcode"] %> <%= person["locationPrivate"]["city"] %>\\\\
+<%= $birthDate %> <%= person["birthDate"] %> in <%= person["birthPlace"] %>.\\
+<% end #if %>
+%--------------------
+\section*{<%= $currentposition %>}
+\years{<%= currentposition["years"] %>}\emph{<%= person["jobTitle"] %>}, <%= currentposition["institute"] %>, <%= currentposition["department"] %>, <%= currentposition["university"] %> % Your current or previous employment position
+%------------------------------------------------
+\section*{<%= $researchinterests %>}
+<% researchinterests.each do |entry| %>
+<% if entry == researchinterests.last %>
+    <%= entry %>.
+<% else %>
+    <%= entry %>; 
+<% end %>
+<% end #each %>  % Your primary areas of research interest
+%------------------------------------------------
+\section*{<%= $positionsheld %>}
+<% positionsheld.each do |entry| %>
+<% if entry == positionsheld.last %>
+\years{<%= entry["years"] %>}<%= entry["jobTitle"] %>, <% if entry["department"] %><%= entry["department"] %>, <% end %><%= entry["institute"] %>, <%= entry["university"] %>. <% if entry["project"] %><%= $project %>: <%= entry["project"] %>.<% end %>
+<% else %>
+\years{<%= entry["years"] %>}<%= entry["jobTitle"] %>, <% if entry["department"] %><%= entry["department"] %>, <% end %><%= entry["institute"] %>, <%= entry["university"] %>. <% if entry["project"] %><%= $project %>: <%= entry["project"] %>.<% end %>\\
+<% end #if %>
+<% end #each %>
+%------------------------------------------------
+\section*{<%= $education %>}
+<% education.each do |entry| %>
+<% if entry == education.last %>
+\years{<%= entry["years"] %>}<%= entry["degree"] %>, <% if entry["subject"] %><%= $subjects %>: <%= entry["subject"] %>, <% end %><%= entry["university"] %> (<%= entry["location"]["countryCode"] %>). <% if entry["thesis"] %><%= entry["thesisType"] %>: \enquote{<%= entry["thesis"] %>} (<%= entry["grade"] %>).<% end %><% if entry["advisor"] %> <%= $advisorName %>: <%= entry["advisor"] %>.<% end %>
+<% else %>
+\years{<%= entry["years"] %>}<%= entry["degree"] %>, <% if entry["subject"] %><%= $subjects %>: <%= entry["subject"] %>, <% end %><%= entry["university"] %> (<%= entry["location"]["countryCode"] %>). <% if entry["thesis"] %><%= entry["thesisType"] %>: \enquote{<%= entry["thesis"] %>} (<%= entry["grade"] %>).<% end %><% if entry["advisor"] %> <%= $advisorName %>: <%= entry["advisor"] %>.<% end %>\\
+<% end %>
+<% end #each %>
+%------------------------------------------------
+\section*{<%= $staysabroad %>}
+<% staysabroad.each do |entry| %>
+<% if entry == staysabroad.last %>
+\years{<%= entry["years"] %>}<%= entry["stayabroad"] %>.
+<% else %>
+\years{<%= entry["years"] %>}<%= entry["stayabroad"] %>.\\
+<% end %>
+<% end #each %>
+%------------------------------------------------
+<% if person["birthDate"] %>
+\section*{<%= $grantwriting %>}
+<% grantwriting.each do |entry| %>
+<% if entry == grantwriting.last %>
+<%= entry %>.
+<% else %>
+<%= entry %>.\\[.2cm]
+<% end #if %>
+<% end #each %>
+<% end #if %>
+%------------------------------------------------
+\section*{<%= $qualifications %>}
+<% qualifications.each do |entry| %>
+<% if entry == qualifications.last %>
+\years{<%= entry["date"] %>}<%= entry["title"] %>.<% if entry["subitems"] %> Kurse:\\[.2cm] 
+<% entry["subitems"].each do |subitem| %>
+<% if subitem == entry["subitems"].last %>
+<%= subitem %>.
+<% else %>
+<%= subitem %>; 
+<% end %>
+<% end %>
+<% end %>
+<% else %>
+\years{<%= entry["date"] %>}<%= entry["title"] %>.<% if entry["subitems"] %> Kurse:\\[.2cm] 
+<% entry["subitems"].each do |subitem| %>
+<% if subitem == entry["subitems"].last %>
+<%= subitem %>.
+<% else %>
+<%= subitem %>; 
+<% end %>
+<% end %>
+<% end %>\\
+<% end %>
+<% end #each %>
+%------------------------------------------------
+\section*{<%= $professionalactivities %>}
+<% memberships.each do |entry| %>
+<% if entry == memberships.last %>
+<% if entry["dates"] %>\years{<%= entry["dates"] %>}<% end %><% if entry["url"] %>\href{<%= entry["url"] %>}{<%= entry["title"] %>}<% else %><%= entry["title"] %><% end %>
+<% else %>
+<% if entry["dates"] %>\years{<%= entry["dates"] %>}<% end %><% if entry["url"] %>\href{<%= entry["url"] %>}{<%= entry["title"] %>}<% else %><%= entry["title"] %><% end %>\\
+<% end %>
+<% end #each %>
+%--------------------
+\subsection*{<%= $reviewerfor %>}
+<% reviewerfor.each do |entry| %>
+<%= entry %>
+<% end #each %>
+%------------------------------------------------
+\section*{<%= $expositions %>}
+<% expositions.each do |entry| %>
+<% if entry == expositions.last %>
+    <%= entry %>
+<% else %>
+    <%= entry %>\\[.25cm]
+<% end %>
+<% end %>
+%--------------------
+%------------------------------------------------
+\section*{<%= $workshops %>}
+<% organizationalactivities.each do |entry| %>
+<% if entry == organizationalactivities.last %>
+    <%= entry %>
+<% else %>
+    <%= entry %>\\[.25cm]
+<% end %>
+<% end %>
+%--------------------
+\section*{<%= $teachingexperience %>}
+<% teachingexperience.each do |entry| %>
+<% if entry == teachingexperience.last %>
+\emph{<%= entry["course"] %>}<% if entry["level"] %> (<%= entry["level"] %>)<% end %>,<% if entry["semester"] %> <%= entry["semester"] %><% end %> <%= entry["year"] %>. <% if entry["department"] %><%= entry["department"] %>, <% end %><% if entry["institute"] %><%= entry["institute"] %>, <% end %><%= entry["university"] %>. 
+<% else %>
+\emph{<%= entry["course"] %>}<% if entry["level"] %> (<%= entry["level"] %>)<% end %>,<% if entry["semester"] %> <%= entry["semester"] %><% end %> <%= entry["year"] %>. <% if entry["department"] %><%= entry["department"] %>, <% end %><% if entry["institute"] %><%= entry["institute"] %>, <% end %><%= entry["university"] %>.\\[.25cm]
+<% end %>
+<% end #each %>
+%--------------------
+\section*{<%= $conferencecontributions %>}
+<% by_year(conferencecontributions) do |year, entries| %>
+\subsection*{<%= year %>}
+<% entries.each do |entry| %>
+<% if entry == entries.last %>
+<% if entry["annote"] %>Anstehend: <% end %><% if entry["coauthor"] %><%= $with %> <%= entry["coauthor"] %>, <% end %>\enquote{<%= entry["title"] %>}. <% if entry["conference"] %><%= entry["conference"] %>, <% end %><% if entry["institution"] %><%= entry["institution"] %>, <% end %><%= entry["location"] %> (<%= entry["month"] %>/<%= entry["year"] %>).
+<% else %>
+<% if entry["annote"] %>Anstehend: <% end %><% if entry["coauthor"] %><%= $with %> <%= entry["coauthor"] %>, <% end %>\enquote{<%= entry["title"] %>}. <% if entry["conference"] %><%= entry["conference"] %>, <% end %><% if entry["institution"] %><%= entry["institution"] %>, <% end %><%= entry["location"] %> (<%= entry["month"] %>/<%= entry["year"] %>).\\[.25cm]
+<% end %>
+<% end %>
+<% end %>
+%--------------------
+<% def wrap(text) %>
+<% text.gsub(/(.{1,74})(\s+|$)/, "\\1\n      ").strip %>
+<% end #def %>
+%--------------------
+\vfill{} % Whitespace before final footer
+%--------------------
+\begin{center}
+{\scriptsize Version: \href{https://github.com/sgroth/cv-data}{\gfiGetCommitAbr}, \gfiGetYear--\gfiGetMonth--\gfiGetDay\- •\- \href{http://github.com/sgroth/cv-data/}{http://github.com/sgroth/cv-data/}} 
+\end{center}
+%--------------------
+\end{document}

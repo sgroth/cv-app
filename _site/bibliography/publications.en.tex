@@ -1,0 +1,67 @@
+% !TEX TS-program = pdflatexmk
+\documentclass[]{article}
+
+\RequirePackage[l2tabu, orthodox]{nag}
+
+\usepackage[english]{babel} 
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+% Fonts and Typography
+\usepackage[osf]{ebgaramond} % Garamond for rm
+\usepackage[osf]{sourcesanspro} % SourceSansPro for ss
+\usepackage[scaled=0.9]{beramono} % SourceCodePro for tt
+\usepackage{microtype}
+\usepackage[autostyle=true,german=quotes]{csquotes}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[]{hyperref}
+\renewcommand\UrlFont{\rmfamily}
+
+\hyphenation{Wirt-schaf-ten}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=Blue
+}
+
+% Version Control
+\usepackage{gitfile-info}
+
+% Headers and Footers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead{}
+\fancyfoot{}
+\rfoot{\thepage}
+\lfoot{\textcolor{gray}{{\footnotesize\texttt{Version \gfiGetCommitAbr, \gfiGetYear--\gfiGetMonth--\gfiGetDay, \href{https://github.com/sgroth/bibliography}{https://github.com/sgroth/bibliography}}}}} % adds version control information
+
+% Bibliography
+\usepackage[authordate,notes,backend=biber,isbn=false,annotation,firstinits=true,defernumbers=true,sorting=ydnt]{biblatex-chicago}
+\addbibresource{sgroth-bibliography.en.bib}
+\DeclareFieldFormat{labelnumberwidth}{}
+\setlength{\biblabelsep}{0pt}
+\DeclareFieldFormat{annotation}{{#1}}
+
+\begin{document}
+
+\title{List of Publications}
+\author{Dr. Stefan Groth\\\footnotesize{\texttt{\href{https://www.stefangroth.com}{https://www.stefangroth.com}}}}
+\date{Version: \href{https://github.com/sgroth/bibliography}{\gfiGetCommitAbr}, \gfiGetYear--\gfiGetMonth--\gfiGetDay}
+
+\maketitle
+
+\nocite{*} % includes all entries from my personal bibliography
+
+% Print segmented bibliographies
+\printbibliography[keyword=submitted,title={Submitted for Publication}]
+\printbibliography[keyword=inpreparation,title={Publications in Preparation}]
+\printbibliography[type=book,notkeyword=submitted,notkeyword=inpreparation,notkeyword=miszelle,keyword=monography,title={Monographies}]
+\printbibliography[type=book,notkeyword=submitted,notkeyword=inpreparation,notkeyword=miszelle,keyword=editedvolume,title={Edited Volumes}]
+%\printbibliography[keyword=specialissue,title={Special Journal Issues}]
+\printbibliography[type=article,notkeyword=submitted,notkeyword=inpreparation,notkeyword=miszelle,title={Journal Articles}]
+\printbibliography[type=incollection,notkeyword=submitted,notkeyword=inpreparation,notkeyword=miszelle,title={Contributions to Edited Volumes}]
+\printbibliography[keyword=miszelle,notkeyword=inpreparation,title={Miscellany}]
+\printbibliography[type=review,notkeyword=submitted,notkeyword=inpreparation,notkeyword=miszelle,title={Reviews}]
+
+\end{document}
