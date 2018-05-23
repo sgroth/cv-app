@@ -42,7 +42,7 @@
 \reversemarginpar
 %--------------------
 \usepackage[xetex, bookmarks, colorlinks, breaklinks, pdftitle={CV Stefan Groth},pdfauthor={Stefan Groth}]{hyperref} % PDF setup - set your name and the title of the document to be incorporated into the final PDF file meta-information
-\hypersetup{linkcolor=magenta,citecolor=magenta,filecolor=black,urlcolor=magenta} % Link colors
+\hypersetup{linkcolor=Blue,citecolor=Blue,filecolor=black,urlcolor=Blue} % Link colors
 %--------------------
 \usepackage{titlesec} 
 \titlespacing*{\section}{0pt}{*5}{*1.2} 
@@ -165,6 +165,16 @@
 <% reviewerfor.each do |entry| %>
 <%= entry %>
 <% end #each %>
+%------------------------------------------------
+\section*{<%= $expositions %>}
+<% expositions.each do |entry| %>
+<% if entry == expositions.last %>
+    <%= entry %>
+<% else %>
+    <%= entry %>\\[.25cm]
+<% end %>
+<% end %>
+%--------------------
 %------------------------------------------------
 \section*{<%= $workshops %>}
 <% organizationalactivities.each do |entry| %>
