@@ -121,9 +121,9 @@
 <% grantwriting.each do |entry| %>
 <% if entry == grantwriting.last %>
 <%= entry %>.\\
-\begin{center}
+\begin{flushright}
 <%= $grantwritingsum %>: <%= person["grantwritingsum"] %>
-\end{center}
+\end{flushright}
 <% else %>
 <%= entry %>.\\[.2cm]
 <% end #if %>
