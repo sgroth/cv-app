@@ -143,7 +143,8 @@
 \years{<%= entry["date"] %>}<%= entry["title"] %>.<% if entry["subitems"] %> Kurse:\\[.2cm] 
 <% entry["subitems"].each do |subitem| %>
 <% if subitem == entry["subitems"].last %>
-<%= subitem %>.
+<%= subitem %>.\\
+<%= $grantwritingsum %>
 <% else %>
 <%= subitem %>; 
 <% end %>
