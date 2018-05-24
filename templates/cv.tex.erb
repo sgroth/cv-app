@@ -121,7 +121,9 @@
 <% grantwriting.each do |entry| %>
 <% if entry == grantwriting.last %>
 <%= entry %>.\\[.2cm]
-<%= $grantwritingsum %>
+\begin{center}
+<%= $grantwritingsum %>: <% grantwritingsum %>
+\end{center}
 <% else %>
 <%= entry %>.\\[.2cm]
 <% end #if %>
