@@ -120,7 +120,8 @@
 \section*{<%= $grantwriting %>}
 <% grantwriting.each do |entry| %>
 <% if entry == grantwriting.last %>
-<%= entry %>.
+<%= entry %>.\\[.2cm]
+<%= $grantwritingsum %>
 <% else %>
 <%= entry %>.\\[.2cm]
 <% end #if %>
@@ -143,8 +144,7 @@
 \years{<%= entry["date"] %>}<%= entry["title"] %>.<% if entry["subitems"] %> Kurse:\\[.2cm] 
 <% entry["subitems"].each do |subitem| %>
 <% if subitem == entry["subitems"].last %>
-<%= subitem %>.\\
-<%= $grantwritingsum %>
+<%= subitem %>.
 <% else %>
 <%= subitem %>; 
 <% end %>
