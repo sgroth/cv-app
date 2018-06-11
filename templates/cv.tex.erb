@@ -155,7 +155,7 @@
 <% end %>
 <% end #each %>
 %------------------------------------------------
-\section*{<%= $committees %>$}}
+\section*{<%= $committees %>}}
 <% committees.each do |entry| %>
 <% if entry == committees.last %>
 <% if entry["dates"] %>\years{<%= entry["dates"] %>}<% end %><% if entry["url"] %>\href{<%= entry["url"] %>}{<%= entry["title"] %>}<% else %><%= entry["title"] %><% end %>
