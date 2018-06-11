@@ -155,7 +155,16 @@
 <% end %>
 <% end #each %>
 %------------------------------------------------
-\section*{<%= $professionalactivities %>}
+\section*{<%= $committees %>$}}
+<% committees.each do |entry| %>
+<% if entry == committees.last %>
+<% if entry["dates"] %>\years{<%= entry["dates"] %>}<% end %><% if entry["url"] %>\href{<%= entry["url"] %>}{<%= entry["title"] %>}<% else %><%= entry["title"] %><% end %>
+<% else %>
+<% if entry["dates"] %>\years{<%= entry["dates"] %>}<% end %><% if entry["url"] %>\href{<%= entry["url"] %>}{<%= entry["title"] %>}<% else %><%= entry["title"] %><% end %>\\
+<% end %>
+<% end #each %>
+%------------------------------------------------
+\section*{<%= $memberships %>}
 <% memberships.each do |entry| %>
 <% if entry == memberships.last %>
 <% if entry["dates"] %>\years{<%= entry["dates"] %>}<% end %><% if entry["url"] %>\href{<%= entry["url"] %>}{<%= entry["title"] %>}<% else %><%= entry["title"] %><% end %>
@@ -163,21 +172,11 @@
 <% if entry["dates"] %>\years{<%= entry["dates"] %>}<% end %><% if entry["url"] %>\href{<%= entry["url"] %>}{<%= entry["title"] %>}<% else %><%= entry["title"] %><% end %>\\
 <% end %>
 <% end #each %>
-%--------------------
-\subsection*{<%= $reviewerfor %>}
+%------------------------------------------------
+\section*{<%= $reviewerfor %>}
 <% reviewerfor.each do |entry| %>
 <%= entry %>
 <% end #each %>
-%------------------------------------------------
-\section*{<%= $expositions %>}
-<% expositions.each do |entry| %>
-<% if entry == expositions.last %>
-    <%= entry %>
-<% else %>
-    <%= entry %>\\[.25cm]
-<% end %>
-<% end %>
-%--------------------
 %------------------------------------------------
 \section*{<%= $workshops %>}
 <% organizationalactivities.each do |entry| %>
@@ -187,7 +186,16 @@
     <%= entry %>\\[.25cm]
 <% end %>
 <% end %>
-%--------------------
+%------------------------------------------------
+\section*{<%= $expositions %>}
+<% expositions.each do |entry| %>
+<% if entry == expositions.last %>
+    <%= entry %>
+<% else %>
+    <%= entry %>\\[.25cm]
+<% end %>
+<% end %>
+%------------------------------------------------
 \section*{<%= $teachingexperience %>}
 <% teachingexperience.each do |entry| %>
 <% if entry == teachingexperience.last %>

@@ -40,10 +40,10 @@ about:
 researchinterests: 
   - Normative Dimensionen der Alltagskultur
   - Methoden der Europäischen Ethnologie
-  - Sprachanalytische Ansätze
-  - Politische Anthropologie und Organisationsethnographie
-  - Kulturerbe und kulturelles Eigentum
   - Kulturwissenschaftliche Sportforschung
+  - Politische Anthropologie und Organisationsethnographie
+  - Sprachanalytische Ansätze
+  - Kulturerbe und kulturelles Eigentum
 
 # Education
 education:
@@ -285,26 +285,29 @@ organizationalactivities:
 # Expositions
 expositions:
   - "Wissensorte. Ethnografische / künstlerische Erkundungen (05/2018, Zürcher Hochschule der Künste). Ausstellung aus dem Projektseminar Wissensorte (Kooperationsprojekt zwischen Populäre Kulturen, ISEK - Institut für Sozialanthropologie und Empirische Kulturwissenschaft mit der Zürcher Hochschule der Künste)."
-# Memberships and Professional Activities:
-memberships: 
+# Gremienerfahrungen / Experiences in Committees
+committees:
   - title: "Delegierter des Mittelbaus in der Kommission für Forschung und Nachwuchsförderung, Philosophische Fakultät der Universität Zürich"
     dates: seit 2017
   - title: "Sprecher der Kommission Arbeitskulturen in der Deutschen Gesellschaft für Volkskunde, zusammen mit Irene Götz (München), Sarah May (Freiburg), Johannes Müske (Zürich) und Manfred Seifert (Marburg)"
-    dates: seit 2017 
-  - title: "DFG-Netzwerk „Wettbewerb und Konkurrenz: Zur kulturellen Logik kompetitiver Figurationen“"
-    dates: seit 2014
-    url: http://www.konkurrenz.uni-kiel.de/de
-  - title: H-Folk-Netzwerk, Editor
+    dates: seit 2017
+  - title: "H-Folk-Netzwerk, Editor"
     dates: seit 2013
     url: https://networks.h-net.org/h-folk
-  - title: "EASA Network “Anthropology of Law and Rights” (LAWNET)"
-    dates: seit 2008
-    url: http://easaonline.org/networks/lawnet/index.shtml
-  - title: Vorstand Institut für Archäologie und Kulturanthropologie, Universität Bonn (Gruppe der akademischen Mitarbeiter, Stellv.)  
+  - title: "Vorstand Institut für Archäologie und Kulturanthropologie, Universität Bonn (Gruppe der akademischen Mitarbeiter, Stellv.)"
     dates: 2015--2016
-  - title: Zentrum für Theorie und Methodik der Kulturwissenschaften (ZTMK), Göttingen, Vorstand
+  - title: "Zentrum für Theorie und Methodik der Kulturwissenschaften (ZTMK), Göttingen, Vorstand"
     dates: 2010--2014
-  - title: Deutsche Gesellschaft für Volkskunde (DGV); Schweizerische Gesellschaft für Volkskunde, Sektion Zürich; European Association of Social Anthropologists (EASA); Societé Internationale d´Ethnologie et de Folklore (SIEF); SIEF Working Group Cultural Heritage and Property; Rheinische Vereinigung für Volkskunde (RVV) 
+# Memberships
+memberships: 
+  - title: "DFG-Netzwerk „Wettbewerb und Konkurrenz: Zur kulturellen Logik kompetitiver Figurationen“"
+    dates: seit 2014
+    url: http://konkurrenz.uni-freiburg.de
+  - title: Deutsche Gesellschaft für Volkskunde (DGV)
+  - title: Schweizerische Gesellschaft für Volkskunde (SGV)
+  - title: "European Association of Social Anthropologists (EASA), EASA Network “Anthropology of Law and Rights” (LAWNET)"
+  - title: "Societé Internationale d´Ethnologie et de Folklore (SIEF), SIEF Working Group Cultural Heritage and Property"
+  - title: Rheinische Vereinigung für Volkskunde (RVV) 
 
 reviewerfor:
   - International Journal of Heritage Studies
@@ -335,7 +338,6 @@ conferencecontributions:
   - title: "Optimierung bis zum Mittelmaß? Sozialkomparative Orientierungen an der Mitte aus alltagskultureller Perspektive"
     location: Freiburg
     countryCode: DE
-    annote: Anstehend
     year: 2018
     month: 06
     conference: "FRIAS Workshop Selbstoptimierung"
