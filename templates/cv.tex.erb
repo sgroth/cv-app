@@ -196,27 +196,6 @@
 <% end %>
 <% end %>
 %------------------------------------------------
-\section*{<%= $teachingexperience %>}
-<% teachingexperience.each do |entry| %>
-<% if entry == teachingexperience.last %>
-\emph{<%= entry["course"] %>}<% if entry["level"] %> (<%= entry["level"] %>)<% end %>,<% if entry["semester"] %> <%= entry["semester"] %><% end %> <%= entry["year"] %>. <% if entry["department"] %><%= entry["department"] %>, <% end %><% if entry["institute"] %><%= entry["institute"] %>, <% end %><%= entry["university"] %>. 
-<% else %>
-\emph{<%= entry["course"] %>}<% if entry["level"] %> (<%= entry["level"] %>)<% end %>,<% if entry["semester"] %> <%= entry["semester"] %><% end %> <%= entry["year"] %>. <% if entry["department"] %><%= entry["department"] %>, <% end %><% if entry["institute"] %><%= entry["institute"] %>, <% end %><%= entry["university"] %>.\\[.25cm]
-<% end %>
-<% end #each %>
-%--------------------
-\section*{<%= $conferencecontributions %>}
-<% by_year(conferencecontributions) do |year, entries| %>
-\subsection*{<%= year %>}
-<% entries.each do |entry| %>
-<% if entry == entries.last %>
-<% if entry["annote"] %>Anstehend: <% end %><% if entry["coauthor"] %><%= $with %> <%= entry["coauthor"] %>, <% end %>\enquote{<%= entry["title"] %>}. <% if entry["conference"] %><%= entry["conference"] %>, <% end %><% if entry["institution"] %><%= entry["institution"] %>, <% end %><%= entry["location"] %> (<%= entry["month"] %>/<%= entry["year"] %>).
-<% else %>
-<% if entry["annote"] %>Anstehend: <% end %><% if entry["coauthor"] %><%= $with %> <%= entry["coauthor"] %>, <% end %>\enquote{<%= entry["title"] %>}. <% if entry["conference"] %><%= entry["conference"] %>, <% end %><% if entry["institution"] %><%= entry["institution"] %>, <% end %><%= entry["location"] %> (<%= entry["month"] %>/<%= entry["year"] %>).\\[.25cm]
-<% end %>
-<% end %>
-<% end %>
-%--------------------
 <% def wrap(text) %>
 <% text.gsub(/(.{1,74})(\s+|$)/, "\\1\n      ").strip %>
 <% end #def %>
