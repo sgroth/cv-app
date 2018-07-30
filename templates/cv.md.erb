@@ -1,4 +1,5 @@
 <!-- Curriculum Vitae Stefan Groth – https://www.stefangroth.com -->
+
 # Curriculum Vitae
 <%= person["name"]["honorificPrefix"] %> <%= person["name"]["givenName"] %> <%= person["name"]["familyName"] %>  
 <%= person["jobTitle"] %>  
@@ -62,23 +63,28 @@
 * <%= entry %>  
 <% end %>
 
-## <%= $professionalactivities %>
+## <%= $committees %> 
+<% committees.each do |entry| %>
+* <% if entry["url"] %>[<%= entry["title"] %>](<%= entry["url"] %>)<% if entry["dates"] %> (<%= entry["dates"] %>)<% end %><% else %><%= entry["title"] %><% if entry["dates"] %> (<%= entry["dates"] %>)<% end %><% end %>  
+<% end #each %>
+
+## <%= $memberships %> 
 <% memberships.each do |entry| %>
 * <% if entry["url"] %>[<%= entry["title"] %>](<%= entry["url"] %>)<% if entry["dates"] %> (<%= entry["dates"] %>)<% end %><% else %><%= entry["title"] %><% if entry["dates"] %> (<%= entry["dates"] %>)<% end %><% end %>  
 <% end #each %>
 
-### <%= $reviewerfor %>
+## <%= $reviewerfor %>
 <% reviewerfor.each do |entry| %>
-* <%= entry %>  
-<% end #each %>
-
-## <%= $expositions %>
-<% expositions.each do |entry| %>
 * <%= entry %>  
 <% end #each %>
 
 ## <%= $workshops %>
 <% organizationalactivities.each do |entry| %>
+* <%= entry %>  
+<% end #each %>
+
+## <%= $expositions %>
+<% expositions.each do |entry| %>
 * <%= entry %>  
 <% end #each %>
 

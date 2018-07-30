@@ -157,20 +157,20 @@ languages:
 
 # Teaching Experience
 teachingexperience:
-#  - course: "Vorlesung Methodendialoge"
-#    university: Universität Zürich
-#    institute: ISEK - Institut für Sozialanthropologie und Empirische Kulturwissenschaft
-#    department: Populäre Kulturen 
-#    year: 2018
-#    semester: HS
-#    level: Bachelor / Master
-#  - course: "Stadt und Wohnen"
-#    university: Universität Zürich
-#    institute: ISEK - Institut für Sozialanthropologie und Empirische Kulturwissenschaft
-#    department: Populäre Kulturen 
-#    year: 2018
-#    semester: HS
-#    level: Bachelor
+  - course: "Vorlesung Methodendialoge"
+    university: Universität Zürich
+    institute: ISEK - Institut für Sozialanthropologie und Empirische Kulturwissenschaft
+    department: Populäre Kulturen 
+    year: 2018
+    semester: HS
+    level: Bachelor / Master
+  - course: "Stadt und Wohnen"
+    university: Universität Zürich
+    institute: ISEK - Institut für Sozialanthropologie und Empirische Kulturwissenschaft
+    department: Populäre Kulturen 
+    year: 2018
+    semester: HS
+    level: Bachelor
   - course: "Vorlesung Zyklen, Strukturen und Rhythmen: Ordnungen in Alltag und Gesellschaft, mit wechselnden ReferentInnen in Kooperation mit dem Seminar für Kulturwissenschaft und Europäische Ethnologie der Universität Basel, inklusive Coaching für vortragende DoktorandInnen und Publikation (Organisation und Vorträge)"
     university: Universität Zürich
     institute: ISEK - Institut für Sozialanthropologie und Empirische Kulturwissenschaft
@@ -270,12 +270,13 @@ teachingexperience:
 organizationalactivities:
 # Ergänzen und überarbeiten
   - "Leitung Labor Populäre Kulturen, Institut für Sozialanthropologie und Empirische Kulturwissenschaft, Universität Zürich (Konzeption und Durchführung, Fellow-Programm, Organisation von In-House-Workshops, Vorträgen, Podiumsdiskussionen, Lesungen)"
+#  - "Cultural Citizenship (ZHdK, ZHAW, ISEK)"
 # Auch Führungspositionen?
   - "Organisation von Panels bei Fachkonferenzen (DGV, SIEF)"
+  - "Organisation mit Dr. Sarah May und Dr. Johannes Müske, Vernetzt, entgrenzt, prekär? Arbeit im Wandel und in gesellschaftlicher Diskussion – kulturwissenschaftliche Perspektiven. 18. Arbeitstagung der dgv-Kommission Arbeitskulturen, 13. bis 14. September 2018 ([Call for Papers als PDF](http://www.stefangroth.com/assets/pdf/w07-arbeitskulturen-2018-cfp.pdf) / [Programm als PDF](http://www.stefangroth.com/assets/pdf/w07-arbeitskulturen-2018-programm.pdf))."
   - "In-House Workshop Forschungsförderung, Antrags- und Karriereplanung, 24. Mai 2018, Labor Populäre Kulturen, Institut für Sozialanthropologie und Empirische Kulturwissenschaft, Universität Zürich."
   - "In-House Workshop Land / Stadt als räumliche Ordnungen und Kategorien, 17.-18. Mai 2018, Labor Populäre Kulturen, Institut für Sozialanthropologie und Empirische Kulturwissenschaft, Universität Zürich ([Programm als PDF](http://www.stefangroth.com/assets/pdf/iw02-stadt-land-2018-programm.pdf))."
   - "In-House Workshop Historisch forschen, 12. April 2018, Labor Populäre Kulturen, Institut für Sozialanthropologie und Empirische Kulturwissenschaft, Universität Zürich."
-  - "Organisation mit Dr. Sarah May und Dr. Johannes Müske, Vernetzt, entgrenzt, prekär? Arbeit im Wandel und in gesellschaftlicher Diskussion – kulturwissenschaftliche Perspektiven. 18. Arbeitstagung der dgv-Kommission Arbeitskulturen, 13. bis 14. September 2018 ([Call for Papers als PDF](http://www.stefangroth.com/assets/pdf/w07-arbeitskulturen-2018-cfp.pdf) / [Programm als PDF](http://www.stefangroth.com/assets/pdf/w07-arbeitskulturen-2018-programm.pdf))."
   - "Organisation mit Dr. Christian Ritter (Collegium Helveticum, Zürich), Workshop Zusammenarbeit(en). Praktiken der Koordination, Kooperation und Repräsentation in kollaborativen Prozessen, 5.-6. Oktober 2017, Labor Populäre Kulturen, Institut für Sozialanthropologie und Empirische Kulturwissenschaft, Universität Zürich / Collegium Helveticum, Zürich ([Call for Papers als PDF](http://www.stefangroth.com/assets/pdf/w06-zusammenarbeiten-2017-cfp.pdf) / [Programm als PDF](http://www.stefangroth.com/assets/pdf/w06-zusammenarbeiten-2017-program.pdf) / [Tagungsbericht in der ÖZV (folgt)](http://www.stefangroth.com/assets/pdf/w06-zusammenarbeiten-2017-tagungsbericht.pdf))."
   - "In-House Workshop Perspektiven ethnographischer Kulturanalyse, 4.-5. Mai 2017, Labor Populäre Kulturen, Institut für Sozialanthropologie und Empirische Kulturwissenschaft, Universität Zürich ([Programm als PDF](http://www.stefangroth.com/assets/pdf/iw01-perspektiven-2017-programm.pdf))."
   - "Organisation mit Dr. Alejandro Esguerra (Potsdam) und Dr. Katja Freistein (Duisburg), Internationaler Workshop Micro-Moves in International Institutions, Standing Group Sociology of International Relations (AK SiB) / Deutsche Vereinigung für Politische Wissenschaft, February 9-10, 2017, Universität Potsdam ([Call for Papers als PDF](https://stefangroth.com/assets/pdf/w04-micromoves-2017-cfp.pdf) / [Programm als PDF](https://stefangroth.com/assets/pdf/w04-micromoves-2017-program.pdf)). Keynotes von Karin Knorr-Cetina (Chicago) und Thomas Scheffer (Frankfurt)."
@@ -326,12 +327,10 @@ conferencecontributions:
     countryCode: DE
     year: 2018
     month: 06
-    annote: Anstehend
     institution: "Institut für Kulturanthropologie / Europäische Ethnologie, Universität Göttingen"
   - title: "Kommentar"
     location: Bonn
     countryCode: DE
-    annote: Anstehend
     year: 2018
     month: 06
     conference: "Workshop des DFG-Projekts Partizipative Entwicklung ländlicher Regionen: Ländliche Alltagskulturen regieren. Perspektiven der Kulturanalyse politischer Prozesse in ländlichen Regionen"
