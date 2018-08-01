@@ -65,6 +65,9 @@ if options[:web] && options[:english]
 elsif options[:web]
   output_file = input_basename + '.web.de.' + template_extension1
   load 'i18n/de.i18n'
+elsif template_basename == "presentations"
+  output_file = template_basename + "." + template_extension1
+  load 'i18n/de.i18n'
 elsif options[:english]
   output_file = input_basename + '.en.' + template_extension1
   load 'i18n/en.i18n' 
