@@ -207,6 +207,13 @@ conferencecontributions:
     conference: "DGV-Hochschultagung Planen – Hoffen – Befürchten: Zukunft als Gegenstand und Herausforderung der Alltagskulturforschung"
     year: 2018
     month: 09
+  - title: "Vernetzt, entgrenzt, prekär? Arbeit im Wandel und in gesellschaftlicher Diskussion. Eine Einführung"
+    location: Zürich
+    countryCode: CH
+    conference: "Arbeitstagung der dgv-Kommission Arbeitskulturen"
+    year: 2018
+    month: 09
+    coauthor: Sarah May, Johannes Müske
   - title: "Wissen, Ort, Vergleich. Praktiken des Wissens als Komparativ und Verortung"
     location: Göttingen
     countryCode: DE
