@@ -46,6 +46,7 @@ xelatex cv.web.de.tex -interaction=batchmode
 # copy to _cv-data/pdf
 cp cv.web.de.pdf ../../_cv-data/pdf
 cp presentations.tex ../../_cv-data
+cp presentations.md ../../_cv-data
 # cp cv.web.en.pdf ../../_cv-data/pdf
 # copy to _cv-data/private/pdf
 cp cv.de.pdf ../../_cv-data/private/pdf
