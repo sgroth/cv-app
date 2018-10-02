@@ -93,13 +93,6 @@
 * <%= entry["course"] %><% if entry["level"] %> (<%= entry["level"] %>)<% end %>,<% if entry["semester"] %> <%= entry["semester"] %><% end %> <%= entry["year"] %>. <% if entry["department"] %><%= entry["department"] %>, <% end %><% if entry["institute"] %><%= entry["institute"] %>, <% end %><%= entry["university"] %>.  
 <% end #each %>
 
-## <%= $conferencecontributions %>
-<% by_year(conferencecontributions) do |year, entries| %>
-  
-### <%= year %><% entries.each do |entry| %>
-* <% if entry["annote"] %>Anstehend: <% end %><% if entry["coauthor"] %><%= $with %> <%= entry["coauthor"] %>, <% end %>"<%= entry["title"] %>". <% if entry["conference"] %><%= entry["conference"] %>, <% end %><% if entry["institution"] %><%= entry["institution"] %>, <% end %><%= entry["location"] %> (<%= entry["month"] %>/<%= entry["year"] %>).<% end %>
-<% end %>
-
 <% def wrap(text) %>
 <% text.gsub(/(.{1,74})(\s+|$)/, "\\1\n      ").strip %>
 <% end #def %>
