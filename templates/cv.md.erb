@@ -88,13 +88,6 @@
 * <%= entry %>  
 <% end #each %>
 
-## <%= $teachingexperience %>
-<% teachingexperience.each do |entry| %>
-* <%= entry["course"] %><% if entry["level"] %> (<%= entry["level"] %>)<% end %>,<% if entry["semester"] %> <%= entry["semester"] %><% end %> <%= entry["year"] %>. <% if entry["department"] %><%= entry["department"] %>, <% end %><% if entry["institute"] %><%= entry["institute"] %>, <% end %><%= entry["university"] %>.  
-<% end #each %>
-
 <% def wrap(text) %>
 <% text.gsub(/(.{1,74})(\s+|$)/, "\\1\n      ").strip %>
 <% end #def %>
-
-

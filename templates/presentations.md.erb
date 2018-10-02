@@ -1,5 +1,4 @@
 <% by_year(conferencecontributions) do |year, entries| %>
-  
 ## <%= year %><% entries.each do |entry| %>
 * <% if entry["annote"] %>Anstehend: <% end %><% if entry["coauthor"] %><%= $with %> <%= entry["coauthor"] %>, <% end %>"<%= entry["title"] %>". <% if entry["conference"] %><%= entry["conference"] %>, <% end %><% if entry["institution"] %><%= entry["institution"] %>, <% end %><%= entry["location"] %> (<%= entry["month"] %>/<%= entry["year"] %>).<% end %>
 <% end %>

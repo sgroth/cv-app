@@ -27,8 +27,8 @@ ruby generate.rb -t cv.tex.erb -w		# cv.web.de.tex
 ruby generate.rb -t cv.tex.erb			# cv.de.tex
 # ruby generate.rb -t cv.tex.erb -w -e	# cv.web.en.tex
 # ruby generate.rb -t cv.tex.erb -e		# cv.en.tex
-ruby generate.rb -t presentations.tex.erb		# presentations.de.tex
-ruby generate.rb -t presentations.md.erb		# 
+ruby generate.rb -t presentations.tex.erb	# presentations.de.tex
+ruby generate.rb -t presentations.md.erb		# presentations.de.md 
 # web.md version are copied to cv-data by generate.rb
 # switch to output directory
 cd output
