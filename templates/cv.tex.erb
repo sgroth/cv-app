@@ -24,11 +24,11 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy} %eigener Seitenstil
 \fancyhf{} %alle Kopf- und Fußzeilenfelder bereinigen
-\fancyhead[L]{\textcolor{gray}{\scriptsize Curriculum Vitae\- •\- Version: \href{https://github.com/sgroth/cv-data}{\gfiGetCommitAbr}, \gfiGetYear--\gfiGetMonth--\gfiGetDay\- •\- \href{http://github.com/sgroth/cv-data/}{http://github.com/sgroth/cv-data/}}} %Kopfzeile links
+\fancyhead[L]{\textcolor{gray}{\tiny\sffamily Curriculum Vitae\- •\- Version: \href{https://github.com/sgroth/cv-data}{\gfiGetCommitAbr}, \gfiGetYear--\gfiGetMonth--\gfiGetDay\- •\- \href{http://github.com/sgroth/cv-data/}{http://github.com/sgroth/cv-data/}}} %Kopfzeile links
 \renewcommand{\headrulewidth}{0pt} %obere Trennlinie
 \fancyfoot[C]{\thepage\- <%= $of %> \pageref*{LastPage}} %Seitennummer
 %--------------------
-\usepackage[usenames,dvipsnames]{xcolor} % Custom colors
+\usepackage[svgnames]{xcolor} % Custom colors
 %--------------------
 \usepackage{sectsty} % Allows changing the font options for sections in a document
 %\usepackage[normalem]{ulem} % Custom underlining
@@ -36,23 +36,25 @@
 %\defaultfontfeatures{Mapping=tex-text} % Converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
 %--------------------
 \usepackage{marginnote} % For margin years
-\newcommand{\years}[1]{\marginnote{\scriptsize #1}} % New command for including margin years
+\newcommand{\years}[1]{\marginnote{\tiny #1}} % New command for including margin years
 \renewcommand*{\raggedleftmarginnote}{}
 \setlength{\marginparsep}{7pt} % Slightly increase the distance of the margin years from the contant
 \reversemarginpar
+\renewcommand*{\marginfont}{\sffamily}
 %--------------------
 \usepackage[xetex, bookmarks, colorlinks, breaklinks, pdftitle={CV Stefan Groth},pdfauthor={Stefan Groth}]{hyperref} % PDF setup - set your name and the title of the document to be incorporated into the final PDF file meta-information
-\hypersetup{linkcolor=Blue,citecolor=Blue,filecolor=black,urlcolor=Blue} % Link colors
+\hypersetup{linkcolor=DimGray,citecolor=DimGray,filecolor=black,urlcolor=DimGray} % Link colors
 %--------------------
 \usepackage{titlesec} 
-\titlespacing*{\section}{0pt}{*5}{*1.2} 
+\titlespacing*{\section}{0pt}{*4}{*1.2} 
 %------------------------------------------------
-\sectionfont{\rmfamily\mdseries\large\uppercase} % Set font options for sections
-\subsectionfont{\rmfamily\mdseries\scshape\normalsize} % Set font options for subsections
-\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize} % Set font options for subsubsections
+\allsectionsfont{\color{MediumBlue}\normalfont\small\sffamily}
+%\sectionfont{\rmfamily\mdseries\large\uppercase} % Set font options for sections
+%\subsectionfont{\rmfamily\mdseries\scshape\normalsize} % Set font options for subsections
+%\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize} % Set font options for subsubsections
 %--------------------
 \usepackage[osf]{ebgaramond} % Garamond for rm
-\usepackage[osf]{sourcesanspro} % SourceSansPro for ss
+\usepackage[osf]{roboto} % SourceSansPro for ss
 \usepackage[scale=0.9]{sourcecodepro} % SourceCodePro for tt
 %--------------------
 % Version Control
@@ -60,7 +62,7 @@
 %------------------------------------------------
 \begin{document}
 %------------------------------------------------
-{\LARGE <%= person["name"]["honorificPrefix"] %> <%= person["name"]["givenName"] %> <%= person["name"]["familyName"] %>}\\[1cm] % Your name
+{\LARGE\sffamily <%= person["name"]["honorificPrefix"] %> <%= person["name"]["givenName"] %> <%= person["name"]["familyName"] %>}\\[1cm] % Your name
 <%= person["affiliation"]["institute"] %>\\
 <%= person["affiliation"]["department"] %>\\ 
 <%= person["affiliation"]["university"] %>\\
@@ -71,7 +73,9 @@
 <%= $website %>: \href{<%= person["url"] %>}{<%= person["url"] %>}\\\\
 %--------------------
 <% if person["birthDate"] %>
-\emph{<%= $privateAdress %>:}\\  
+\begin{scriptsize}
+\textsf{<%= $privateAdress %>:}\\[.1cm]
+\end{scriptsize}
 <%= person["locationPrivate"]["address"] %>\\  
 <%= person["locationPrivate"]["countryCode"] %>-<%= person["locationPrivate"]["postcode"] %> <%= person["locationPrivate"]["city"] %>\\\\
 <%= $birthDate %> <%= person["birthDate"] %> in <%= person["birthPlace"] %>.\\
@@ -89,6 +93,15 @@
 <% end %>
 <% end #each %>  % Your primary areas of research interest
 %------------------------------------------------
+\section*{<%= $researchprojects %>}
+<% researchprojects.each do |entry| %>
+<% if entry == researchprojects.last %>
+\years{<%= entry["years"] %>}<%= entry["title"] %>.
+<% else %>
+\years{<%= entry["years"] %>}<%= entry["title"] %>.\\
+<% end %>
+<% end #each %>
+%------------------------------------------------
 \section*{<%= $positionsheld %>}
 <% positionsheld.each do |entry| %>
 <% if entry == positionsheld.last %>
@@ -101,9 +114,9 @@
 \section*{<%= $education %>}
 <% education.each do |entry| %>
 <% if entry == education.last %>
-\years{<%= entry["years"] %>}<%= entry["degree"] %>, <% if entry["subject"] %><%= $subjects %>: <%= entry["subject"] %>, <% end %><%= entry["university"] %> (<%= entry["location"]["countryCode"] %>). <% if entry["thesis"] %><%= entry["thesisType"] %>: \enquote{<%= entry["thesis"] %>} (<%= entry["grade"] %>).<% end %><% if entry["advisor"] %> <%= $advisorName %>: <%= entry["advisor"] %>.<% end %>
+\years{<%= entry["years"] %>}<%= entry["degree"] %>, <% if entry["subject"] %><%= $subjects %>: <%= entry["subject"] %>, <% end %><%= entry["university"] %> (<%= entry["location"]["countryCode"] %>). <% if entry["thesis"] %><%= entry["thesisType"] %>: \enquote{<%= entry["thesis"] %>} (\emph{<%= entry["grade"] %>}).<% end %><% if entry["advisor"] %> <%= $advisorName %>: <%= entry["advisor"] %>.<% end %>
 <% else %>
-\years{<%= entry["years"] %>}<%= entry["degree"] %>, <% if entry["subject"] %><%= $subjects %>: <%= entry["subject"] %>, <% end %><%= entry["university"] %> (<%= entry["location"]["countryCode"] %>). <% if entry["thesis"] %><%= entry["thesisType"] %>: \enquote{<%= entry["thesis"] %>} (<%= entry["grade"] %>).<% end %><% if entry["advisor"] %> <%= $advisorName %>: <%= entry["advisor"] %>.<% end %>\\
+\years{<%= entry["years"] %>}<%= entry["degree"] %>, <% if entry["subject"] %><%= $subjects %>: <%= entry["subject"] %>, <% end %><%= entry["university"] %> (<%= entry["location"]["countryCode"] %>). <% if entry["thesis"] %><%= entry["thesisType"] %>: \enquote{<%= entry["thesis"] %>} (\emph{<%= entry["grade"] %>}).<% end %><% if entry["advisor"] %> <%= $advisorName %>: <%= entry["advisor"] %>.<% end %>\\
 <% end %>
 <% end #each %>
 %------------------------------------------------
@@ -122,7 +135,8 @@
 <% if entry == grantwriting.last %>
 <%= entry %>.\\
 \begin{flushright}
-<%= $grantwritingsum %>: <%= person["grantwritingsum"] %>
+<%= $grantwritingsumOwn %>:\hspace{.51cm}<%= person["grantwritingsumOwn"] %>\\
+<%= $grantwritingsumAll %>:\hspace{.4cm}<%= person["grantwritingsumAll"] %>
 \end{flushright}
 <% else %>
 <%= entry %>.\\[.2cm]
@@ -175,7 +189,7 @@
 %------------------------------------------------
 \section*{<%= $reviewerfor %>}
 <% reviewerfor.each do |entry| %>
-<%= entry %>
+<%= entry %>\\
 <% end #each %>
 %------------------------------------------------
 \section*{<%= $workshops %>}
@@ -203,7 +217,7 @@
 \vfill{} % Whitespace before final footer
 %--------------------
 \begin{center}
-{\scriptsize Version: \href{https://github.com/sgroth/cv-data}{\gfiGetCommitAbr}, \gfiGetYear--\gfiGetMonth--\gfiGetDay\- •\- \href{http://github.com/sgroth/cv-data/}{http://github.com/sgroth/cv-data/}} 
+{\tiny\sffamily Version: \href{https://github.com/sgroth/cv-data}{\gfiGetCommitAbr}, \gfiGetYear--\gfiGetMonth--\gfiGetDay\- •\- \href{http://github.com/sgroth/cv-data/}{http://github.com/sgroth/cv-data/}} 
 \end{center}
 %--------------------
 \end{document}
