@@ -67,12 +67,14 @@
 \begin{document}
 %------------------------------------------------
 \title{Curriculum Vitae}
-\author{<%= person["name"]["honorificPrefix"] %> <%= person["name"]["givenName"] %> <%= person["name"]["familyName"] %><% if person["birthDate"] %>\\\normalsize{<%= $birthDate %> <%= person["birthDate"] %> in <%= person["birthPlace"] %>}}<% else %>}<% end #if %>
+\author{<%= person["name"]["honorificPrefix"] %> <%= person["name"]["givenName"] %> <%= person["name"]["familyName"] %><% if person["birthDate"] %>\\\normalsize{<%= $birthDate %> <%= person["birthDate"] %> in <%= person["birthPlace"] %>}}<% else %>\\\normalsize\texttt{\href{<%= person["url"] %>}{<%= person["url"] %>}}}<% end #if %>
 
 \date{Version: \href{https://github.com/sgroth/bibliography}{\gfiGetCommitAbr}, \gfiGetYear--\gfiGetMonth--\gfiGetDay}
 \maketitle
 %--------------------
+<% if person["birthDate"] %>
 \begin{multicols}{2}
+<% end #if %>
 \begin{center}
 \begin{scriptsize}
 \textsf{Dienstanschrift}\\[.1cm]
@@ -82,8 +84,7 @@
 <%= person["location"]["countryCode"] %>-<%= person["location"]["postcode"] %> <%= person["location"]["city"] %>\\[.2cm]
 <%= $telephone %>: <%= person["telephone"] %>\\ % Your phone number
 <%= $email %>: \href{mailto:<%= person["email"] %>}{<%= person["email"] %>}\\
-\columnbreak
-<% if person["birthDate"] %>
+<% if person["birthDate"] %>\columnbreak
 \begin{scriptsize}
 \textsf{<%= $privateAdress %>}\\[.1cm]
 \end{scriptsize}
@@ -92,8 +93,11 @@
 <%= $telephone %>: <%= person["cellphone"] %>\\
 <%= $email %>: \href{mailto:<%= person["emailPrivate"] %>}{<%= person["emailPrivate"] %>}\\
 \href{<%= person["url"] %>}{<%= person["url"] %>}<% end #if %>
+
 \end{center}
+<% if person["birthDate"] %>
 \end{multicols}
+<% end #if %>
 \vspace{.7cm}
 %--------------------
 \section*{<%= $currentposition %>}
