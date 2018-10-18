@@ -71,7 +71,7 @@
 \title{Curriculum Vitae}
 \author{<%= person["name"]["honorificPrefix"] %> <%= person["name"]["givenName"] %> <%= person["name"]["familyName"] %><% if person["birthDate"] %>\\\normalsize{<%= $birthDate %> <%= person["birthDate"] %> in <%= person["birthPlace"] %>}}<% else %>\\\normalsize\texttt{\href{<%= person["url"] %>}{<%= person["url"] %>}}}<% end #if %>
 
-\date{Version: \href{https://github.com/sgroth/bibliography}{\gfiGetCommitAbr}, \gfiGetYear--\gfiGetMonth--\gfiGetDay}
+\date{Version: \href{https://github.com/sgroth/cv-data}{\gfiGetCommitAbr}, \gfiGetYear--\gfiGetMonth--\gfiGetDay}
 \maketitle
 %--------------------
 <% if person["birthDate"] %>
