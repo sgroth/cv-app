@@ -67,7 +67,7 @@
 \begin{document}
 %------------------------------------------------
 \title{Curriculum Vitae}
-\author{<%= person["name"]["honorificPrefix"] %> <%= person["name"]["givenName"] %> <%= person["name"]["familyName"] %>\<% if person["birthDate"] %>\\normalsize{<%= $birthDate %> <%= person["birthDate"] %> in <%= person["birthPlace"] %>}}<% else %>}<% end #if %>
+\author{<%= person["name"]["honorificPrefix"] %> <%= person["name"]["givenName"] %> <%= person["name"]["familyName"] %><% if person["birthDate"] %>\\\normalsize{<%= $birthDate %> <%= person["birthDate"] %> in <%= person["birthPlace"] %>}}<% else %>}<% end #if %>
 
 \date{Version: \href{https://github.com/sgroth/bibliography}{\gfiGetCommitAbr}, \gfiGetYear--\gfiGetMonth--\gfiGetDay}
 \maketitle
