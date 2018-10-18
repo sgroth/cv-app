@@ -1,8 +1,10 @@
-\documentclass[11pt, a4paper]{article} % Document font size and paper size
+\documentclass[]{article} % Document font size and paper size
 %--------------------
 \usepackage[ngerman]{babel}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
+%--------------------
+\usepackage{multicol}
 %--------------------
 %\usepackage{fontspec} % Allows the use of OpenType fonts
 \usepackage{microtype}
@@ -12,8 +14,8 @@
 \widowpenalty = 10000 
 \displaywidowpenalty = 10000
 %--------------------
-\usepackage{geometry} % Allows the configuration of document margins
-\geometry{a4paper, textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in} % Document margin settings
+%\usepackage{geometry} % Allows the configuration of document margins
+%\geometry{a4paper, textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in} % Document margin settings
 \setlength\parindent{0in} % Remove paragraph indentation
 %--------------------
 \usepackage{enumitem} 
@@ -24,9 +26,11 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy} %eigener Seitenstil
 \fancyhf{} %alle Kopf- und Fußzeilenfelder bereinigen
-\fancyhead[L]{\textcolor{gray}{\tiny\sffamily Curriculum Vitae\- •\- Version: \href{https://github.com/sgroth/cv-data}{\gfiGetCommitAbr}, \gfiGetYear--\gfiGetMonth--\gfiGetDay\- •\- \href{http://github.com/sgroth/cv-data/}{http://github.com/sgroth/cv-data/}}} %Kopfzeile links
+%\fancyhead[L]{\textcolor{gray}{\tiny\sffamily Curriculum Vitae\- •\- Version: \href{https://github.com/sgroth/cv-data}{\gfiGetCommitAbr}, \gfiGetYear--\gfiGetMonth--\gfiGetDay\- •\- \href{http://github.com/sgroth/cv-data/}{http://github.com/sgroth/cv-data/}}} %Kopfzeile links
 \renewcommand{\headrulewidth}{0pt} %obere Trennlinie
-\fancyfoot[C]{\thepage\- <%= $of %> \pageref*{LastPage}} %Seitennummer
+%\fancyfoot[C]{\thepage\- <%= $of %> \pageref*{LastPage}} %Seitennummer
+\rfoot{\thepage}
+\lfoot{\textcolor{gray}{{\footnotesize\texttt{Version \gfiGetCommitAbr, \gfiGetYear--\gfiGetMonth--\gfiGetDay, \href{https://github.com/sgroth/cv-data}{https://github.com/sgroth/cv-data}}}}} % adds version control information
 %--------------------
 \usepackage[svgnames]{xcolor} % Custom colors
 %--------------------
@@ -36,14 +40,14 @@
 %\defaultfontfeatures{Mapping=tex-text} % Converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
 %--------------------
 \usepackage{marginnote} % For margin years
-\newcommand{\years}[1]{\marginnote{\tiny #1}} % New command for including margin years
+\newcommand{\years}[1]{\marginnote{\scriptsize\textcolor{DimGrey}{ #1}}} % New command for including margin years
 \renewcommand*{\raggedleftmarginnote}{}
-\setlength{\marginparsep}{7pt} % Slightly increase the distance of the margin years from the contant
+\setlength{\marginparsep}{0pt} % Slightly increase the distance of the margin years from the contant
 \reversemarginpar
-\renewcommand*{\marginfont}{\sffamily}
+\renewcommand*{\marginfont}{\ttfamily}
 %--------------------
 \usepackage[xetex, bookmarks, colorlinks, breaklinks, pdftitle={CV Stefan Groth},pdfauthor={Stefan Groth}]{hyperref} % PDF setup - set your name and the title of the document to be incorporated into the final PDF file meta-information
-\hypersetup{linkcolor=DimGray,citecolor=DimGray,filecolor=black,urlcolor=DimGray} % Link colors
+\hypersetup{linkcolor=MediumBlue,citecolor=MediumBlue,filecolor=black,urlcolor=MediumBlue} % Link colors
 %--------------------
 \usepackage{titlesec} 
 \titlespacing*{\section}{0pt}{*4}{*1.2} 
@@ -55,31 +59,42 @@
 %--------------------
 \usepackage[osf]{ebgaramond} % Garamond for rm
 \usepackage[osf]{roboto} % SourceSansPro for ss
-\usepackage[scale=0.9]{sourcecodepro} % SourceCodePro for tt
+\usepackage[scaled=0.9]{beramono} % Bera Mono for tt
 %--------------------
 % Version Control
 \usepackage{gitfile-info}
 %------------------------------------------------
 \begin{document}
 %------------------------------------------------
-{\LARGE\sffamily <%= person["name"]["honorificPrefix"] %> <%= person["name"]["givenName"] %> <%= person["name"]["familyName"] %>}\\[1cm] % Your name
-<%= person["affiliation"]["institute"] %>\\
-<%= person["affiliation"]["department"] %>\\ 
+\title{Curriculum Vitae}
+\author{<%= person["name"]["honorificPrefix"] %> <%= person["name"]["givenName"] %> <%= person["name"]["familyName"] %>\<% if person["birthDate"] %>\\normalsize{<%= $birthDate %> <%= person["birthDate"] %> in <%= person["birthPlace"] %>}}<% else %>}<% end #if %>
+
+\date{Version: \href{https://github.com/sgroth/bibliography}{\gfiGetCommitAbr}, \gfiGetYear--\gfiGetMonth--\gfiGetDay}
+\maketitle
+%--------------------
+\begin{multicols}{2}
+\begin{center}
+\begin{scriptsize}
+\textsf{Dienstanschrift}\\[.1cm]
+\end{scriptsize}
 <%= person["affiliation"]["university"] %>\\
 <%= person["location"]["address"] %>\\  
-<%= person["location"]["countryCode"] %>-<%= person["location"]["postcode"] %> <%= person["location"]["city"] %>\\[.2cm]  
+<%= person["location"]["countryCode"] %>-<%= person["location"]["postcode"] %> <%= person["location"]["city"] %>\\[.2cm]
 <%= $telephone %>: <%= person["telephone"] %>\\ % Your phone number
 <%= $email %>: \href{mailto:<%= person["email"] %>}{<%= person["email"] %>}\\
-<%= $website %>: \href{<%= person["url"] %>}{<%= person["url"] %>}\\\\
-%--------------------
+\columnbreak
 <% if person["birthDate"] %>
 \begin{scriptsize}
-\textsf{<%= $privateAdress %>:}\\[.1cm]
+\textsf{<%= $privateAdress %>}\\[.1cm]
 \end{scriptsize}
-<%= person["locationPrivate"]["address"] %>\\  
-<%= person["locationPrivate"]["countryCode"] %>-<%= person["locationPrivate"]["postcode"] %> <%= person["locationPrivate"]["city"] %>\\\\
-<%= $birthDate %> <%= person["birthDate"] %> in <%= person["birthPlace"] %>.\\
-<% end #if %>
+<%= person["locationPrivate"]["address"] %>\\
+<%= person["locationPrivate"]["countryCode"] %>-<%= person["locationPrivate"]["postcode"] %> <%= person["locationPrivate"]["city"] %>\\[.2cm]
+<%= $telephone %>: <%= person["cellphone"] %>\\
+<%= $email %>: \href{mailto:<%= person["emailPrivate"] %>}{<%= person["emailPrivate"] %>}\\
+\href{<%= person["url"] %>}{<%= person["url"] %>}<% end #if %>
+\end{center}
+\end{multicols}
+\vspace{.7cm}
 %--------------------
 \section*{<%= $currentposition %>}
 \years{<%= currentposition["years"] %>}\emph{<%= person["jobTitle"] %>}, <%= currentposition["institute"] %>, <%= currentposition["department"] %>, <%= currentposition["university"] %> % Your current or previous employment position
@@ -133,10 +148,10 @@
 \section*{<%= $grantwriting %>}
 <% grantwriting.each do |entry| %>
 <% if entry == grantwriting.last %>
-<%= entry %>.\\
+<%= entry %>.
 \begin{flushright}
-<%= $grantwritingsumOwn %>:\hspace{.51cm}<%= person["grantwritingsumOwn"] %>\\
-<%= $grantwritingsumAll %>:\hspace{.4cm}<%= person["grantwritingsumAll"] %>
+\footnotesize\texttt{<%= $grantwritingsumOwn %>:\hspace{.545cm}<%= person["grantwritingsumOwn"] %>\\
+<%= $grantwritingsumAll %>:\hspace{.4cm}<%= person["grantwritingsumAll"] %>}
 \end{flushright}
 <% else %>
 <%= entry %>.\\[.2cm]
@@ -214,10 +229,10 @@
 <% text.gsub(/(.{1,74})(\s+|$)/, "\\1\n      ").strip %>
 <% end #def %>
 %--------------------
-\vfill{} % Whitespace before final footer
+%\vfill{} % Whitespace before final footer
 %--------------------
-\begin{center}
-{\tiny\sffamily Version: \href{https://github.com/sgroth/cv-data}{\gfiGetCommitAbr}, \gfiGetYear--\gfiGetMonth--\gfiGetDay\- •\- \href{http://github.com/sgroth/cv-data/}{http://github.com/sgroth/cv-data/}} 
-\end{center}
+%\begin{center}
+%{\tiny\sffamily Version: \href{https://github.com/sgroth/cv-data}{\gfiGetCommitAbr}, \gfiGetYear--\gfiGetMonth--\gfiGetDay\- •\- \href{http://github.com/sgroth/cv-data/}{http://github.com/sgroth/cv-data/}} 
+%\end{center}
 %--------------------
 \end{document}
