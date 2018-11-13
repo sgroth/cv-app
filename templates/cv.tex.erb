@@ -6,6 +6,8 @@
 %--------------------
 \usepackage{multicol}
 %--------------------
+\sloppy
+%--------------------
 %\usepackage{fontspec} % Allows the use of OpenType fonts
 \usepackage{microtype}
 \usepackage[autostyle=true,german=quotes]{csquotes}
@@ -103,7 +105,7 @@
 \vspace{.7cm}
 %--------------------
 \section*{<%= $currentposition %>}
-\years{<%= currentposition["years"] %>}\emph{<%= person["jobTitle"] %>}, <%= currentposition["institute"] %>, <%= currentposition["department"] %>, <%= currentposition["university"] %> % Your current or previous employment position
+\years{<%= currentposition["years"] %>}\emph{<%= person["jobTitle"] %>}, <%= currentposition["institute"] %>, <%= currentposition["department"] %>, <%= currentposition["university"] %>. % Your current or previous employment position
 %------------------------------------------------
 \section*{<%= $researchinterests %>}
 <% researchinterests.each do |entry| %>
