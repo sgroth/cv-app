@@ -71,7 +71,7 @@
 \begin{document}
 %------------------------------------------------
 \title{Curriculum Vitae}
-\author{<%= person["name"]["honorificPrefix"] %> <%= person["name"]["givenName"] %> <%= person["name"]["familyName"] %><% if person["birthDate"] %>\\\normalsize{<%= $birthDate %> <%= person["birthDate"] %> in <%= person["birthPlace"] %>}\normalsize{\\<%= person["kids"] %>}}<% else %>\\\normalsize\texttt{\href{<%= person["url"] %>}{<%= person["url"] %>}}}<% end #if %>
+\author{<%= person["name"]["honorificPrefix"] %> <%= person["name"]["givenName"] %> <%= person["name"]["familyName"] %><% if person["birthDate"] %>\\\normalsize{<%= $birthDate %> <%= person["birthDate"] %> in <%= person["birthPlace"] %>}}<% else %>\\\normalsize\texttt{\href{<%= person["url"] %>}{<%= person["url"] %>}}}<% end #if %>
 
 \date{Version: \href{https://github.com/sgroth/cv-data}{\gfiGetCommitAbr}, \gfiGetYear--\gfiGetMonth--\gfiGetDay}
 \maketitle
