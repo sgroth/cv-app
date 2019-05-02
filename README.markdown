@@ -28,7 +28,7 @@ resume. (Obviously, the resume content is mine.)
 
 ### Shell Script
 
-The shell script `generate.sh` generates `.tex`, `.md` and `.pdf` versions of my CV in German and English as well as separate web versions without private data. Public files are pushed to the `_cv-data`-repo. Further, `presentations.md` and a `presentations.tex` files are created for use in [lists of publication[(https://github.com/sgroth/bib).
+The shell script `generate.sh` generates `.tex`, `.md` and `.pdf` versions of my CV in German and English as well as separate web versions without private data. Public files are pushed to the `_cv-data`-repo. Further, `presentations.md` and a `presentations.tex` files are created for use in [lists of publication](https://github.com/sgroth/bibliography).
 
 ### To-Do
 
