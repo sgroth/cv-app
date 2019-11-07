@@ -32,16 +32,18 @@ currentposition:
 # About
 about:
   about-lead: |
-      Stefan Groth ist Kulturanthropologe und arbeitet an einem Projekt zu Mitte und Mittelmaß.
+      n/a
   about-body: |
-      Seine Forschungsschwerpunkte sind: normative Dimensionen von Alltagskultur, sprachanalytische Ansätze, politische Anthropologie, Kulturerbe und kulturwissenschaftliche Sportforschung. Er ist Oberassistent am Institut für Sozialanthropologie und Empirische Kulturwissenschaft (ISEK) der Universität Zürich und leitet das Labor Populäre Kulturen.
+      n/a
 
 # Current Projects
 researchprojects:
 #  - title: "Atmosphere and New Urban Intensity in Agglomeration Areas: A Multidimensional Analysis of Urban Transformation in Schlieren, zusammen mit Prof. Dr. Christian Schmid (ETH Zürich, Department Architektur) und Prof. Dr. Christoph Schenker (Zürcher Hochschule der Künste, ICAR Institute for Contemporary Art Research)"
 #    years: "seit 2018"
-  - title: "Normative Orientierungen am Mittelmaß. Habilitationsprojekt (Habilitation eingereicht im September 2019)"
-    years: "2016–2019"
+  - title: "Europe from Outside and from the Margins: The Production of Europe in Non-European Everyday Contexts and Practices"
+    years: "seit 2019"
+  - title: "Mittelmaß als Praxis und Konstellation Orientierungen am Mittelmaß aus empirisch-kulturwissenschaftlicher Perspektive (Habilitation eingereicht im November 2019)"
+    years: "seit 2016"
   - title: "Dimensionen des breitensportlichen Rennradfahrens: Empirisch-kulturwissenschaftliche Perspektiven auf Sport und Freizeit"
     years: "seit 2013"
   - title: "Qualitative Approaches to International Institutions (zusammen mit Katja Freistein, Alejandro Esguerra)"
@@ -51,15 +53,16 @@ researchprojects:
   - title: "The Ethics of / in Negotiating and Regulating Cultural Property (Leitung: Prof. Dr. Regina F. Bendix, DFG-Forschergruppe Cultural Property)"
     years: "2011--2014" 
   - title: "Communication Patterns and Decision-Making about Cultural Property in the International Forum of the World Intellectual Property Organization (Disserationsprojekt, Leitung: Prof. Dr. Regina F. Bendix, DFG-Forschergruppe Cultural Property)"
-    years: "2008--2011"  
+    years: "2008--2011"
 
 # Research Interest
 researchinterests: 
-  - "Normative Dimensionen der Alltagskultur"
-  - "Methoden der Empirischen Kulturwissenschaft"
-  - "Kulturwissenschaftliche Sportforschung"
+  - "Kommunikationsethnografie und linguistische Anthropologie"
+  - "Europäisierungsforschung"
   - "Politische Anthropologie und Organisationsethnographie"
-  - "Sprachanalytische Ansätze"
+  - "Methoden der Empirischen Kulturwissenschaft"
+  - "Normative Dimensionen der Alltagskultur"
+  - "Kulturwissenschaftliche Sportforschung"
   - "Kulturerbe und kulturelles Eigentum"
 
 # Education
