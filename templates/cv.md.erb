@@ -27,6 +27,17 @@
 * **<%= currentposition["dates"] %>**  
 <%= person["jobTitle"] %>, <%= currentposition["institute"] %>, <%= currentposition["department"] %>, <%= currentposition["university"] %>.
 
+## <%= $researchinterests %>
+<% researchinterests.each do |entry| %>
+* <%= entry %>  
+<% end %>
+
+## <%= $researchprojects %>
+<% researchprojects.each do |entry| %>
+* **<%= entry["years"] %>**  
+<%= entry["title"] %>
+<% end #each %>
+
 ## <%= $positionsheld %>
 <% positionsheld.each do |entry| %>
 * **<%= entry["dates"] %>**  
@@ -56,11 +67,6 @@
 <% grantwriting.each do |entry| %>
 * <%= entry %>
 <% end %>
-<% end %>
-
-## <%= $researchinterests %>
-<% researchinterests.each do |entry| %>
-* <%= entry %>  
 <% end %>
 
 ## <%= $committees %> 
