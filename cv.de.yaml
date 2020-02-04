@@ -40,10 +40,12 @@ about:
 researchprojects:
 #  - title: "Atmosphere and New Urban Intensity in Agglomeration Areas: A Multidimensional Analysis of Urban Transformation in Schlieren, zusammen mit Prof. Dr. Christian Schmid (ETH Zürich, Department Architektur) und Prof. Dr. Christoph Schenker (Zürcher Hochschule der Künste, ICAR Institute for Contemporary Art Research)"
 #    years: "seit 2018"
-  - title: "Europe from Outside and from the Margins: The Production of Europe in Non-European Everyday Contexts and Practices"
+  - title: "Political Narratives"
     years: "seit 2019"
-  - title: "Mittelmaß als Praxis und Konstellation Orientierungen am Mittelmaß aus empirisch-kulturwissenschaftlicher Perspektive (Habilitation eingereicht im November 2019)"
-    years: "seit 2016"
+  - title: "Europe from Outside and from the Margins: The Production of Europe in Non-European Everyday Contexts and Practices"
+    years: "seit 2020"
+  - title: "Mittelmaß als Praxis und Konstellation Orientierungen am Mittelmaß aus empirisch-kulturwissenschaftlicher Perspektive (Habilitationsschrift, eingereicht an der Philosophischen Fakultät der Universität Zürich im November 2019)"
+    years: "2016--2020"
   - title: "Dimensionen des breitensportlichen Rennradfahrens: Empirisch-kulturwissenschaftliche Perspektiven auf Sport und Freizeit"
     years: "seit 2013"
   - title: "Qualitative Approaches to International Institutions (zusammen mit Katja Freistein, Alejandro Esguerra)"
@@ -57,9 +59,9 @@ researchprojects:
 
 # Research Interest
 researchinterests: 
-  - "Kommunikationsethnografie und linguistische Anthropologie"
-  - "Europäisierungsforschung"
-  - "Politische Anthropologie und Organisationsethnographie"
+  - "Politische Anthropologie und Europäisierungsforschung"
+  - "Narratologie, linguistische Anthropologie und Kommunikationsethnografie"
+  - "Organisationsforschung"
   - "Methoden der Empirischen Kulturwissenschaft"
   - "Normative Dimensionen der Alltagskultur"
   - "Kulturwissenschaftliche Sportforschung"
@@ -67,6 +69,15 @@ researchinterests:
 
 # Education
 education:
+#  - university: Universität Zürich
+#    location: 
+#      city: Zürich
+#      countryCode: CH
+#    degree: "Venia Legendi in Empirische Kulturwissenschaft"
+#    thesis: "Mittelmaß als Praxis und Konstellation. Orientierungen am Mittelmaß aus empirisch-kulturwissenschaftlicher Perspektive"
+#    thesisType: "Habilitation"
+#    dates: 05/2020
+#    years: 05/2020
   - university: Georg-August-Universität Göttingen
     location: 
       city: Göttingen
@@ -229,6 +240,34 @@ reviewerfor:
 
 # Conference Contributions and Invited Talks
 conferencecontributions:
+#  - title: "Alltag als Konstante der Erfahrung?"
+#    year: 2020
+#    month: 11
+#    conference: "Workshop: Erfahrung: Konzeptionen und Standortbestimmungen eines Schlüsselbegriffs der Europäischen Ethnologie"
+#    location: Kiel
+#    countryCode: DE
+#    annote: anstehend
+#  - title: "Of 'Truthiness' and 'Stickiness.' Narratological Approaches to Plausibility and Communicabilty in Digital Truth-Making"
+#    year: 2020
+#    month: 10
+#    conference: "Tagung Digital Truth-Making (dgv-Kommission Digitization in Everyday Life)"
+#    location: Berlin
+#    countryCode: DE
+#    annote: anstehend
+#  - title: "Kontext und Kontingenz politischer Narrative"
+#    year: 2020
+#    month: 09
+#    conference: "Tagung Politisches Erzählen. Narrative, Genres, Strategien (dgv-Kommission Erzählforschung)"
+#    location: Freiburg
+#    countryCode: DE
+#    annote: anstehend
+  - title: "Contesting 'Truthiness' and 'Stickiness': Narratological Approaches to Fact Checking, Counter-Narratives and Political Activism in Germany"
+    year: 2020
+    month: 07
+    conference: "EASA-Kongress, Panel 'Resisting Populism: Memes, Extreme Speech, and the Aesthetics of Affect and Defiance'" 
+    location: Lissabon
+    countryCode: PT
+    annote: anstehend
   - title: "Durchschnitt als Trend: Orientierungen am Mittelmaß im Wohnen"
     year: 2019
     month: 04
@@ -530,7 +569,7 @@ conferencecontributions:
     institution: Hamburger Gesellschaft für Volkskunde (HGV)
     location: Hamburg
     countryCode: DE
-  - title: "Stalling [&] Speeding: Ways of Speaking at WIPO’s Intergovernmental Committee on Cultural Property"
+  - title: "Stalling and Speeding: Ways of Speaking at WIPO’s Intergovernmental Committee on Cultural Property"
     year: 2008
     month: 08
     conference: Konferenz der European Association of Social Anthropologists (EASA)
