@@ -34,8 +34,7 @@
 
 ## <%= $researchprojects %>
 <% researchprojects.each do |entry| %>
-* **<%= entry["years"] %>**  
-<%= entry["title"] %>  
+* **<%= entry["years"] %>** <%= entry["title"] %>  
 <% end #each %>
 
 ## <%= $positionsheld %>
