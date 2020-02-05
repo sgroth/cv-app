@@ -2,7 +2,7 @@
 
 # Curriculum Vitae
 <%= person["name"]["honorificPrefix"] %> <%= person["name"]["givenName"] %> <%= person["name"]["familyName"] %>  
-<%= person["jobTitle"] %> (<%= currentposition["dates"] %>)  
+<%= person["jobTitle"] %>  
 <%= person["affiliation"]["institute"] %>  
 <%= person["affiliation"]["department"] %>  
 <%= person["affiliation"]["university"] %>  
@@ -23,10 +23,6 @@
 <%= $birthDate %>: <%= person["birthDate"] %> in <%= person["birthPlace"] %>  
 <% end #if %>
 
-## <%= $currentposition %>
-* **<%= currentposition["dates"] %>**  
-<%= person["jobTitle"] %>, <%= currentposition["institute"] %>, <%= currentposition["department"] %>, <%= currentposition["university"] %>.
-
 ## <%= $researchinterests %>
 <% researchinterests.each do |entry| %>
 * <%= entry %>  
@@ -38,6 +34,8 @@
 <% end #each %>
 
 ## <%= $positionsheld %>
+* **<%= currentposition["dates"] %>**  
+<%= person["jobTitle"] %>, <%= currentposition["institute"] %>, <%= currentposition["department"] %>, <%= currentposition["university"] %>.
 <% positionsheld.each do |entry| %>
 * **<%= entry["dates"] %>**  
 <%= entry["jobTitle"] %>, <% if entry["department"] %><%= entry["department"] %>, <% end %><%= entry["institute"] %>, <%= entry["university"] %>. <% if entry["project"] %><%= $project %>: <%= entry["project"] %>.<% end %>  
