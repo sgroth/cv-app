@@ -44,7 +44,7 @@
 ## <%= $education %>
 <% education.each do |entry| %>
 * **<%= entry["dates"] %>**  
-<%= entry["degree"] %>, <% if entry["subject"] %><%= $subjects %>: <%= entry["subject"] %>, <% end %><%= entry["university"] %> (<%= entry["location"]["countryCode"] %>). <% if entry["thesis"] %><%= entry["thesisType"] %>: "<%= entry["thesis"] %>"<% if entry["grade"] %> (\emph{<%= entry["grade"] %>})<% end %>.<% end %><% if entry["advisor"] %> <%= $advisorName %>: <%= entry["advisor"] %>.<% end %>  
+<%= entry["degree"] %>, <% if entry["subject"] %><%= $subjects %>: <%= entry["subject"] %>, <% end %><%= entry["university"] %> (<%= entry["location"]["countryCode"] %>). <% if entry["thesis"] %><%= entry["thesisType"] %>: "<%= entry["thesis"] %>"<% if entry["grade"] %> (*<%= entry["grade"] %>*)<% end %>.<% end %><% if entry["advisor"] %> <%= $advisorName %>: <%= entry["advisor"] %>.<% end %>  
 <% end #each %>
 
 ## <%= $staysabroad %>
