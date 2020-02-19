@@ -225,7 +225,7 @@ memberships:
   - title: "Mitverantwortlicher für das Forschungsnetzwerk Cultural Citizenship. Kooperationsprojekt zwischen dem ISEK – Populäre Kulturen (Universität Zürich), dem Departement Kulturanalysen und Vermittlung (Zürcher Hochschule der Künste) und dem Departement Angewandte Linguistik (Zürcher Hochschule für Angewandte Wissenschaften)."
     dates: "seit 2018"
   - title: "DFG-Netzwerk „Wettbewerb und Konkurrenz“"
-    dates: "seit 2014"
+    dates: "2014-2018"
     url: http://konkurrenz.uni-freiburg.de
   - title: Deutsche Gesellschaft für Volkskunde (DGV)
   - title: Schweizerische Gesellschaft für Volkskunde (SGV), Sektion Zürich
@@ -240,21 +240,7 @@ reviewerfor:
 
 # Conference Contributions and Invited Talks
 conferencecontributions:
-#  - title: "Alltag als Konstante der Erfahrung?"
-#    year: 2020
-#    month: 11
-#    conference: "Workshop: Erfahrung: Konzeptionen und Standortbestimmungen eines Schlüsselbegriffs der Europäischen Ethnologie"
-#    location: Kiel
-#    countryCode: DE
-#    annote: anstehend
-#  - title: "Of 'Truthiness' and 'Stickiness.' Narratological Approaches to Plausibility and Communicabilty in Digital Truth-Making"
-#    year: 2020
-#    month: 10
-#    conference: "Tagung Digital Truth-Making (dgv-Kommission Digitization in Everyday Life)"
-#    location: Berlin
-#    countryCode: DE
-#    annote: anstehend
-#  - title: "Eröffnungsvortrag: Kontext und Kontingenz politischer Narrative"
+#  - title: "Kontext und politisches Erzählen"
 #    year: 2020
 #    month: 09
 #    conference: "Tagung Politisches Erzählen. Narrative, Genres, Strategien (dgv-Kommission Erzählforschung)"
@@ -268,6 +254,21 @@ conferencecontributions:
     location: Lissabon
     countryCode: PT
     annote: anstehend
+
+  - title: "Of 'Truthiness' and 'Stickiness.' Narratological Approaches to Plausibility and Communicabilty in Digital Truth-Making"
+    year: 2020
+    month: 10
+    conference: "Tagung Digital Truth-Making (dgv-Kommission Digitization in Everyday Life)"
+    location: Berlin
+    countryCode: DE
+    annote: anstehend
+#  - title: "Alltag als Konstante der Erfahrung?"
+#    year: 2020
+#    month: 11
+#    conference: "Workshop: Erfahrung: Konzeptionen und Standortbestimmungen eines Schlüsselbegriffs der Europäischen Ethnologie"
+#    location: Kiel
+#    countryCode: DE
+#    annote: anstehend
   - title: "Durchschnitt als Trend: Orientierungen am Mittelmaß im Wohnen"
     year: 2019
     month: 04
