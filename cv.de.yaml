@@ -234,19 +234,11 @@ memberships:
   - title: Rheinische Vereinigung für Volkskunde (RVV) 
 
 reviewerfor:
-  - International Journal of Heritage Studies
-  - Narrative Culture
+  - "Reviewer für Journals: International Journal of Heritage Studies (IJHS), Narrative Culture, Global Cooperation Research Papers"
   - Qualifikationsarbeiten auf Bachelor- und Masterniveau
 
 # Conference Contributions and Invited Talks
 conferencecontributions:
-#  - title: "Kontext und politisches Erzählen"
-#    year: 2020
-#    month: 09
-#    conference: "Tagung Politisches Erzählen. Narrative, Genres, Strategien (dgv-Kommission Erzählforschung)"
-#    location: Freiburg
-#    countryCode: DE
-#    annote: anstehend
   - title: "Contesting 'Truthiness' and 'Stickiness': Narratological Approaches to Fact Checking, Counter-Narratives and Political Activism in Germany"
     year: 2020
     month: 07
@@ -254,7 +246,20 @@ conferencecontributions:
     location: Lissabon
     countryCode: PT
     annote: anstehend
-
+#  - title: "Keynote: Kontext und politisches Erzählen"
+#    year: 2020
+#    month: 09
+#    conference: "Tagung Politisches Erzählen. Narrative, Genres, #Strategien (dgv-Kommission Erzählforschung)"
+#    location: Freiburg
+#    countryCode: DE
+#    annote: anstehend
+  - title: "Selbstoptimierung als relationale Subjektivierung"
+    year: 2020
+    month: 09
+    conference: "Tagung Optimierung des Selbst (Graduiertenkolleg Ethnographien des Selbst in der Gegenwart)"
+    location: Mainz
+    countryCode: DE
+    annote: anstehend
   - title: "Of 'Truthiness' and 'Stickiness.' Narratological Approaches to Plausibility and Communicabilty in Digital Truth-Making"
     year: 2020
     month: 10
@@ -265,7 +270,7 @@ conferencecontributions:
 #  - title: "Alltag als Konstante der Erfahrung?"
 #    year: 2020
 #    month: 11
-#    conference: "Workshop: Erfahrung: Konzeptionen und Standortbestimmungen eines Schlüsselbegriffs der Europäischen Ethnologie"
+#    conference: "Workshop: Erfahrung: Konzeptionen und #Standortbestimmungen eines Schlüsselbegriffs der Europäischen #Ethnologie"
 #    location: Kiel
 #    countryCode: DE
 #    annote: anstehend
