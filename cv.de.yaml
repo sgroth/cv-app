@@ -267,13 +267,13 @@ conferencecontributions:
     location: Berlin
     countryCode: DE
     annote: anstehend
-#  - title: "Alltag als Konstante der Erfahrung?"
-#    year: 2020
-#    month: 11
-#    conference: "Workshop: Erfahrung: Konzeptionen und #Standortbestimmungen eines Schlüsselbegriffs der Europäischen #Ethnologie"
-#    location: Kiel
-#    countryCode: DE
-#    annote: anstehend
+  - title: "Alltag als Konstante der Erfahrung?"
+    year: 2020
+    month: 11
+    conference: "Workshop: Erfahrung: Konzeptionen und Standortbestimmungen eines Schlüsselbegriffs der Europäischen Ethnologie"
+    location: Kiel
+    countryCode: DE
+    annote: anstehend
   - title: "Durchschnitt als Trend: Orientierungen am Mittelmaß im Wohnen"
     year: 2019
     month: 04
