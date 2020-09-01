@@ -40,7 +40,7 @@ about:
 researchprojects:
   - title: "Europe from Outside and from the Margins: The Production of Europe in Non-European Everyday Contexts and Practices"
     years: "seit 2020"
-  - title: "Political Narratives"
+  - title: "Populäre Narrative des Politischen"
     years: "seit 2019"
   - title: "Mittelmaß als Praxis und Konstellation Orientierungen am Mittelmaß aus empirisch-kulturwissenschaftlicher Perspektive (Habilitationsschrift, eingereicht an der Philosophischen Fakultät der Universität Zürich im November 2019)"
     years: "2016--2020"
@@ -228,20 +228,34 @@ reviewerfor:
 
 # Conference Contributions and Invited Talks
 conferencecontributions:
-  - title: "Of 'Truthiness' and 'Stickiness.' Narratological Approaches to Plausibility and Communicabilty in Digital Truth-Making"
+  - title: "Kontext und politisches Erzählen"
     year: 2020
-    month: 10
-    conference: "Tagung Digital Truth-Making (dgv-Kommission Digitization in Everyday Life)"
-    location: Berlin
+    month: 09
+    conference: "Tagung Politisches Erzählen. Narrative, Genres, Strategien (dgv-Kommission Erzählforschung)"
+    location: Freiburg
     countryCode: DE
-    annote: anstehend
+    annote: "Verschoben auf 2021:"
+  - title: "Selbstoptimierung als relationale Subjektivierung"
+    year: 2020
+    month: 09
+    conference: "Tagung Optimierung des Selbst (Graduiertenkolleg Ethnographien des Selbst in der Gegenwart)"
+    location: Mainz
+    countryCode: DE
+    annote: "Verschoben auf 2021:"
   - title: "Alltag als Konstante der Erfahrung?"
     year: 2020
     month: 11
     conference: "Workshop: Erfahrung: Konzeptionen und Standortbestimmungen eines Schlüsselbegriffs der Europäischen Ethnologie"
     location: Kiel
     countryCode: DE
-    annote: anstehend
+    annote: Anstehend
+  - title: "Of 'Truthiness' and 'Stickiness.' Narratological Approaches to Plausibility and Communicabilty in Digital Truth-Making"
+    year: 2020
+    month: 10
+    conference: "Tagung Digital Truth-Making (dgv-Kommission Digitization in Everyday Life)"
+    location: Berlin
+    countryCode: DE
+    annote: Anstehend
   - title: "Durchschnitt als Trend: Orientierungen am Mittelmaß im Wohnen"
     year: 2019
     month: 04
