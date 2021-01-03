@@ -57,15 +57,24 @@ researchprojects:
 
 # Research Interest
 researchinterests: 
+  - "Kulturerbe und kulturelles Eigentum"
   - "Politische Anthropologie und Europäisierungsforschung"
   - "Narratologie, linguistische Anthropologie und Kommunikationsethnografie"
   - "Organisationsforschung"
   - "Methoden der Empirischen Kulturwissenschaft"
   - "Kulturwissenschaftliche Sportforschung"
-  - "Kulturerbe und kulturelles Eigentum"
 
 # Education
 education:
+  - university: Universität Zürich
+    location: 
+      city: Zürich
+      countryCode: CH
+    degree: "Abschluss des Habilitationsverfahrens zur Erlangung der Venia Legendi in Empirische Kulturwissenschaft"
+    thesis: "Mittelmaß als Praxis und Konstellation. Orientierungen am Mittelmaß aus empirisch-kulturwissenschaftlicher Perspektive"
+    thesisType: "Habilitation"
+    dates: 12/2020
+    years: 12/2020
   - university: Georg-August-Universität Göttingen
     location: 
       city: Göttingen
@@ -231,6 +240,27 @@ reviewerfor:
 
 # Conference Contributions and Invited Talks
 conferencecontributions:
+  - title: "Selbstoptimierung als relationale Subjektivierung"
+    year: 2021
+    month: 03
+    conference: "Tagung Optimierung des Selbst (Graduiertenkolleg Ethnographien des Selbst in der Gegenwart)"
+    location: Mainz
+    countryCode: DE
+    annote: "Anstehend"
+  - title: "Entangled Pasts, Dissonant Heritages: Heritage as Strategic Resource in EU External Relations"
+    year: 2021
+    month: 06
+    location: Helsinki
+    countryCode: FI
+    conference: "SIEF-Kongress"
+    annote: "Anstehend"
+  - title: "Zeitlichkeit und Aussensicht – Zeitebenen der Konstruktion Europas durch außereuropäische Akteure"
+    year: 2021
+    month: 09
+    conference: dgv-Kongress
+    location: Regensburg
+    countryCode: DE
+    annote: "Anstehend"
   - title: "Populäre Narrative des Politischen: Europaskeptizismus aus Sicht der Empirischen Kulturwissenschaft"
     year: 2020
     month: 12
