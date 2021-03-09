@@ -3,7 +3,7 @@ person:
   name:
     givenName: Stefan
     familyName: Groth
-    honorificPrefix: PD Dr. phil.
+    honorificPrefix: "PD Dr. phil."
   email: stefan.groth@uzh.ch
   telephone: +41 44 634 92 96
   url: https://www.stefangroth.com
@@ -25,16 +25,9 @@ currentposition:
   institute: ISEK – Institut für Sozialanthropologie und Empirische Kulturwissenschaft
   department: Populäre Kulturen
   url: https://www.isek.uzh.ch
-  dates: seit 09/2016
+  dates: "seit 09/2016"
   years: "seit 09/2016"
-  jobTitle: Oberassistent / Leiter Labor Populäre Kulturen
-
-# About
-about:
-  about-lead: |
-      n/a
-  about-body: |
-      n/a
+  jobTitle: "Oberassistent / Leiter Labor Populäre Kulturen"
 
 # Current Projects
 researchprojects:
@@ -170,15 +163,6 @@ qualifications:
       - Einsatz von E-Learning-Tools in der Lehre (11/2013)
       - Kollegiales Praxisgespräch (11/2013)
       - Beratung von Studierenden (01/2014)
-
-# Languages
-languages:
-  - title: Deutsch
-    level: Muttersprachler
-  - title: Englisch
-    level: C2
-  - title: Französisch
-    level: B2
 
 # Organizational Activities
 organizationalactivities:
