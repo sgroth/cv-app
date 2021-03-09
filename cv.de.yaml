@@ -5,7 +5,7 @@ person:
     familyName: Groth
     honorificPrefix: "PD Dr. phil."
   email: stefan.groth@uzh.ch
-  telephone: +41 44 634 92 96
+  telephone: "+41 44 634 92 96"
   url: https://www.stefangroth.com
   jobTitle: Privatdozent / Leitung Labor Populäre Kulturen
   affiliation:
@@ -22,7 +22,7 @@ person:
 # Current Position
 currentposition:
   university: Universität Zürich
-  institute: ISEK – Institut für Sozialanthropologie und Empirische Kulturwissenschaft
+  institute: "ISEK – Institut für Sozialanthropologie und Empirische Kulturwissenschaft"
   department: Populäre Kulturen
   url: https://www.isek.uzh.ch
   dates: "seit 09/2016"
@@ -31,8 +31,8 @@ currentposition:
 
 # Current Projects
 researchprojects:
-    years: "seit 2021"
-  - title: "Europe from Outside and from the Margins: The Production of Europe in Non-European Everyday Contexts and Practices"
+  - years: "seit 2021"
+    title: "Europe from Outside and from the Margins: The Production of Europe in Non-European Everyday Contexts and Practices"
     years: "seit 2020"
   - title: "Populäre Narrative des Politischen"
     years: "seit 2019"
@@ -575,7 +575,7 @@ conferencecontributions:
     year: 2009
     month: 07
     institution: Tartu University
-    conference: "International Summer University “Local Knowledge and Open Borders: Creativity and Heritage”"
+    conference: "International Summer University Local Knowledge and Open Borders: Creativity and Heritage"
     location: Tartu
     countryCode: EE
   - title: "Tradition und Folklore in der Weltorganisation für Geistiges Eigentum (WIPO) – Eine kommunikationsethnographische Perspektive"
@@ -588,6 +588,6 @@ conferencecontributions:
     year: 2008
     month: 08
     conference: Konferenz der European Association of Social Anthropologists (EASA)
-    location: Ljubljana  
+    location: Ljubljana
     coauthor: Regina F. Bendix
     countryCode: SI
