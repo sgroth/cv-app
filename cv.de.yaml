@@ -3,11 +3,11 @@ person:
   name:
     givenName: Stefan
     familyName: Groth
-    honorificPrefix: Dr. phil.
+    honorificPrefix: PD Dr. phil.
   email: stefan.groth@uzh.ch
   telephone: +41 44 634 92 96
   url: https://www.stefangroth.com
-  jobTitle: Oberassistent / Leitung Labor Populäre Kulturen
+  jobTitle: Privatdozent / Leitung Labor Populäre Kulturen
   affiliation:
     university: Universität Zürich
     institute: ISEK – Institut für Sozialanthropologie und Empirische Kulturwissenschaft
@@ -38,11 +38,12 @@ about:
 
 # Current Projects
 researchprojects:
+    years: "seit 2021"
   - title: "Europe from Outside and from the Margins: The Production of Europe in Non-European Everyday Contexts and Practices"
     years: "seit 2020"
   - title: "Populäre Narrative des Politischen"
     years: "seit 2019"
-  - title: "Mittelmaß als Praxis und Konstellation Orientierungen am Mittelmaß aus empirisch-kulturwissenschaftlicher Perspektive (Habilitationsschrift, eingereicht an der Philosophischen Fakultät der Universität Zürich im November 2019)"
+  - title: "Mittelmaß als Praxis und Konstellation Orientierungen am Mittelmaß aus empirisch-kulturwissenschaftlicher Perspektive (Habilitationsprojekt)"
     years: "2016--2020"
   - title: "Dimensionen des breitensportlichen Rennradfahrens: Empirisch-kulturwissenschaftliche Perspektiven auf Sport und Freizeit"
     years: "seit 2013"
@@ -70,11 +71,11 @@ education:
     location: 
       city: Zürich
       countryCode: CH
-    degree: "Abschluss des Habilitationsverfahrens zur Erlangung der Venia Legendi in Empirische Kulturwissenschaft"
-    thesis: "Mittelmaß als Praxis und Konstellation. Orientierungen am Mittelmaß aus empirisch-kulturwissenschaftlicher Perspektive"
+    degree: "Venia Legendi in Empirische Kulturwissenschaft"
+    thesis: "Mittelmaß als Praxis und Konstellation. Orientierungen am Mittelmaß aus empirisch-kulturwissenschaftlicher Perspektive (eingereicht 11/2019)"
     thesisType: "Habilitation"
-    dates: 12/2020
-    years: 12/2020
+    dates: 03/2021
+    years: 03/2021
   - university: Georg-August-Universität Göttingen
     location: 
       city: Göttingen
@@ -235,7 +236,7 @@ memberships:
     url: http://konkurrenz.uni-freiburg.de
 
 reviewerfor:
-  - "Reviewer für Journals: International Journal of Heritage Studies (IJHS), Anthropological Journal of European Cultures (AJEC), Narrative Culture, Jahrbuch für Europäische Ethnologie, Global Cooperation Research Papers"
+  - "Reviewer für Journals: International Journal of Heritage Studies (IJHS), Anthropological Journal of European Cultures (AJEC), Narrative Culture, Zeitschrift für Volkskunde, Jahrbuch für Europäische Ethnologie, Global Cooperation Research Papers"
   - Qualifikationsarbeiten auf Bachelor- und Masterniveau
 
 # Conference Contributions and Invited Talks
@@ -246,7 +247,6 @@ conferencecontributions:
     conference: "Tagung Optimierung des Selbst (Graduiertenkolleg Ethnographien des Selbst in der Gegenwart)"
     location: Mainz
     countryCode: DE
-    annote: "Anstehend"
   - title: "Entangled Pasts, Dissonant Heritages: Heritage as Strategic Resource in EU External Relations"
     year: 2021
     month: 06
@@ -254,6 +254,12 @@ conferencecontributions:
     countryCode: FI
     conference: "SIEF-Kongress"
     annote: "Anstehend"
+  - title: "Kontext und politisches Erzählen (Keynote)"
+    year: 2021
+    month: 08
+    conference: "Tagung Politisches Erzählen. Narrative, Genres, Strategien (dgv-Kommission Erzählforschung)"
+    location: Freiburg
+    countryCode: DE
   - title: "Zeitlichkeit und Aussensicht – Zeitebenen der Konstruktion Europas durch außereuropäische Akteure"
     year: 2021
     month: 09

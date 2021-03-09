@@ -35,7 +35,7 @@
 
 ## <%= $positionsheld %>
 * **<%= currentposition["dates"] %>**  
-<%= person["jobTitle"] %>, <%= currentposition["institute"] %>, <%= currentposition["department"] %>, <%= currentposition["university"] %>.
+<%= currentposition["jobTitle"] %>, <%= currentposition["institute"] %>, <%= currentposition["department"] %>, <%= currentposition["university"] %>.
 <% positionsheld.each do |entry| %>
 * **<%= entry["dates"] %>**  
 <%= entry["jobTitle"] %>, <% if entry["department"] %><%= entry["department"] %>, <% end %><%= entry["institute"] %>, <%= entry["university"] %>. <% if entry["project"] %><%= $project %>: <%= entry["project"] %>.<% end %>  
