@@ -56,9 +56,9 @@ cp cv.de.md ../../_cv-data/private
 # cp cv.en.md ../../_cv-data/private
 # commit to git: cv-data
 cd ../../_cv-data
-#git add *
-#git commit -m "updated to newest versions"
-#git push origin master
+git add *
+git commit -m "updated to newest versions"
+git push origin master
 # clean-up output directory
-#cd ../_cv-app
-#rm -rf output
+cd ../_cv-app
+rm -rf output
