@@ -15,9 +15,9 @@ mkdir output
 chmod 777 output
 # move gfi files to output
 mv cv.web.de.gfi output/cv.web.de.gfi
-mv cv.web.en.gfi output/cv.web.en.gfi
+# mv cv.web.en.gfi output/cv.web.en.gfi
 mv cv.de.gfi output/cv.de.gfi
-mv cv.en.gfi output/cv.en.gfi
+# mv cv.en.gfi output/cv.en.gfi
 # create files
 ruby generate.rb -w 					# cv.web.de.md
 ruby generate.rb						# cv.de.md
@@ -56,9 +56,9 @@ cp cv.de.md ../../_cv-data/private
 # cp cv.en.md ../../_cv-data/private
 # commit to git: cv-data
 cd ../../_cv-data
-git add *
-git commit -m "updated to newest versions"
-git push origin master
+#git add *
+#git commit -m "updated to newest versions"
+#git push origin master
 # clean-up output directory
-cd ../_cv-app
-rm -rf output
+#cd ../_cv-app
+#rm -rf output
