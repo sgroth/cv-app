@@ -29,18 +29,13 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy} %eigener Seitenstil
 \fancyhf{} %alle Kopf- und Fußzeilenfelder bereinigen
-%\fancyhead[L]{\textcolor{gray}{\tiny\sffamily Curriculum Vitae\- •\- Version: \href{https://github.com/sgroth/cv-data}{\gfiGetCommitAbr}, \gfiGetYear--\gfiGetMonth--\gfiGetDay\- •\- \href{http://github.com/sgroth/cv-data/}{http://github.com/sgroth/cv-data/}}} %Kopfzeile links
 \renewcommand{\headrulewidth}{0pt} %obere Trennlinie
-%\fancyfoot[C]{\thepage\- <%= $of %> \pageref*{LastPage}} %Seitennummer
 \rfoot{\thepage}
 \lfoot{\textcolor{gray}{{\footnotesize\texttt{Version \gfiGetCommitAbr, \gfiGetYear--\gfiGetMonth--\gfiGetDay, \href{https://github.com/sgroth/cv-data}{https://github.com/sgroth/cv-data}}}}} % adds version control information
 %--------------------
 \usepackage[svgnames]{xcolor} % Custom colors
 %--------------------
 \usepackage{sectsty} % Allows changing the font options for sections in a document
-%\usepackage[normalem]{ulem} % Custom underlining
-%\usepackage{xunicode} % Allows generation of unicode characters from accented glyphs
-%\defaultfontfeatures{Mapping=tex-text} % Converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
 %--------------------
 \usepackage{marginnote} % For margin years
 \newcommand{\years}[1]{\marginnote{\scriptsize\textcolor{DimGrey}{ #1}}} % New command for including margin years
@@ -55,16 +50,10 @@
 % Version Control
 \usepackage{gitfile-info}
 %--------------------
-% \usepackage{FiraMono}
-%\usepackage{inconsolata}
-%--------------------
 \usepackage{titlesec} 
 \titlespacing*{\section}{0pt}{*4}{*1.2} 
 %------------------------------------------------
 \allsectionsfont{\color{MediumBlue}\normalfont\small\sffamily}
-%\sectionfont{\rmfamily\mdseries\large\uppercase} % Set font options for sections
-%\subsectionfont{\rmfamily\mdseries\scshape\normalsize} % Set font options for subsections
-%\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize} % Set font options for subsubsections
 %--------------------
 \usepackage[osf]{ebgaramond} % Garamond for rm
 \usepackage[osf]{roboto} % SourceSansPro for ss
