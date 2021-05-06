@@ -32,8 +32,7 @@ currentposition:
 # Current Projects
 researchprojects:
   - years: "seit 2021"
-    title: "Europe from Outside and from the Margins: The Production of Europe in Non-European Everyday Contexts and Practices"
-    years: "seit 2020"
+    title: "Europe from Outside and from the Margins: The Everyday Production of Europe in Borderlands and Non-European Contexts"
   - title: "Populäre Narrative des Politischen"
     years: "seit 2019"
   - title: "Mittelmaß als Praxis und Konstellation Orientierungen am Mittelmaß aus empirisch-kulturwissenschaftlicher Perspektive (Habilitationsprojekt)"
@@ -51,12 +50,12 @@ researchprojects:
 
 # Research Interest
 researchinterests: 
-  - "Kulturerbe und kulturelles Eigentum"
   - "Politische Anthropologie und Europäisierungsforschung"
   - "Narratologie, linguistische Anthropologie und Kommunikationsethnografie"
-  - "Organisationsforschung"
+  - "Kulturerbe und kulturelles Eigentum"
   - "Methoden der Empirischen Kulturwissenschaft"
   - "Kulturwissenschaftliche Sportforschung"
+  - "Organisationsforschung"
 
 # Education
 education:
@@ -195,7 +194,7 @@ committees:
   - title: "Mitarbeit in diversen universitäten, fakultären und institutsübergreifenden Arbeitsgruppen an der Universität Zürich (z. B. AG Sozialwissenschaften an der Phil. Fakultät / Studiengangsentwicklung, AG Methodenpool Qualitative Methoden an der UZH)"
     dates: "seit 2016"
   - title: "Mitverantwortlicher für das Forschungsnetzwerk Cultural Citizenship. Kooperationsprojekt zwischen dem ISEK – Populäre Kulturen (Universität Zürich), dem Departement Kulturanalysen und Vermittlung (Zürcher Hochschule der Künste) und dem Departement Angewandte Linguistik (Zürcher Hochschule für Angewandte Wissenschaften)"
-    dates: "seit 2018"
+    dates: "2018--2021"
   - title: "Sprecher der Kommission Arbeitskulturen in der Deutschen Gesellschaft für Volkskunde, zusammen mit Irene Götz (München), Sarah May (Freiburg), Johannes Müske (Zürich) und Manfred Seifert (Marburg)"
     dates: "seit 2017"
   - title: "Delegierter des Mittelbaus in der Kommission für Forschung und Nachwuchsförderung, Philosophische Fakultät der Universität Zürich"
@@ -225,18 +224,12 @@ reviewerfor:
 
 # Conference Contributions and Invited Talks
 conferencecontributions:
-  - title: "Selbstoptimierung als relationale Subjektivierung"
+  - title: "Zeitlichkeit und Aussensicht – Zeitebenen der Konstruktion Europas durch außereuropäische Akteure"
     year: 2021
-    month: 03
-    conference: "Tagung Optimierung des Selbst (Graduiertenkolleg Ethnographien des Selbst in der Gegenwart)"
-    location: Mainz
+    month: 09
+    conference: dgv-Kongress
+    location: Regensburg
     countryCode: DE
-  - title: "Entangled Pasts, Dissonant Heritages: Heritage as Strategic Resource in EU External Relations"
-    year: 2021
-    month: 06
-    location: Helsinki
-    countryCode: FI
-    conference: "SIEF-Kongress"
     annote: "Anstehend"
   - title: "Kontext und politisches Erzählen (Keynote)"
     year: 2021
@@ -245,13 +238,25 @@ conferencecontributions:
     location: Freiburg
     countryCode: DE
     annote: "Anstehend"
-  - title: "Zeitlichkeit und Aussensicht – Zeitebenen der Konstruktion Europas durch außereuropäische Akteure"
+  - title: "Entangled Pasts, Dissonant Heritages: Heritage as Strategic Resource in EU External Relations"
     year: 2021
-    month: 09
-    conference: dgv-Kongress
-    location: Regensburg
-    countryCode: DE
+    month: 06
+    location: Helsinki
+    countryCode: FI
+    conference: "SIEF-Kongress"
     annote: "Anstehend"
+  - title: "Podium Contribution: Ethnologies of the Future: Anthropology and the EU-Agenda"
+    year: 2021
+    month: 04
+    conference: "Civis-Workshop Studying European Culture and Society in Challenging Times"
+    location: Tübingen
+    countryCode: DE
+  - title: "Selbstoptimierung und Navigational Capacity"
+    year: 2021
+    month: 03
+    conference: "Tagung Optimierung des Selbst (Graduiertenkolleg Ethnographien des Selbst in der Gegenwart)"
+    location: Mainz
+    countryCode: DE
   - title: "Populäre Narrative des Politischen: Europaskeptizismus aus Sicht der Empirischen Kulturwissenschaft"
     year: 2020
     month: 12
