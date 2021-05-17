@@ -83,7 +83,7 @@ education:
     location: 
       city: Göttingen
       countryCode: DE
-    subject: "Soziologie, Kulturanthropologie / Europäische Ethnologie, Wirtschafts- und Sozialpsychologie"
+    subject: "Soziologie (Hauptfach), Kulturanthropologie / Europäische Ethnologie, Wirtschafts- und Sozialpsychologie (Nebenfächer)"
     degree: "M.A. in Soziologie"
     thesis: "Entwicklung von Open-Source-Software: Soziologische Diskussion einer spezifischen Form von Innovationsnetzwerk"
     thesisType: Magisterarbeit
@@ -94,8 +94,8 @@ education:
     location: 
       city: Udine
       countryCode: IT
-    degree: Erasmus-Programm
-    subject: Public Relations
+    degree: Studienaufenthalt im Rahmen des Erasmus-Programms
+    subject: Relazioni Pubbliche (Public Relations)
     dates: 10/2006--01/2007
     years: "10/06--01/07"
 
@@ -230,7 +230,7 @@ conferencecontributions:
     conference: dgv-Kongress
     location: Regensburg
     countryCode: DE
-    annote: "Anstehend"
+    annote: "Verschopen auf 04/2022"
   - title: "Kontext und politisches Erzählen (Keynote)"
     year: 2021
     month: 08
@@ -263,14 +263,14 @@ conferencecontributions:
     location: Zürich
     countryCode: CH
     conference: "Probevortrag im Rahmen des Habilitationsverfahrens zur Erlangung der Venia Legendi in Empirische Kulturwissenschaft, Universität Zürich"
-  - title: "Kontext und politisches Erzählen"
+  - title: "Kontext und politisches Erzählen (Keynote)"
     year: 2020
     month: 09
     conference: "Tagung Politisches Erzählen. Narrative, Genres, Strategien (dgv-Kommission Erzählforschung)"
     location: Freiburg
     countryCode: DE
     annote: "Verschoben auf 2021"
-  - title: "Selbstoptimierung als relationale Subjektivierung"
+  - title: "Selbstoptimierung und Navigational Capacity"
     year: 2020
     month: 09
     conference: "Tagung Optimierung des Selbst (Graduiertenkolleg Ethnographien des Selbst in der Gegenwart)"
