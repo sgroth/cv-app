@@ -72,7 +72,7 @@
 <% end #if %>
 \begin{center}
 \begin{scriptsize}
-\textsf{Dienstanschrift}\\[.1cm]
+\textsf{<%= $workAddress %>}\\[.1cm]
 \end{scriptsize}
 <%= person["affiliation"]["university"] %>\\
 <%= person["location"]["address"] %>\\  
@@ -81,7 +81,7 @@
 <%= $email %>: \href{mailto:<%= person["email"] %>}{<%= person["email"] %>}\\
 <% if person["birthDate"] %>\columnbreak
 \begin{scriptsize}
-\textsf{<%= $privateAdress %>}\\[.1cm]
+\textsf{<%= $privateAddress %>}\\[.1cm]
 \end{scriptsize}
 <%= person["locationPrivate"]["address"] %>\\
 <%= person["locationPrivate"]["countryCode"] %>-<%= person["locationPrivate"]["postcode"] %> <%= person["locationPrivate"]["city"] %>\\[.2cm]

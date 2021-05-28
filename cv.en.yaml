@@ -1,35 +1,73 @@
+# Personal Information
 person:
-  - name:
-      first: Stefan
-      last: Groth
-      title: Dr. phil.
-    email: stefan.groth@uzh.ch
-    phone: +41 44 634 92 96
-    url: http://www.stefangroth.com
-    position: Senior Researcher / Head Laboratory Popular Culture Studies
-    affiliation:
-      university: University of Zurich
-      institute: Institute of Social Anthropology and Cultural Studies (ISEK)
-      department: Popular Culture Studies
-      url: https://www.isek.uzh.ch
-    location:
-      address: Affolternstrasse 56
-      postcode: 8050
-      city: Zurich
-      countrycode: CH 
+  name:
+    givenName: Stefan
+    familyName: Groth
+    honorificPrefix: "PD Dr. phil."
+  email: stefan.groth@uzh.ch
+  phone: +41 44 634 92 96
+  url: https://www.stefangroth.com
+  jobTitle: Privatdozent / Senior Researcher / Head Laboratory Popular Culture Studies
+  affiliation:
+    university: University of Zurich
+    institute: Institute of Social Anthropology and Cultural Studies (ISEK)
+    department: Popular Culture Studies
+    url: https://www.isek.uzh.ch
+  location:
+    address: Affolternstrasse 56
+    postcode: 8050
+    city: Zurich
+    countrycode: CH 
 
-# About
-about:
-  - about-lead: |
-      Text
-    about-body: |
-      Text
+# Current Position
+currentposition:
+  university: University of Zurich
+  institute: "Institute of Social Anthropology and Cultural Studies (ISEK)"
+  department: Popular Culture Studies
+  url: https://www.isek.uzh.ch
+  dates: "since 09/2016"
+  years: "since 09/2016"
+  jobTitle: "Senior Researcher / Head Laboratory Popular Culture Studies"
+
+# Current Projects
+researchprojects:
+  - years: "since 2021"
+    title: "Europe from Outside and from the Margins: The Everyday Production of Europe in Borderlands and Non-European Contexts"
+  - title: "Popular Narratives of the Political"
+    years: "since 2019"
+  - title: "The Middle as Practice and Constellation: Orientations towards the Middle from the Perspective of Empirical Cultural Studies (Habilitation)"
+    years: "2016--2020"
+  - title: "Dimensions of Popular Sports: Cycling and Running as Sport and Leisure from the Perspective of Empirical Cultural Studies"
+    years: "since 2013"
+  - title: "Qualitative Approaches to International Institutions (zusammen mit Katja Freistein, Alejandro Esguerra)"
+    years: "since 2014"
+  - title: "Culture as Resource and Diplomacy: Between Geopolitics and Issues-Based Policy (Post-Doc Fellowship Käte Hamburger Kolleg / Centre for Global Cooperation Research)"
+    years: "2014--2015"
+  - title: "The Ethics of / in Negotiating and Regulating Cultural Property (PI: Prof. Dr. Regina F. Bendix, DFG-Research Unit Cultural Property)"
+    years: "2011--2014" 
+  - title: "Communication Patterns and Decision-Making about Cultural Property in the International Forum of the World Intellectual Property Organization (PhD Project, PI: Prof. Dr. Regina F. Bendix, DFG-Research Unit Cultural Property)"
+    years: "2008--2011"
 
 # Research Interest
-research-interests: Global Governance and Multilateral Negotiations, Normative Dimensions of Everyday Culture, Linguistic Anthropology, Social and Technological Innovation in Everyday Culture, Cultural Property and Cultural Heritage, Sport as Cultural Practice, Foundations of Cooperation, Anthropology and Social Theory
+researchinterests: 
+  - "Political Anthropology and Europeanization Studies"
+  - "Narratology, Linguistic Anthropology and Ethnography of Communication"
+  - "Cultural Heritage and Cultural Property"
+  - "Methods in Empirical Cultural Studies"
+  - "Sport as Cultural Practice"
+  - "Ethnography of Organizations"
 
 # Education
 education:
+  - university: University of Zurich
+    location: 
+      city: Zurich
+      countryCode: CH
+    degree: "Venia Legendi Empirical Cultural Studies"
+    thesis: "The Middle as Practice and Constellation: Orientations towards the Middle from the Perspective of Empirical Cultural Studies (submitted 11/2019)"
+    thesisType: "Habilitation"
+    dates: 03/2021
+    years: 03/2021
   - university: Georg-August-University Göttingen
     location: Göttingen, Germany
     degree: "Dr. phil. in Cultural Anthropology / European Ethnology"
@@ -52,11 +90,6 @@ education:
 
 # Positions Held
 positions:
-  - university: University of Zurich
-    institute: Institute of Social Anthropology and Cultural Studies (ISEK)
-    department: Popular Culture Studies
-    dates: 09/2016--Present
-    position: Post-Doc
   - university: University of Bonn
     institute: Institute of Archeology and Cultural Anthropology
     department: Cultural Anthropology / Folklore Studies
@@ -81,74 +114,450 @@ positions:
 
 # Stays Abroad
 stays-abroad:
-  - stay-abroad: DAAD (German Academic Exchange Service) Fellowship for Ph.D. Research Studies, Research Visits at University of Chicago, University of California at Santa Cruz, School for Advanced Research in Santa Fe, USA
-    date: 03/2010–04/2010
-  - stay-abroad: Erasmus Student Exchange Programme, Public Relations, Università degli Studi di Udine, Italy 
-    date: 10/2006–01/2007 
-  - stay-abroad: Erasmus Teaching Staff Mobility Grant, Seminar für Kulturwissenschaft und Europäische Ethnologie, University of Basel, Switzerland
-    date: Fall 2012
+  - stayabroad: DAAD (German Academic Exchange Service) Fellowship for Ph.D. Research Studies, Research Visits at University of Chicago, University of California at Santa Cruz, School for Advanced Research in Santa Fe, USA
+    dates: 03/2010--04/2010
+    years: "03/10--04/10"
+  - stayabroad: Erasmus Teaching Staff Mobility Grant, Seminar für Kulturwissenschaft und Europäische Ethnologie, University of Basel, Switzerland
+    dates: 2012
+    years: 2012
+  - stayabroad: Erasmus Student Exchange Programme, Public Relations, Università degli Studi di Udine, Italy 
+    dates: 10/2006--01/2007 
+    years: "10/06--01/07"
 
-# Teaching Experience
-teaching-experience:
-  - course: Certificate Programme in University Didactics
-    university: Georg-August-University Göttingen
-    year: 2013–2014
-  - course: Empirische Kulturanalyse des Alltags
-    institute: Institute of Archeology and Cultural Anthropology
-    department: Department of Cultural Anthropology / Folklore Studies 
-    university: Friedrich-Wilhelms-University Bonn
-    year: 2016  
-    semester: SS
-  - course: Projektseminar
-    institute: Institute of Archeology and Cultural Anthropology
-    department: Department of Cultural Anthropology / Folklore Studies 
-    university: Friedrich-Wilhelms-University Bonn
-    year: 2015/2016  
-    semester: WS   
-  - course: Projektseminar
-    institute: Institute of Archeology and Cultural Anthropology
-    department: Department of Cultural Anthropology / Folklore Studies 
-    university: Friedrich-Wilhelms-University Bonn
-    year: 2016  
-    semester: SS 
-  - course: Kulturerbe und kulturelles Eigentum (Cultural Heritage and Cultural Property)
-    institute: Institute of Archeology and Cultural Anthropology
-    department: Department of Cultural Anthropology / Folklore Studies
-    university: Friedrich-Wilhelms-University Bonn
-    year: 2015/2016  
-    semester: WS
-  - course: "Kultur und Kommunikation: Einführung in die Ethnographie der Kommunikation und linguistische Anthropologie (Culture & Communication: Introduction to Linguistic Anthropology)"
-    institute: Institute of Cultural Anthropology / European Ethnology
-    university: Georg-August-University Göttingen
-    year: 2013/2014  
-    semester: WS
-  - course: Vorlesung Kulturtheorien (Regina Bendix, Carola Lipp), Übernahme der Vorlesung „Strukturalismus“ (Lecture Culture Theories, Session “Structuralism”)
-    institute: Institute of Cultural Anthropology / European Ethnology
-    university: Georg-August-University Göttingen
-    year: 2013  
-    semester: SS
-  - course: "Kulturerbe verhandeln: Methodische und theoretische Zugänge (Negotiating Cultural Heritage: Methodological and Theoretical Approaches)"
-    institute: 
-    department: Seminar für Kulturwissenschaft und Europäische Ethnologie
-    university: University of Basel
-    year: 2012  
-    semester: HS
-  - course: "Vorlesung Kulturtheorien (Regina Bendix, Carola Lipp), Übernahme der Vorlesung „Frühe Paradigmen der Kulturanthropologie/Europäischen Ethnologie: Evolutionismus, Kulturrelativismus, Funktionalismus“ (Lecture Culture Theories, Session “Early Paradigms of European Ethnology: Evolutionism, Cultural Relativism, Functionalism”)"
-    institute: Institute of Cultural Anthropology / European Ethnology
-    university: Georg-August-University Göttingen
-    year: 2012  
-    semester: SS
-  - course: Kulturtheorien (Culture Theories)
-    institute: Institute of Cultural Anthropology / European Ethnology
-    university: Georg-August-University Göttingen
-    year: 2011  
-    semester: SS  
-  - course: Das Konzept des Kulturrelativismus (The Concept of Cultural Relativism)
-    institute: Institute of Cultural Anthropology / European Ethnology
-    university: Georg-August-University Göttingen
-    year: 2009/2010  
-    semester: WS    
+# Organizational Activities
+organizationalactivities:
+  - "Leitung Labor Populäre Kulturen, Institut für Sozialanthropologie und Empirische Kulturwissenschaft, Universität Zürich (Konzeption und Durchführung, Fellow-Programm, Nachwuchsförderung, Organisation von Tagungen und In-House-Workshops, Vorträgen, Podiumsdiskussionen, Lesungen)."
+  - "Organisation von Panels bei Fachkonferenzen (Deutsche Gesellschaft für Volkskunde, Société Internationale d'Ethnologie et de Folklore)."
+  - "Anstehend: Zusammen mit Dr. Sarah May und Dr. Johannes Müske: Morality as Organizational Practice. 19th Workshop of the Section Cultures of Work of the German Association of Cultural Anthropology and Folklore Studies (dgv), Freiburg, November 2021."
+  - "Anstehend: Zusammen mit Anna Weichselbraun, Ph.D.: Panel Sprechen und Zeitlichkeit, dgv-Kongress 2021, Regensburg, 20.-23. September 2021."
+  - "Zusammen mit Dr. Sarah May, Arbeitstreffen dgv-Kommission Arbeitskulturen, 27. November 2020."
+  - "Zusammen mit Dr. Christine Hämmerling und Prof. Dr. Silke Meyer: Workshop Moralische Ökonomie(n) – Kosten und Nutzen. 21.-22. Mai 2019, Labor Populäre Kulturen, ISEK, Universität Zürich."
+  - "Zusammen mit Prof. Dr. Markus Tauschek: Panel Comparison as Reflective and Affective Practice: Orientations Towards the Middle and Everyday Comparisons, SIEF-Kongress 2019, Santiago de Compostela, Spanien, 14-17. April 2019."
+  - "Podiumsdiskussion Wissensalltag / Alltagswissen. Orte, Medien und Praktiken. Perspektiven aus Anthropologie und Kulturwissenschaft. Im Rahmen des Science Festivals 100 Ways of Thinking, Kunsthalle Zürich, 18. Oktober 2018."
+  - "Organisation mit Dr. Sarah May und Dr. Johannes Müske, Vernetzt, entgrenzt, prekär? Arbeit im Wandel und in gesellschaftlicher Diskussion – kulturwissenschaftliche Perspektiven. 18. Arbeitstagung der dgv-Kommission Arbeitskulturen, 13. bis 14. September 2018 ([Call for Papers als PDF](http://www.stefangroth.com/assets/pdf/w07-arbeitskulturen-2018-cfp.pdf) / [Programm als PDF](http://www.stefangroth.com/assets/pdf/w07-arbeitskulturen-2018-programm.pdf) / [Tagungsbericht als PDF](http://hsozkult.geschichte.hu-berlin.de/index.asp?id=8222&view=pdf&pn=tagungsberichte&type=tagungsberichte))."
+  - "In-House-Workshop Forschungsförderung, Antrags- und Karriereplanung, mit Prof. em. Dr. Silke Göttsch-Elten, 24. Mai 2018, Labor Populäre Kulturen, ISEK, Universität Zürich."
+  - "In-House-Workshop Land / Stadt als räumliche Ordnungen und Kategorien, u. a. mit Prof. em. Dr. Silke Göttsch-Elten, Prof. em. Dr. Rolf Lindner, JProf. Dr. Ove Sutter, 17.-18. Mai 2018, Labor Populäre Kulturen, ISEK, Universität Zürich ([Programm als PDF](http://www.stefangroth.com/assets/pdf/iw02-stadt-land-2018-programm.pdf))."
+  - "In-House-Workshop Historisch forschen, mit Prof. em. Dr. Silke Göttsch-Elten, 12. April 2018, Labor Populäre Kulturen, ISEK, Universität Zürich."
+  - "Organisation mit Dr. Christian Ritter (Collegium Helveticum, Zürich), Workshop Zusammenarbeit(en). Praktiken der Koordination, Kooperation und Repräsentation in kollaborativen Prozessen, 5.-6. Oktober 2017, Labor Populäre Kulturen, ISEK, Universität Zürich / Collegium Helveticum, Zürich ([Call for Papers als PDF](http://www.stefangroth.com/assets/pdf/w06-zusammenarbeiten-2017-cfp.pdf) / [Programm als PDF](http://www.stefangroth.com/assets/pdf/w06-zusammenarbeiten-2017-program.pdf))."
+  - "In-House-Workshop Perspektiven ethnographischer Kulturanalyse, u. a. mit Prof. em. Dr. Rolf Lindner, 4.-5. Mai 2017, Labor Populäre Kulturen, ISEK, Universität Zürich ([Programm als PDF](http://www.stefangroth.com/assets/pdf/iw01-perspektiven-2017-programm.pdf))."
+  - "Organisation mit Dr. Alejandro Esguerra (Potsdam) und Dr. Katja Freistein (Duisburg), Internationaler Workshop Micro-Moves in International Institutions, Standing Group Sociology of International Relations (AK SiB) / Deutsche Vereinigung für Politische Wissenschaft, February 9-10, 2017, Universität Potsdam ([Call for Papers als PDF](https://stefangroth.com/assets/pdf/w04-micromoves-2017-cfp.pdf) / [Programm als PDF](https://stefangroth.com/assets/pdf/w04-micromoves-2017-program.pdf)). Keynotes von Karin Knorr-Cetina (Chicago) und Thomas Scheffer (Frankfurt)."
+  - "Organisation mit Dr. Katja Freistein (Duisburg) und Dr. Alejandro Esguerra Portocarrero (Duisburg), Interdisziplinärer Workshop Studying Micro-Practices in (International) Institutions: Chances and Limitations of Theory-Building, November 26-27, 2015, Centre for Global Cooperation Research (GCR), Duisburg ([Programm als PDF](https://stefangroth.com/assets/pdf/w03-micropractices-2015-program.pdf))."
+  - "Organisation mit Yonca Krahn (Zürich): Panel Sport und Sinne, dgv-Kongress 2015, Zürich, 22.-25. Juli 2015."
+  - "Organisation mit Prof. Dr. Charles Briggs (UC Berkeley) und Prof. Dr. Regina Bendix, International Working Conference Justice in Discourse, April 4–5, 2013, Göttingen ([Programm als PDF](https://stefangroth.com/assets/pdf/w02-justice-2013-program.pdf)). Mit Beiträgen u. a. von Prof. Dr. Srikant Sarangi (Cardiff), Prof. Dr. Jan Blommaert (Tilburg), Prof. Dr. Patrick Eisenlohr (Göttingen), Prof. Dr. Charles Briggs (Berkeley), Prof. Dr. Regina Bendix (Göttingen). ([Tagungsbericht auf H-Soz-Kult](http://www.hsozkult.de/conferencereport/id/tagungsberichte-4961))"
+  - "Organisation mit Nadine Wagener-Böck M.A., Workshop „Subjektbegriffe der Europäischen Ethnologie“ (“Concepts of the ‘Subject’ in European Ethnology”), December 13-14, 2012, Göttingen ([Programm als PDF](https://stefangroth.com/assets/pdf/w01-subjektbegriffe-2012-program.pdf)). Mit Beiträgen von u. a. Prof. em. Dr. Johannes Fabian (Amsterdam), Prof. Dr. Andreas Schmidt (Kiel), PD Dr. Jochen Bonz (Bremen)."
 
+# Expositions
+expositions:
+  - "Wissensorte. Ethnografische / künstlerische Erkundungen (05/2018, Zürcher Hochschule der Künste). Ausstellung aus dem Projektseminar Wissensorte (Kooperationsprojekt zwischen ISEK – Populäre Kulturen mit der Zürcher Hochschule der Künste)."
+
+# Gremienerfahrungen / Experiences in Committees
+committees:
+  - title: "Mitarbeit in diversen universitäten, fakultären und institutsübergreifenden Arbeitsgruppen an der Universität Zürich (z. B. AG Sozialwissenschaften an der Phil. Fakultät / Studiengangsentwicklung, AG Methodenpool Qualitative Methoden an der UZH)"
+    dates: "seit 2016"
+  - title: "Mitverantwortlicher für das Forschungsnetzwerk Cultural Citizenship. Kooperationsprojekt zwischen dem ISEK – Populäre Kulturen (Universität Zürich), dem Departement Kulturanalysen und Vermittlung (Zürcher Hochschule der Künste) und dem Departement Angewandte Linguistik (Zürcher Hochschule für Angewandte Wissenschaften)"
+    dates: "2018--2021"
+  - title: "Sprecher der Kommission Arbeitskulturen in der Deutschen Gesellschaft für Volkskunde, zusammen mit Irene Götz (München), Sarah May (Freiburg), Johannes Müske (Zürich) und Manfred Seifert (Marburg)"
+    dates: "seit 2017"
+  - title: "Delegierter des Mittelbaus in der Kommission für Forschung und Nachwuchsförderung, Philosophische Fakultät der Universität Zürich"
+    dates: "2017--2020"
+  - title: "H-Folk-Netzwerk, Editor"
+    dates: "2013--2019"
+    url: https://networks.h-net.org/h-folk
+  - title: "Vorstand Institut für Archäologie und Kulturanthropologie, Universität Bonn (Gruppe der akademischen Mitarbeiter, Stellv.)"
+    dates: "2015--2016"
+  - title: "Zentrum für Theorie und Methodik der Kulturwissenschaften (ZTMK), Göttingen, Vorstand"
+    dates: "2010--2014"
+
+# Memberships
+memberships: 
+  - title: Deutsche Gesellschaft für Volkskunde (DGV)
+  - title: Schweizerische Gesellschaft für Volkskunde (SGV), Sektion Zürich
+  - title: "European Association of Social Anthropologists (EASA), EASA Networks Anthropology of Law, Rights and Governance (LAWNET); Linguistic Anthropology (ELAN)"
+  - title: "Societé Internationale d'Ethnologie et de Folklore (SIEF), SIEF Working Groups Narrative Cultures; Cultural Heritage and Property"
+  - title: Rheinische Vereinigung für Volkskunde (RVV)
+  - title: "DFG-Netzwerk „Wettbewerb und Konkurrenz“"
+    dates: "2014--2018"
+#    url: http://konkurrenz.uni-freiburg.de
+
+reviewerfor:
+  - "Reviewer for Journals: International Journal of Heritage Studies (IJHS), Anthropological Journal of European Cultures (AJEC), Narrative Culture, Zeitschrift für Volkskunde, Jahrbuch für Europäische Ethnologie, Global Cooperation Research Papers"
+  - Qualifikationsarbeiten auf Bachelor- und Masterniveau
+
+# Conference Contributions and Invited Talks
+conferencecontributions:
+  - title: "Zeitlichkeit und Aussensicht – Zeitebenen der Konstruktion Europas durch außereuropäische Akteure"
+    year: 2021
+    month: 09
+    conference: dgv-Kongress
+    location: Regensburg
+    countryCode: DE
+    annote: "Verschoben auf 04/2022"
+  - title: "Kontext und politisches Erzählen (Keynote)"
+    year: 2021
+    month: 08
+    conference: "Tagung Politisches Erzählen. Narrative, Genres, Strategien (dgv-Kommission Erzählforschung)"
+    location: Freiburg
+    countryCode: DE
+    annote: "Anstehend"
+  - title: "Entangled Pasts, Dissonant Heritages: Heritage as Strategic Resource in EU External Relations"
+    year: 2021
+    month: 06
+    location: Helsinki
+    countryCode: FI
+    conference: "SIEF-Kongress"
+    annote: "Anstehend"
+  - title: "Podium Contribution: Ethnologies of the Future: Anthropology and the EU-Agenda"
+    year: 2021
+    month: 04
+    conference: "Civis-Workshop Studying European Culture and Society in Challenging Times"
+    location: Tübingen
+    countryCode: DE
+  - title: "Selbstoptimierung und Navigational Capacity"
+    year: 2021
+    month: 03
+    conference: "Tagung Optimierung des Selbst (Graduiertenkolleg Ethnographien des Selbst in der Gegenwart)"
+    location: Mainz
+    countryCode: DE
+  - title: "Populäre Narrative des Politischen: Europaskeptizismus aus Sicht der Empirischen Kulturwissenschaft"
+    year: 2020
+    month: 12
+    location: Zürich
+    countryCode: CH
+    conference: "Probevortrag im Rahmen des Habilitationsverfahrens zur Erlangung der Venia Legendi in Empirische Kulturwissenschaft, Universität Zürich"
+  - title: "Kontext und politisches Erzählen (Keynote)"
+    year: 2020
+    month: 09
+    conference: "Tagung Politisches Erzählen. Narrative, Genres, Strategien (dgv-Kommission Erzählforschung)"
+    location: Freiburg
+    countryCode: DE
+    annote: "Verschoben auf 2021"
+  - title: "Selbstoptimierung und Navigational Capacity"
+    year: 2020
+    month: 09
+    conference: "Tagung Optimierung des Selbst (Graduiertenkolleg Ethnographien des Selbst in der Gegenwart)"
+    location: Mainz
+    countryCode: DE
+    annote: "Verschoben auf 2021"
+  - title: "Alltag als Konstante der Erfahrung?"
+    year: 2020
+    month: 11
+    conference: "Workshop: Erfahrung: Konzeptionen und Standortbestimmungen eines Schlüsselbegriffs der Europäischen Ethnologie"
+    location: Kiel
+    countryCode: DE
+  - title: "Of 'Truthiness' and 'Stickiness.' Narratological Approaches to Plausibility and Communicabilty in Digital Truth-Making"
+    year: 2020
+    month: 10
+    conference: "Tagung Digital Truth-Making (dgv-Kommission Digitization in Everyday Life)"
+    location: Berlin
+    countryCode: DE
+  - title: "Durchschnitt als Trend: Orientierungen am Mittelmaß im Wohnen"
+    year: 2019
+    month: 04
+    conference: "Tagung: Wohnen jenseits der Normen. Historische und aktuelle Perspektiven"
+    location: Marburg
+    countryCode: DE
+  - title: "Comparison as Reflective and Affective Practice: Orientations Towards the Middle and Everyday Comparisons"
+    year: 2019
+    month: 04
+    location: Santiago de Compostela
+    countryCode: ES
+    conference: SIEF-Kongress
+  - title: "Akteure, Praktiken, Atmosphären: Elemente einer regionalen Konstellationsanalyse"
+    year: 2019
+    month: 02
+    location: Freiburg
+    countryCode: DE
+    conference: "Bewerbungsvortrag auf die W3-Professur für Kulturanthropologie und Europäische Ethnologie mit Schwerpunkt in regionaler Kulturanalyse, Universität Freiburg"
+  - title: "Vergleich als Wissen / Wissensproduktion im Vergleich"
+    location: Zürich
+    countryCode: CH
+    conference: "Podiumsdiskussion Wissensalltag / Alltagswissen. Orte, Medien und Praktiken. Perspektiven aus Anthropologie und Kulturwissenschaft im Rahmen des Science Festivals 100 Ways of Thinking, Kunsthalle Zürich"
+    year: 2018
+    month: 10
+  - title: "Antizipierender Vergleich. Zur zeitlichen Dimensionierung von Vergleichen am Beispiel von Handlungsorientierungen am Mittelmaß"
+    location: Bonn
+    countryCode: DE
+    conference: "DGV-Hochschultagung Planen – Hoffen – Befürchten: Zukunft als Gegenstand und Herausforderung der Alltagskulturforschung"
+    year: 2018
+    month: 09
+  - title: "Vernetzt, entgrenzt, prekär? Arbeit im Wandel und in gesellschaftlicher Diskussion. Eine Einführung"
+    location: Zürich
+    countryCode: CH
+    conference: "Arbeitstagung der dgv-Kommission Arbeitskulturen"
+    year: 2018
+    month: 09
+    coauthor: Sarah May, Johannes Müske
+  - title: "Wissen, Ort, Vergleich. Praktiken des Wissens als Komparativ und Verortung"
+    location: Göttingen
+    countryCode: DE
+    year: 2018
+    month: 06
+    institution: "Institut für Kulturanthropologie / Europäische Ethnologie, Universität Göttingen"
+  - title: "Schlusskommentar"
+    location: Bonn
+    countryCode: DE
+    year: 2018
+    month: 06
+    conference: "Workshop des DFG-Projekts Partizipative Entwicklung ländlicher Regionen: Ländliche Alltagskulturen regieren. Perspektiven der Kulturanalyse politischer Prozesse in ländlichen Regionen"
+  - title: "Optimierung bis zum Mittelmaß? Sozialkomparative Orientierungen an der Mitte aus alltagskultureller Perspektive"
+    location: Freiburg
+    countryCode: DE
+    year: 2018
+    month: 06
+    conference: "FRIAS Workshop Selbstoptimierung"
+  - title: "Narratologisches Doppel: Text und Kontext in Online-Archiven und Interaktionssituationen"
+    location: Dresden
+    countryCode: DE
+    conference: "Forschungsdesign 4.0. Datengenerierung und Wissenstransfer in interdisziplinärer Perspektive"
+    year: 2018
+    month: 04
+  - title: "Angemessen, maßvoll, ausreichend: Handlungsorientierungen an der „Mitte“ und ihre alltagskulturellen Dimensionen"
+    year: 2018
+    month: 01
+    location: Wien
+    institution: Institut für Europäische Ethnologie, Universität Wien
+    countryCode: AT
+  - title: "Makro-Trends als Forschungsthema? Europäisch-ethnologische Themenbegrenzung am Beispiel der «Mitte»"
+    year: 2017
+    month: 11
+    conference: "Tagung „Wie kann man nur dazu forschen?“ Themenpolitik in der Europäischen Ethnologie"
+    location: Innsbruck
+    countryCode: AT
+  - title: "Zusammenarbeit(en). Praktiken der Koordination, Kooperation und Repräsentation in kollaborativen Prozessen. Eine Einführung"
+    year: 2017
+    month: 10
+    location: Zürich
+    countryCode: CH
+    coauthor: Christian Ritter
+    conference: Workshop Zusammenarbeit(en). Praktiken der Koordination, Kooperation und Repräsentation in kollaborativen Prozessen  
+  - title: "Zwischen Ermöglichung und Begrenzung: Zur subjektiven Plausibilisierung des Mittelmaßes als normative Orientierung"
+    year: 2017
+    month: 09
+    conference: Kongress der Deutschen Gesellschaft für Volkskunde (DGV)
+    location: Marburg
+    countryCode: DE
+  - title: "Institution und Alltag: Kulturanalytische Zugänge zur Alltäglichkeit von Institutionen"
+    year: 2017
+    month: 04
+    institution: Institut für Sozialanthropologie und Empirische Kulturwissenschaft, Universität Zürich
+    location: Zürich
+    countryCode: CH
+  - title: "Of “Good Averages” and “Happy Mediums”: Normative Orientations towards an “Average” in Urban Housing"
+    year: 2017
+    month: 03
+    conference: SIEF-Kongress
+    location: Göttingen
+    countryCode: DE
+  - title: "Document Analysis as a Black Box: On the Contextualization of Speech Acts in Multilateral Negotiations"
+    year: 2017
+    month: 02
+    institution: Universität Potsdam
+    conference: Workshop Micro-Moves in International Institutions
+    location: Potsdam
+    countryCode: DE
+  - title: "Micro to Macro. On Generalizing from Communicative Approaches Towards International Institutions"
+    year: 2017
+    month: 02
+    institution: Universität Potsdam
+    conference: Workshop Micro-Moves in International Institutions
+    location: Potsdam
+    coauthor: Alejandro Esguerra, Katja Freistein
+    countryCode: DE
+  - title: "Ambivalenz, Intention und Kompetenz zwischen Linguistischer Anthropologie und Narrationsanalyse"
+    year: 2016
+    month: 09
+    institution: Universität Innsbruck
+    conference: Workshop Narrationsanalyse in der Europäischen Ethnologie
+    location: Innsbruck
+    countryCode: AT
+  - title: ",Kultur(-Erbe)‘ als flexibles Konzept in EU-Kulturpolitik und Außenbeziehungen"
+    year: 2016
+    month: 05
+    institution: Institut für Europäische Ethnologie, HU Berlin
+    location: Berlin 
+    coauthor: Regina F. Bendix
+    countryCode: DE
+  - title: "Welche Rolle spielt Gerechtigkeit in Verhandlungen um kulturelles Eigentum?"
+    year: 2015
+    month: 12
+    conference: DIES
+    location: Bonn
+    countryCode: DE      
+  - title: "Observing Micro-Practices, Making Generalizations: A Concept Note"
+    year: 2015
+    month: 11
+    conference: "Workshop Studying Micro-Practices in (International) Institutions: Chances and Limitations of Theory-Building"
+    location: Duisburg
+    countryCode: DE  
+    coauthor: Katja Freistein, Alejandro Esguerra
+  - title: "Kein sichereres Mittel existirt zur Abwehr von allem Lupengesindel‘: Zur Technisierung und Legitimierung von Sicherheits- und Kontrollregimen um 1900"
+    year: 2015
+    month: 11
+    conference: "Tagung „Der Alltag der (Un)Sicherheit. Ethnographisch-kulturwissenschaftliche Perspektiven auf die Sicherheitsgesellschaft“"
+    location: Graz
+    countryCode: AT  
+  - title: "Subjektiver Sinn, objektive Indikatoren? Zum Verhältnis von Wahrnehmung und Vermessung im freizeitsportlichen Rennradsport"
+    year: 2015
+    month: 07
+    conference: Kongress der Deutschen Gesellschaft für Volkskunde (DGV)
+    location: Zürich
+    countryCode: CH  
+  - title: "The Pragmatics of Multilateral Negotiations"
+    year: 2015
+    month: 07
+    conference: Midterm Conference Käte Hamburger Kolleg / Centre for Global Cooperation Research
+    location: Duisburg
+    countryCode: DE      
+  - title: "Recognition and Multiculturalism: German Heritage Discourse in the European Context"
+    year: 2015
+    month: 06
+    conference: SIEF-Kongress
+    location: Zagreb
+    countryCode: HR  
+  - title: "Culture Concepts and Normative Principles: On the Framing and Justification of Cultural Property in EU-Conventions"
+    year: 2015
+    month: 05
+    institution: Käte Hamburger Kolleg / Centre for Global Cooperation Research
+    location: Duisburg
+    countryCode: DE      
+  - title: "Kultur als “Soft Power”? Zur Rahmung und Rechtfertigung von Kulturerbe in der Europäischen Union"
+    year: 2015
+    month: 05
+    institution: Abteilung Kulturanthropologie / Volkskunde
+    location: Bonn
+    countryCode: DE  
+  - title: "Modalities of Normative Claims to Culture in Multilateral Negotiations"
+    year: 2014
+    month: 11
+    institution: Käte Hamburger Kolleg / Centre for Global Cooperation Research
+    location: Duisburg
+    countryCode: DE  
+  - title: "Kooperation als Ressource: Zur Produktion kooperativen Alltagshandelns"
+    year: 2014
+    month: 11
+    conference: Tagung „Zum Umgang mit begrenzten Ressourcen”
+    location: Kiel
+    countryCode: DE  
+  - title: "Producing Stability: On the Pragmatics of Multilateral Negotiations"
+    year: 2014
+    month: 08
+    conference: WISC
+    location: Frankfurt
+    countryCode: DE  
+  - title: "Normative Forderungen über Kultur als Themenfeld transnationaler Kooperation"
+    year: 2014
+    month: 07
+    conference: Workshops "Mosaike der Legitimität"
+    location: Konstanz
+    countryCode: DE
+  - title: "Welche Rolle spielt Gerechtigkeit in Diskussionen um kulturelles Eigentum?"
+    year: 2014
+    month: 01
+    conference: Vortragsreihe der Interdisziplinären DFG-Forschergruppe zu Cultural Property
+    location: Göttingen
+    countryCode: DE
+  - title: "Implicit Ethics: Normative Claims in International Negotiations on Traditional Knowledge"
+    year: 2013
+    month: 04
+    conference: Working Conference “Justice in Discourse”
+    location: Göttingen
+    countryCode: DE 
+  - title: "Perspectives on Traditonal Knowledge: The Involvement of Indigenous and Local Communities in WIPO’s Committee on Intellectual Property and Traditional Knowledge"
+    year: 2013
+    month: 01
+    conference: "SOGIP Seminar “Les questions de savoirs et de droit dans l’institutionnalisation internationale des autochtones”"
+    location: Paris
+    countryCode: FR  
+  - title: "Sprache und Anerkennung: Die Verortung von Subjekten in Diskursen"
+    year: 2012
+    month: 12
+    institution:
+    conference: Workshop Subjektbegriffe der Europäischen Ethnologie
+    location: Göttingen
+    countryCode: DE   
+  - title: "Between Society and Culture: The Theory of Recogniton in Cultural Heritage Contexts"
+    year: 2012
+    month: 10
+    conference: "Atelier de Recherche Trinational “Institutions, Territoires et Communautés: Perspectives sur le Patrimoine Culturel Immatériel Translocal"
+    location: Villa Vigoni
+    countryCode: IT   
+  - title: "The Indeterminacy of Cultural Heritage and Cultural Property in International Negotiations and Local Configurations"
+    year: 2012
+    month: 02
+    conference: Workshop Local Vocabularies of Heritage
+    location: Évora
+    countryCode: PT   
+  - title: "Die Erfindung der Moral: Allmendgemeinschaften und Cultural Commons in der Diskussion um kulturelles Eigentum"
+    year: 2011
+    month: 09
+    conference: 38. Kongress der Deutschen Gesellschaft für Volkskunde (DGV)
+    location: Tübingen
+    countryCode: DE   
+  - title: "Speeding, Stalling, Editing: Maximal Communication for Minimal Results?"
+    year: 2011
+    month: 06
+    conference: Internationales Symposium der Interdisziplinären DFG-Forschergruppe zu Cultural Property
+    location: Göttingen
+    countryCode: DE   
+    coauthor: Regina F. Bendix
+  - title: "Scholarship and Policy – Oppositional Perspectives within Interdisciplinary Cooperation"
+    year: 2011
+    month: 06
+    conference: Internationales Symposium der Interdisziplinären DFG-Forschergruppe zu Cultural Property
+    location: Göttingen
+    countryCode: DE               
+  - title: "Metapragmatics on the Global Stage: The Multiplicity of Meaning in International Negotiations"
+    year: 2010
+    month: 06
+    conference: "Workshop zur Anthropology of International Institutions: How Ethnography Contributes to Understanding Mechanisms of Global Governance"
+    location: Paris
+    countryCode: FR
+  - title: "Language Ideologies and International Institutions: The Case of the Intergovernmental Committee on Intellectual Property and Traditional Knowledge"
+    year: 2010
+    month: 04
+    institution: Department of Anthropology, UC Santa Cruz
+    location: Santa Cruz
+    countryCode: US
+  - title: "Cultural Property als kulturanthropologisches Forschungsthema"
+    year: 2010
+    month: 01
+    institution: Institut für Kulturanthropologie / Europäische Ethnologie der Universität Göttingen
+    conference:
+    location: Göttingen
+    countryCode: DE
+  - title: "Ideologies in Motion: Language, Power and Performance in International Institutions"
+    year: 2009
+    month: 12
+    institution:
+    conference: Konferenz der American Anthropological Association (AAA)
+    location: Philadelphia
+    countryCode: US
+  - title: "On Tradition and the Politics of Difference"
+    year: 2009
+    month: 11
+    conference: International Symposium on Cultural Property, Interdisciplinary Research Unit on Cultural Property
+    location: Göttingen
+    countryCode: DE
+  - title: "Negotiating Tradition, Representing Social Structure: Culture, Community, and Language in WIPO’s Committee on Traditional Knowledge and Folklore"
+    year: 2009
+    month: 07
+    institution: Tartu University
+    conference: "International Summer University Local Knowledge and Open Borders: Creativity and Heritage"
+    location: Tartu
+    countryCode: EE
+  - title: "Tradition und Folklore in der Weltorganisation für Geistiges Eigentum (WIPO) – Eine kommunikationsethnographische Perspektive"
+    year: 2009
+    month: 05
+    institution: Hamburger Gesellschaft für Volkskunde (HGV)
+    location: Hamburg
+    countryCode: DE
+  - title: "Stalling and Speeding: Ways of Speaking at WIPO’s Intergovernmental Committee on Cultural Property"
+    year: 2008
+    month: 08
+    conference: Konferenz der European Association of Social Anthropologists (EASA)
+    location: Ljubljana
+    coauthor: Regina F. Bendix
+    countryCode: SI
 # Organizational Activities
 #organizational-activities:
 

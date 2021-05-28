@@ -25,8 +25,8 @@ ruby generate.rb						# cv.de.md
 # ruby generate.rb -e -w					# cv.web.en.md
 ruby generate.rb -t cv.tex.erb -w		# cv.web.de.tex
 ruby generate.rb -t cv.tex.erb			# cv.de.tex
-# ruby generate.rb -t cv.tex.erb -w -e	# cv.web.en.tex
-# ruby generate.rb -t cv.tex.erb -e		# cv.en.tex
+ruby generate.rb -t cv.tex.erb -w -e	# cv.web.en.tex
+ruby generate.rb -t cv.tex.erb -e		# cv.en.tex
 ruby generate.rb -t presentations.tex.erb	# presentations.de.tex
 ruby generate.rb -t presentations.md.erb		# presentations.de.md 
 # web.md version are copied to cv-data by generate.rb
@@ -39,21 +39,21 @@ xelatex cv.de.tex -interaction=batchmode
 xelatex cv.de.tex -interaction=batchmode
 xelatex cv.web.de.tex -interaction=batchmode
 xelatex cv.web.de.tex -interaction=batchmode
-# xelatex cv.en.tex -interaction=batchmode
-# xelatex cv.en.tex -interaction=batchmode
-# xelatex cv.web.en.tex -interaction=batchmode
-# xelatex cv.web.en.tex -interaction=batchmode
+xelatex cv.en.tex -interaction=batchmode
+xelatex cv.en.tex -interaction=batchmode
+xelatex cv.web.en.tex -interaction=batchmode
+xelatex cv.web.en.tex -interaction=batchmode
 # copy to _cv-data/pdf
 cp cv.web.de.pdf ../../_cv-data/pdf
 cp presentations.tex ../../_cv-data
 cp presentations.md ../../_cv-data
-# cp cv.web.en.pdf ../../_cv-data/pdf
+cp cv.web.en.pdf ../../_cv-data/pdf
 # copy to _cv-data/private/pdf
 cp cv.de.pdf ../../_cv-data/private/pdf
-# cp cv.en.pdf ../../_cv-data/private/pdf
+cp cv.en.pdf ../../_cv-data/private/pdf
 # copy to _cv-data/private/
 cp cv.de.md ../../_cv-data/private
-# cp cv.en.md ../../_cv-data/private
+cp cv.en.md ../../_cv-data/private
 # commit to git: cv-data
 cd ../../_cv-data
 git add *
