@@ -16,7 +16,7 @@ OptionParser.new do |opts|
   opts.on( '-p', '--private PRIVATE', 'private input file' ) do |private|
     options[:private] = private
   end
-  options[:template] = 'cv.md.erb'
+  options[:template] = 'cv.tex.erb'
   opts.on( '-t', '--template TEMPLATE', 'template file' ) do |template|
     options[:template] = template
   end
@@ -70,10 +70,10 @@ elsif template_basename == "presentations"
   load 'i18n/de.i18n'
 elsif options[:english]
   output_file = input_basename + '.en.' + template_extension1
-  load 'i18n/en.i18n' 
+  load 'i18n/en.i18n'
   # Load and merge contact information (for full resume)
   # private.yaml contains contact information I don't want posted
-  private = YAML::load( File.open("private.en.yaml") )
+  private = YAML::load( File.open("private.de.yaml") )
   resume["person"] = resume["person"].merge(private["person"])
 else
   output_file = input_basename + '.de.' + template_extension1

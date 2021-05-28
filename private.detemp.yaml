@@ -1,0 +1,23 @@
+person:
+  birthDate: "23. Juli 1982"
+  birthPlace: "Marl, NRW"
+  kids: "2 Kinder (geb. 28. Februar 2019 und 16. Oktober 2020)"
+  cellphone: "+49 (179) 77 040 58"
+  emailPrivate: "stefangroth@me.com"
+  locationPrivate:
+    address: "Meister-Gerhard-Straße 2"
+    postcode: 45721
+    city: "Köln"
+    countryCode: DE 
+  grantwritingsumAll: "685.359 EUR"
+  grantwritingsumOwn: "43.727 EUR"
+
+# Antragserfahrungen
+grantwriting:
+  - "Maßgebliche Mitarbeit und Koordination beim trinationalen Antrag “Contesting Expert Regimes (CONTER): Formations of Local and 'Common-Sense' Knowledge Regimes as Challenges to Regional Governance in Western Europe” im Rahmen der EU-Förderlinie NORFACE (Horizon 2020). Projektleitung: Bernhard Tschofen (Zürich), Ove Sutter (Bonn), Marie Sandberg (Kopenhagen). Antragstellung: 09/2019. Nach positiver Begutachtung des Vorantrages nicht bewilligt"
+  - "SNF-Sinergia-Antrag “Atmosphere and New Urban Intensity in Agglomeration Areas: A Multidimensional Analysis of Urban Transformation in Schlieren”, Projektleitung gemeinsam mit Prof. Dr. Christian Schmid (ETH Zürich, Department Architektur) und Prof. Dr. Christoph Schenker (Zürcher Hochschule der Künste, ICAR Institute for Contemporary Art Research), Antragstellung: 12/2018. Der Antrag wurde mit Förderpriorität 2 von 6 begutachtet und nicht bewilligt"
+  - "Maßgebliche Mitarbeit beim Antrag auf Sachbeihilfe bei der DFG („Partizipative Entwicklung ländlicher Regionen. Alltagskulturelle Aushandlungen des LEADER-Programms der Europäischen Union“), Projektleitung Ove Sutter, seit 2017 (Fördersumme: € 340.332)"
+  - "Maßgebliche Mitarbeit beim Antrag auf Sachbeihilfe bei der DFG (Teilprojekt „Ethik von / in Verhandlungs- und Regulierungspraxen um Cultural Property“ und Mitarbeit am Gesamtantrag der FOR 772 „Die Konstituierung von Cultural Property“), Projektleitung Regina Bendix, 2011--2014 (Fördersumme Teilprojekt: € 205.700)"
+  - "Mitarbeit beim Antrag auf Sachbeihilfe bei der DFG (Teilprojekt „Kommunikationsmuster und Entscheidungsfindung über Cultural Property im internationalen Gremium World Intellectual Property Organization“, FOR 772 „Die Konstituierung von Cultural Property“), Projektleitung Regina Bendix, 2008--2011 (Fördersumme Teilprojekt: € 95.600)" 
+  - "Post-Doctoral Fellowship am Käte Hamburger Kolleg / Centre for Global Cooperation Research, 2014--2015 (Fördersumme: € 42.000)"
+  - "DAAD-Kurzstipendium für Doktoranden, Forschungsaufenthalte an der University of Chicago, University of California at Santa Cruz, School for Advanced Research in Santa Fe, USA, 03/2010–04/2010 (Fördersumme: € 1.727)"

@@ -5,138 +5,138 @@ person:
     familyName: Groth
     honorificPrefix: "PD Dr. phil."
   email: stefan.groth@uzh.ch
-  phone: "+41 44 634 92 96"
+  telephone: "+41 44 634 92 96"
   url: https://www.stefangroth.com
-  jobTitle: "Privatdozent / Senior Researcher / Head Laboratory Popular Culture Studies"
+  jobTitle: Privatdozent / Oberassistent / Leitung Labor Populäre Kulturen
   affiliation:
-    university: University of Zurich
-    institute: "Institute of Social Anthropology and Cultural Studies (ISEK)"
-    department: Popular Culture Studies
+    university: Universität Zürich
+    institute: ISEK – Institut für Sozialanthropologie und Empirische Kulturwissenschaft
+    department: Populäre Kulturen
     url: https://www.isek.uzh.ch
   location:
     address: Affolternstrasse 56
     postcode: 8050
-    city: Zurich
+    city: Zürich
     countryCode: CH 
 
 # Current Position
 currentposition:
-  university: University of Zurich
-  institute: "Institute of Social Anthropology and Cultural Studies (ISEK)"
-  department: Popular Culture Studies
+  university: Universität Zürich
+  institute: "ISEK – Institut für Sozialanthropologie und Empirische Kulturwissenschaft"
+  department: Populäre Kulturen
   url: https://www.isek.uzh.ch
-  dates: "since 09/2016"
-  years: "since 09/2016"
-  jobTitle: "Senior Researcher / Head Laboratory Popular Culture Studies"
+  dates: "seit 09/2016"
+  years: "seit 09/2016"
+  jobTitle: "Oberassistent / Leiter Labor Populäre Kulturen"
 
 # Current Projects
 researchprojects:
-  - years: "since 2021"
+  - years: "seit 2021"
     title: "Europe from Outside and from the Margins: The Everyday Production of Europe in Borderlands and Non-European Contexts"
-  - title: "Popular Narratives of the Political"
-    years: "since 2019"
-  - title: "The Middle as Practice and Constellation: Orientations towards the Middle from the Perspective of Empirical Cultural Studies (Habilitation)"
+  - title: "Populäre Narrative des Politischen"
+    years: "seit 2019"
+  - title: "Mittelmaß als Praxis und Konstellation: Orientierungen am Mittelmaß aus empirisch-kulturwissenschaftlicher Perspektive (Habilitationsprojekt)"
     years: "2016--2020"
-  - title: "Dimensions of Popular Sports: Cycling and Running as Sport and Leisure from the Perspective of Empirical Cultural Studies"
-    years: "since 2013"
-  - title: "Qualitative Approaches to International Institutions (with Katja Freistein, Alejandro Esguerra)"
-    years: "since 2014"
+  - title: "Dimensionen des breitensportlichen Rennradfahrens und Laufens: Empirisch-kulturwissenschaftliche Perspektiven auf Sport und Freizeit"
+    years: "seit 2013"
+  - title: "Qualitative Approaches to International Institutions (zusammen mit Katja Freistein, Alejandro Esguerra)"
+    years: "seit 2014"
   - title: "Culture as Resource and Diplomacy: Between Geopolitics and Issues-Based Policy (Post-Doc Fellowship Käte Hamburger Kolleg / Centre for Global Cooperation Research)"
     years: "2014--2015"
-  - title: "The Ethics of / in Negotiating and Regulating Cultural Property (PI: Prof. Dr. Regina F. Bendix, DFG-Research Unit Cultural Property)"
+  - title: "The Ethics of / in Negotiating and Regulating Cultural Property (Leitung: Prof. Dr. Regina F. Bendix, DFG-Forschergruppe Cultural Property)"
     years: "2011--2014" 
-  - title: "Communication Patterns and Decision-Making about Cultural Property in the International Forum of the World Intellectual Property Organization (PhD Project, PI: Prof. Dr. Regina F. Bendix, DFG-Research Unit Cultural Property)"
+  - title: "Communication Patterns and Decision-Making about Cultural Property in the International Forum of the World Intellectual Property Organization (Disserationsprojekt, Leitung: Prof. Dr. Regina F. Bendix, DFG-Forschergruppe Cultural Property)"
     years: "2008--2011"
 
 # Research Interest
 researchinterests: 
-  - "Political Anthropology and Europeanization Studies"
-  - "Narratology, Linguistic Anthropology and Ethnography of Communication"
-  - "Cultural Heritage and Cultural Property"
-  - "Methods in Empirical Cultural Studies"
-  - "Sport as Cultural Practice"
-  - "Ethnography of Organizations"
+  - "Politische Anthropologie und Europäisierungsforschung"
+  - "Narratologie, linguistische Anthropologie und Kommunikationsethnografie"
+  - "Kulturerbe und kulturelles Eigentum"
+  - "Methoden der Empirischen Kulturwissenschaft"
+  - "Kulturwissenschaftliche Sportforschung"
+  - "Organisationsforschung"
 
 # Education
 education:
-  - university: University of Zurich
+  - university: Universität Zürich
     location: 
-      city: Zurich
+      city: Zürich
       countryCode: CH
-    degree: "Venia Legendi Empirical Cultural Studies"
-    thesis: "The Middle as Practice and Constellation: Orientations towards the Middle from the Perspective of Empirical Cultural Studies (submitted 11/2019)"
+    degree: "Venia Legendi in Empirische Kulturwissenschaft"
+    thesis: "Mittelmaß als Praxis und Konstellation. Orientierungen am Mittelmaß aus empirisch-kulturwissenschaftlicher Perspektive (eingereicht 11/2019)"
     thesisType: "Habilitation"
     dates: 03/2021
     years: 03/2021
-  - university: Georg-August-University Göttingen
+  - university: Georg-August-Universität Göttingen
     location: 
       city: Göttingen
       countryCode: DE
-    degree: "Dr. phil. in Cultural Anthropology / European Ethnology"
+    degree: "Dr. phil. in Kulturanthropologie / Europäische Ethnologie"
     thesis: "Negotiating Tradition: The Pragmatics of International Deliberations on Cultural Property"
-    thesisType: "PhD thesis"
+    thesisType: Doktorarbeit
     grade: summa cum laude
     advisor: Prof. Dr. Regina F. Bendix (Göttingen), Prof. Dr. Donald F. Brenneis (UC Santa Cruz)
-    dates: 2008–2011
+    dates: 2008--2011
     years: "2008--2011"
-  - university: Georg-August-University Göttingen
+  - university: Georg-August-Universität Göttingen
     location: 
       city: Göttingen
       countryCode: DE
-    subject: "Sociology, Cultural Anthropology / European Ethnology, Social & Economic Psychology"
-    degree: "M.A. in Sociology"
-    thesis: "Open-Source-Software Engineering: Sociological Discussion of a Specific Form of Innovation Networks (Entwicklung von Open-Source-Software: Soziologische Diskussion einer spezifischen Form von Innovationsnetzwerk)"
-    thesisType: MA thesis
+    subject: "Soziologie (Hauptfach), Kulturanthropologie / Europäische Ethnologie, Wirtschafts- und Sozialpsychologie (Nebenfächer)"
+    degree: "M.A. in Soziologie"
+    thesis: "Entwicklung von Open-Source-Software: Soziologische Diskussion einer spezifischen Form von Innovationsnetzwerk"
+    thesisType: Magisterarbeit
     grade: Sehr gut
-    dates: 10/2003—03/2008
+    dates: 10/2003--03/2008
     years: "10/03--03/08"
   - university: "Università degli Studi di Udine"
     location: 
       city: Udine
       countryCode: IT
-    degree: Erasmus Student Exchange Programme
+    degree: Studienaufenthalt im Rahmen des Erasmus-Programms
     subject: Relazioni Pubbliche (Public Relations)
-    dates: 10/2006–01/2007
+    dates: 10/2006--01/2007
     years: "10/06--01/07"
 
 # Positions Held
 positionsheld:
-  - university: University of Bonn
-    institute: Institute of Archeology and Cultural Anthropology
-    department: Cultural Anthropology / Folklore Studies
+  - university: Universität Bonn
+    institute: Institut für Archäologie und Kulturanthropologie
+    department: Kulturanthropologie / Volkskunde
     dates: 10/2015--08/2016
     years: "2015--2016"
     jobTitle: Post-Doc
-  - university: University Duisburg–Essen.
+  - university: Universität Duisburg–Essen
     institute: "[Käte Hamburger Kolleg / Centre for Global Cooperation Research](https://www.gcr21.org)"
     dates: 2014--2015
     years: "2014--2015"
     jobTitle: Post-Doctoral Fellow
     project: "Culture as Resource and Diplomacy: Between Geopolitics and Issues-Based Policy"
-  - university: Georg-August-University Göttingen
-    institute: Institute of Cultural Anthropology / European Ethnology
+  - university: "Georg August Universität Göttingen"
+    institute: Institut für Kulturanthropologie / Europäische Ethnologie
     dates: 2011--2014
     years: "2011--2014"
     jobTitle: Post-Doc
-    project: "The Ethics of/in Negotiating and Regulating Cultural Property (Sub-Project, Interdisciplinary DFG Research Unit [“The Constituting of Cultural Property: Actors, Discourses, Contexts, Rules”](http://www.cultural-property.org))"
+    project: "The Ethics of / in Negotiating and Regulating Cultural Property (Teilprojekt der Interdisziplinären DFG-Forschergruppe [Die Konstituierung von Cultural Property: Akteure, Diskurse, Kontexte, Regeln](http://www.cultural-property.org))"
     project_url: "http://www.cultural-property.org"
-  - university: Georg-August-University Göttingen
-    institute: Institute of Cultural Anthropology / European Ethnology
+  - university: Georg-August-Universität Göttingen
+    institute: Institut für Kulturanthropologie / Europäische Ethnologie
     dates: 2008--2011
     years: "2008--2011"
-    jobTitle: Research Associate/Ph.D. Candidate
-    project: "Communication Patterns and Decision-Making about Cultural Property in the International Forum of the World Intellectual Property Organization (Sub-Project, [“The Constituting of Cultural Property: Actors, Discourses, Contexts, Rules”](http://www.cultural-property.org))"
+    jobTitle: Wissenschaftlicher Mitarbeiter / Doktorand
+    project: "Kommunikationsmuster und Entscheidungsfindung über Cultural Property im internationalen Gremium World Intellectual Property Organization (Teilprojekt der Interdisziplinären DFG-Forschergruppe [Die Konstituierung von Cultural Property: Akteure, Diskurse, Kontexte, Regeln](http://www.cultural-property.org))"
     project_url: "http://www.cultural-property.org"
 
 # Stays Abroad
 staysabroad:
-  - stayabroad: DAAD (German Academic Exchange Service) Fellowship for Ph.D. Research Studies, Research Visits at University of Chicago, University of California at Santa Cruz, School for Advanced Research in Santa Fe, USA
+  - stayabroad: "DAAD-Kurzstipendium für Doktoranden, Forschungsaufenthalte an der University of Chicago, University of California at Santa Cruz, School for Advanced Research in Santa Fe, USA"
     dates: 03/2010--04/2010
     years: "03/10--04/10"
-  - stayabroad: Erasmus Teaching Staff Mobility Grant, Seminar für Kulturwissenschaft und Europäische Ethnologie, University of Basel, Switzerland
+  - stayabroad: Erasmus Teaching Staff Mobility Grant, Seminar für Kulturwissenschaft und Europäische Ethnologie, Universität Basel, Schweiz
     dates: 2012
     years: 2012
-  - stayabroad: Erasmus Student Exchange Programme, Public Relations, Università degli Studi di Udine, Italy 
+  - stayabroad: Erasmus-Programm, Public Relations, Università degli Studi di Udine, Italien 
     dates: 10/2006--01/2007 
     years: "10/06--01/07"
 
@@ -166,24 +166,24 @@ qualifications:
 # Organizational Activities
 organizationalactivities:
   - "Leitung Labor Populäre Kulturen, Institut für Sozialanthropologie und Empirische Kulturwissenschaft, Universität Zürich (Konzeption und Durchführung, Fellow-Programm, Nachwuchsförderung, Organisation von Tagungen und In-House-Workshops, Vorträgen, Podiumsdiskussionen, Lesungen)."
-  - "Organisation of Panels at Conferences (Deutsche Gesellschaft für Volkskunde, Société Internationale d'Ethnologie et de Folklore)."
-  - "Upcoming: With Dr. Sarah May and Dr. Johannes Müske: Morality as Organizational Practice. 19th Workshop of the Section Cultures of Work of the German Association of Cultural Anthropology and Folklore Studies (dgv), Freiburg, November 2021."
-  - "Upcoming: With Anna Weichselbraun, Ph.D.: Panel Sprechen und Zeitlichkeit, dgv-Kongress 2021, Regensburg, 20.-23. September 2021."
-  - "With Dr. Sarah May, Arbeitstreffen dgv-Kommission Arbeitskulturen, 27. November 2020."
-  - "With Dr. Christine Hämmerling and Prof. Dr. Silke Meyer: Workshop Moralische Ökonomie(n) – Kosten und Nutzen. 21.-22. Mai 2019, Labor Populäre Kulturen, ISEK, Universität Zürich."
-  - "With Prof. Dr. Markus Tauschek: Panel Comparison as Reflective and Affective Practice: Orientations Towards the Middle and Everyday Comparisons, SIEF-Kongress 2019, Santiago de Compostela, Spanien, 14-17. April 2019."
+  - "Organisation von Panels bei Fachkonferenzen (Deutsche Gesellschaft für Volkskunde, Société Internationale d'Ethnologie et de Folklore)."
+  - "Anstehend: Zusammen mit Dr. Sarah May und Dr. Johannes Müske: Morality as Organizational Practice. 19th Workshop of the Section Cultures of Work of the German Association of Cultural Anthropology and Folklore Studies (dgv), Freiburg, November 2021."
+  - "Anstehend: Zusammen mit Anna Weichselbraun, Ph.D.: Panel Sprechen und Zeitlichkeit, dgv-Kongress 2021, Regensburg, 20.-23. September 2021."
+  - "Zusammen mit Dr. Sarah May, Arbeitstreffen dgv-Kommission Arbeitskulturen, 27. November 2020."
+  - "Zusammen mit Dr. Christine Hämmerling und Prof. Dr. Silke Meyer: Workshop Moralische Ökonomie(n) – Kosten und Nutzen. 21.-22. Mai 2019, Labor Populäre Kulturen, ISEK, Universität Zürich."
+  - "Zusammen mit Prof. Dr. Markus Tauschek: Panel Comparison as Reflective and Affective Practice: Orientations Towards the Middle and Everyday Comparisons, SIEF-Kongress 2019, Santiago de Compostela, Spanien, 14-17. April 2019."
   - "Podiumsdiskussion Wissensalltag / Alltagswissen. Orte, Medien und Praktiken. Perspektiven aus Anthropologie und Kulturwissenschaft. Im Rahmen des Science Festivals 100 Ways of Thinking, Kunsthalle Zürich, 18. Oktober 2018."
-  - "Organisation with Dr. Sarah May and Dr. Johannes Müske, Vernetzt, entgrenzt, prekär? Arbeit im Wandel und in gesellschaftlicher Diskussion – kulturwissenschaftliche Perspektiven. 18. Arbeitstagung der dgv-Kommission Arbeitskulturen, 13. bis 14. September 2018 ([Call for Papers als PDF](http://www.stefangroth.com/assets/pdf/w07-arbeitskulturen-2018-cfp.pdf) / [Programm als PDF](http://www.stefangroth.com/assets/pdf/w07-arbeitskulturen-2018-programm.pdf) / [Tagungsbericht als PDF](http://hsozkult.geschichte.hu-berlin.de/index.asp?id=8222&view=pdf&pn=tagungsberichte&type=tagungsberichte))."
+  - "Organisation mit Dr. Sarah May und Dr. Johannes Müske, Vernetzt, entgrenzt, prekär? Arbeit im Wandel und in gesellschaftlicher Diskussion – kulturwissenschaftliche Perspektiven. 18. Arbeitstagung der dgv-Kommission Arbeitskulturen, 13. bis 14. September 2018 ([Call for Papers als PDF](http://www.stefangroth.com/assets/pdf/w07-arbeitskulturen-2018-cfp.pdf) / [Programm als PDF](http://www.stefangroth.com/assets/pdf/w07-arbeitskulturen-2018-programm.pdf) / [Tagungsbericht als PDF](http://hsozkult.geschichte.hu-berlin.de/index.asp?id=8222&view=pdf&pn=tagungsberichte&type=tagungsberichte))."
   - "In-House-Workshop Forschungsförderung, Antrags- und Karriereplanung, mit Prof. em. Dr. Silke Göttsch-Elten, 24. Mai 2018, Labor Populäre Kulturen, ISEK, Universität Zürich."
-  - "In-House-Workshop Land / Stadt als räumliche Ordnungen und Kategorien, u. a. mit Prof. em. Dr. Silke Göttsch-Elten, Prof. em. Dr. Rolf Lindner, JProf. Dr. Ove Sutter, 17.-18. Mai 2018, Labor Populäre Kulturen, ISEK, Universität Zürich ([Programm als PDF](http://www.stefangroth.com/assets/pdf/iw02-stadt-land-2018-programm.pdf))."
+  - "In-House-Workshop Land / Stadt als räumliche Ordnungen und Kategorien, u. a. mit Prof. em. Dr. Silke Göttsch-Elten, Prof. em. Dr. Rolf Lindner, JProf. Dr. Ove Sutter, 17.-18. Mai 2018, Labor Populäre Kulturen, ISEK, Universität Zürich ([Programm als PDF](http://www.stefangroth.com/assets/pdf/iw02-stadt-land-2018-programm.pdf))."
   - "In-House-Workshop Historisch forschen, mit Prof. em. Dr. Silke Göttsch-Elten, 12. April 2018, Labor Populäre Kulturen, ISEK, Universität Zürich."
-  - "Organisation with Dr. Christian Ritter (Collegium Helveticum, Zürich), Workshop Zusammenarbeit(en). Praktiken der Koordination, Kooperation und Repräsentation in kollaborativen Prozessen, 5.-6. Oktober 2017, Labor Populäre Kulturen, ISEK, Universität Zürich / Collegium Helveticum, Zürich ([Call for Papers als PDF](http://www.stefangroth.com/assets/pdf/w06-zusammenarbeiten-2017-cfp.pdf) / [Programm als PDF](http://www.stefangroth.com/assets/pdf/w06-zusammenarbeiten-2017-program.pdf))."
-  - "In-House-Workshop Perspektiven ethnographischer Kulturanalyse, u. a. mit Prof. em. Dr. Rolf Lindner, 4.-5. Mai 2017, Labor Populäre Kulturen, ISEK, Universität Zürich ([Programm als PDF](http://www.stefangroth.com/assets/pdf/iw01-perspektiven-2017-programm.pdf))."
+  - "Organisation mit Dr. Christian Ritter (Collegium Helveticum, Zürich), Workshop Zusammenarbeit(en). Praktiken der Koordination, Kooperation und Repräsentation in kollaborativen Prozessen, 5.-6. Oktober 2017, Labor Populäre Kulturen, ISEK, Universität Zürich / Collegium Helveticum, Zürich ([Call for Papers als PDF](http://www.stefangroth.com/assets/pdf/w06-zusammenarbeiten-2017-cfp.pdf) / [Programm als PDF](http://www.stefangroth.com/assets/pdf/w06-zusammenarbeiten-2017-program.pdf))."
+  - "In-House-Workshop Perspektiven ethnographischer Kulturanalyse, u. a. mit Prof. em. Dr. Rolf Lindner, 4.-5. Mai 2017, Labor Populäre Kulturen, ISEK, Universität Zürich ([Programm als PDF](http://www.stefangroth.com/assets/pdf/iw01-perspektiven-2017-programm.pdf))."
   - "Organisation mit Dr. Alejandro Esguerra (Potsdam) und Dr. Katja Freistein (Duisburg), Internationaler Workshop Micro-Moves in International Institutions, Standing Group Sociology of International Relations (AK SiB) / Deutsche Vereinigung für Politische Wissenschaft, February 9-10, 2017, Universität Potsdam ([Call for Papers als PDF](https://stefangroth.com/assets/pdf/w04-micromoves-2017-cfp.pdf) / [Programm als PDF](https://stefangroth.com/assets/pdf/w04-micromoves-2017-program.pdf)). Keynotes von Karin Knorr-Cetina (Chicago) und Thomas Scheffer (Frankfurt)."
-  - "Organisation with Dr. Katja Freistein (Duisburg) and Dr. Alejandro Esguerra Portocarrero (Duisburg), Interdisciplinary Workshop Studying Micro-Practices in (International) Institutions: Chances and Limitations of Theory-Building, November 26-27, 2015, Centre for Global Cooperation Research (GCR), Duisburg ([Programm als PDF](https://stefangroth.com/assets/pdf/w03-micropractices-2015-program.pdf))."
-  - "Organisation with Yonca Krahn (Zürich): Panel Sport und Sinne, dgv-Kongress 2015, Zürich, 22.-25. Juli 2015."
-  - "Organisation mit Prof. Dr. Charles Briggs (UC Berkeley) und Prof. Dr. Regina Bendix, International Working Conference Justice in Discourse, April 4–5, 2013, Göttingen ([Programm als PDF](https://stefangroth.com/assets/pdf/w02-justice-2013-program.pdf)). Mit Beiträgen u. a. von Prof. Dr. Srikant Sarangi (Cardiff), Prof. Dr. Jan Blommaert (Tilburg), Prof. Dr. Patrick Eisenlohr (Göttingen), Prof. Dr. Charles Briggs (Berkeley), Prof. Dr. Regina Bendix (Göttingen). ([Tagungsbericht auf H-Soz-Kult](http://www.hsozkult.de/conferencereport/id/tagungsberichte-4961))"
-  - "Organisation mit Nadine Wagener-Böck M.A., Workshop „Subjektbegriffe der Europäischen Ethnologie“ (“Concepts of the ‘Subject’ in European Ethnology”), December 13-14, 2012, Göttingen ([Programm als PDF](https://stefangroth.com/assets/pdf/w01-subjektbegriffe-2012-program.pdf)). Mit Beiträgen von u.a. Prof. em. Dr. Johannes Fabian (Amsterdam), Prof. Dr. Andreas Schmidt (Kiel), PD Dr. Jochen Bonz (Bremen)."
+  - "Organisation mit Dr. Katja Freistein (Duisburg) und Dr. Alejandro Esguerra Portocarrero (Duisburg), Interdisziplinärer Workshop Studying Micro-Practices in (International) Institutions: Chances and Limitations of Theory-Building, November 26-27, 2015, Centre for Global Cooperation Research (GCR), Duisburg ([Programm als PDF](https://stefangroth.com/assets/pdf/w03-micropractices-2015-program.pdf))."
+  - "Organisation mit Yonca Krahn (Zürich): Panel Sport und Sinne, dgv-Kongress 2015, Zürich, 22.-25. Juli 2015."
+  - "Organisation mit Prof. Dr. Charles Briggs (UC Berkeley) und Prof. Dr. Regina Bendix, International Working Conference Justice in Discourse, April 4–5, 2013, Göttingen ([Programm als PDF](https://stefangroth.com/assets/pdf/w02-justice-2013-program.pdf)). Mit Beiträgen u. a. von Prof. Dr. Srikant Sarangi (Cardiff), Prof. Dr. Jan Blommaert (Tilburg), Prof. Dr. Patrick Eisenlohr (Göttingen), Prof. Dr. Charles Briggs (Berkeley), Prof. Dr. Regina Bendix (Göttingen). ([Tagungsbericht auf H-Soz-Kult](http://www.hsozkult.de/conferencereport/id/tagungsberichte-4961))"
+  - "Organisation mit Nadine Wagener-Böck M.A., Workshop „Subjektbegriffe der Europäischen Ethnologie“ (“Concepts of the ‘Subject’ in European Ethnology”), December 13-14, 2012, Göttingen ([Programm als PDF](https://stefangroth.com/assets/pdf/w01-subjektbegriffe-2012-program.pdf)). Mit Beiträgen von u. a. Prof. em. Dr. Johannes Fabian (Amsterdam), Prof. Dr. Andreas Schmidt (Kiel), PD Dr. Jochen Bonz (Bremen)."
 
 # Expositions
 expositions:
@@ -191,11 +191,11 @@ expositions:
 
 # Gremienerfahrungen / Experiences in Committees
 committees:
-  - title: "Mitarbeit in diversen universitäten, fakultären und institutsübergreifenden Arbeitsgruppen an der Universität Zürich (z. B. AG Sozialwissenschaften an der Phil. Fakultät / Studiengangsentwicklung, AG Methodenpool Qualitative Methoden an der UZH)"
+  - title: "Mitarbeit in diversen universitäten, fakultären und institutsübergreifenden Arbeitsgruppen an der Universität Zürich (z. B. AG Sozialwissenschaften an der Phil. Fakultät / Studiengangsentwicklung, AG Methodenpool Qualitative Methoden an der UZH)"
     dates: "seit 2016"
   - title: "Mitverantwortlicher für das Forschungsnetzwerk Cultural Citizenship. Kooperationsprojekt zwischen dem ISEK – Populäre Kulturen (Universität Zürich), dem Departement Kulturanalysen und Vermittlung (Zürcher Hochschule der Künste) und dem Departement Angewandte Linguistik (Zürcher Hochschule für Angewandte Wissenschaften)"
     dates: "2018--2021"
-  - title: "Sprecher der Kommission Arbeitskulturen in der Deutschen Gesellschaft für Volkskunde, with Irene Götz (München), Sarah May (Freiburg), Johannes Müske (Zürich) und Manfred Seifert (Marburg)"
+  - title: "Sprecher der Kommission Arbeitskulturen in der Deutschen Gesellschaft für Volkskunde, zusammen mit Irene Götz (München), Sarah May (Freiburg), Johannes Müske (Zürich) und Manfred Seifert (Marburg)"
     dates: "seit 2017"
   - title: "Delegierter des Mittelbaus in der Kommission für Forschung und Nachwuchsförderung, Philosophische Fakultät der Universität Zürich"
     dates: "2017--2020"
@@ -214,12 +214,13 @@ memberships:
   - title: "European Association of Social Anthropologists (EASA), EASA Networks Anthropology of Law, Rights and Governance (LAWNET); Linguistic Anthropology (ELAN)"
   - title: "Societé Internationale d'Ethnologie et de Folklore (SIEF), SIEF Working Groups Narrative Cultures; Cultural Heritage and Property"
   - title: Rheinische Vereinigung für Volkskunde (RVV)
-  - title: "DFG-Network Competition"
+  - title: "DFG-Netzwerk „Wettbewerb und Konkurrenz“"
     dates: "2014--2018"
+#    url: http://konkurrenz.uni-freiburg.de
 
 reviewerfor:
-  - "Reviewer for Journals: International Journal of Heritage Studies (IJHS), Anthropological Journal of European Cultures (AJEC), Narrative Culture, Zeitschrift für Volkskunde, Jahrbuch für Europäische Ethnologie, Global Cooperation Research Papers"
-  - "BA and MA Theses"
+  - "Reviewer für Journals: International Journal of Heritage Studies (IJHS), Anthropological Journal of European Cultures (AJEC), Narrative Culture, Zeitschrift für Volkskunde, Jahrbuch für Europäische Ethnologie, Global Cooperation Research Papers"
+  - Qualifikationsarbeiten auf Bachelor- und Masterniveau
 
 # Conference Contributions and Invited Talks
 conferencecontributions:
