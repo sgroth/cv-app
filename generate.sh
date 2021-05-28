@@ -15,9 +15,9 @@ mkdir output
 chmod 777 output
 # move gfi files to output
 mv cv.web.de.gfi output/cv.web.de.gfi
-# mv cv.web.en.gfi output/cv.web.en.gfi
+mv cv.web.en.gfi output/cv.web.en.gfi
 mv cv.de.gfi output/cv.de.gfi
-# mv cv.en.gfi output/cv.en.gfi
+mv cv.en.gfi output/cv.en.gfi
 # create files
 ruby generate.rb -w 					# cv.web.de.md
 ruby generate.rb						# cv.de.md
